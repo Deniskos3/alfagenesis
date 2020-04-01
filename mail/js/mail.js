@@ -3,8 +3,12 @@
 $('#callback').trigger('reset');
 $("#form-send").on("click",function(){
     console.log("3");
-    "use strict";
-   $("#callback").on("click", function(e){
+    "use strict"; 
+    let phone=$("#callback_phone").val();
+    console.log(phone);
+    if(phone=="") {
+    }else{
+   $("#callback").on("click",function(e){ 
     console.log("333");
     e.preventDefault();
     $.ajax({
@@ -22,7 +26,10 @@ $("#form-send").on("click",function(){
         }
       }
     });
+    $('#callback').off();
+    e.preventDefault();
   });
+}
 });
 
 

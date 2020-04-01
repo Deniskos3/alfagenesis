@@ -51,7 +51,7 @@ if (!empty($_FILES['myfile']['name'][0])) {
         $mail->Subject = 'Заявка для обсуждения проектиа';
         $mail->Body    = "<b>Имя:</b> $name <br>
         <b>Номер:</b> $phone<br>
-        <b>Сообщение:</b><br>$callback_comment<br>";
+        <b>Сообщение:</b>$callback_comment<br>";
 
 
 // Проверяем отравленность сообщения
