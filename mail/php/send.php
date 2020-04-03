@@ -9,7 +9,29 @@ require 'phpmailer/Exception.php';
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $callback_comment = $_POST['callback_comment'];
+$strsite=$_POST['strsite'];
+$butstrsite=$_POST['butstrsite'];
 
+$token = "1187877709:AAG8vYlhLbflTNUffI3yJJ1kPHVqrRC6djs";
+$chat_id = "-395843976";
+$msg1 = "ok1";
+$arr = array(
+  'Имя пользователя: ' =>$name,
+  'Телефон: ' =>$phone,
+  'Комментарий:' =>$callback_comment,
+  'Клик был сделан со страницы:' =>$strsite,
+  'При нажатие на кнопку :' =>$butstrsite
+);
+foreach($arr as $key => $value) {
+  $txt .= "<b>".$key."</b> ".$value."%0A";
+};
+
+$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
+if ($sendToTelegram) {
+    echo "$msg1";
+  } else {
+    echo "Error";
+}
 
 
 $mail = new PHPMailer\PHPMailer\PHPMailer();
@@ -28,7 +50,7 @@ try {
     $mail->setFrom('alfo.vork@mail.ru', 'admin'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('info@alfagenesis.ru');  
+    $mail->addAddress('deniskos200029@gmail.com');  
     // Прикрипление файлов к письму
 if (!empty($_FILES['myfile']['name'][0])) {
     for ($ct = 0; $ct < count($_FILES['myfile']['tmp_name']); $ct++) {
@@ -51,7 +73,8 @@ if (!empty($_FILES['myfile']['name'][0])) {
         $mail->Subject = 'Заявка для обсуждения проектиа';
         $mail->Body    = "<b>Имя:</b> $name <br>
         <b>Номер:</b> $phone<br>
-        <b>Сообщение:</b>$callback_comment<br>";
+        <b>Сообщение:</b>$callback_comment<br>
+        Заявка была отправлена со страницы (<b>$strsite</b>) c кнопки (<b>$butstrsite</b>)" ;
 
 
 // Проверяем отравленность сообщения
