@@ -4629,7 +4629,6 @@ label {
     -webkit-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
-    opacity: 0;
     cursor: pointer;
     width: 64px;
     height: 64px;
@@ -4652,6 +4651,15 @@ label {
     -webkit-box-shadow: 0 4px 4px rgba(143, 0, 255, .3);
     box-shadow: 0 4px 4px rgba(143, 0, 255, .3);
     border-radius: 50%
+}
+.copy_2W{
+    display: none !important;
+}
+.leaf_3v._bottom_1h{
+    display: none;
+}
+#jvlabelWrap{
+    display: none;
 }
 
 .menu-right .callback-chat:hover {
@@ -4762,7 +4770,7 @@ label {
 
 .menu-right .container-menu-right .card-projects-navigate .card-nav .card-project-nav-image,
 .menu-right .container-projects-content .card-projects-navigate .card-nav .card-project-nav-image {
-    height: 50%;
+    height: 40%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -4797,14 +4805,14 @@ label {
 
 .menu-right .container-menu-right .card-projects-navigate .themes-yellow,
 .menu-right .container-projects-content .card-projects-navigate .themes-yellow {
-    background-color: #ffe20b;
+    background-color: #2D3898;
     -webkit-box-shadow: 0 10px 20px rgba(255, 226, 11, .3);
     box-shadow: 0 10px 20px rgba(255, 226, 11, .3)
 }
 
 .menu-right .container-menu-right .card-projects-navigate .themes-yellow p,
 .menu-right .container-projects-content .card-projects-navigate .themes-yellow p {
-    color: rgba(0, 0, 0, .51)
+    color: #FFFFFF
 }
 
 .menu-right .container-menu-right .card-projects-navigate .themes-yellow:hover,
@@ -4838,7 +4846,7 @@ label {
 
 .menu-right .container-menu-right .card-projects-navigate .themes-pink,
 .menu-right .container-projects-content .card-projects-navigate .themes-pink {
-    background-color: #ff008a;
+    background-color: #FFFFFF;
     -webkit-box-shadow: 0 10px 20px rgba(255, 0, 138, .19);
     box-shadow: 0 10px 20px rgba(255, 0, 138, .19)
 }
@@ -5094,7 +5102,6 @@ label {
     align-items: center;
     padding: 0 15px;
     background: #8f00ff;
-    height: 100%;
     -webkit-transition: .5s all ease;
     -o-transition: .5s all ease;
     transition: .5s all ease;
@@ -5619,7 +5626,7 @@ label {
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-yellow p {
-    color: rgba(0, 0, 0, .51)
+    color: #FFFFFF
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-yellow:hover {
@@ -8121,5 +8128,10 @@ label {
     .stages-images-collect-last {
         width: 100%!important;
         margin-bottom: 0!important;
+    }
+}
+@media (min-width:1200px){
+    .header-left-column {
+        height: 100%;
     }
 }
