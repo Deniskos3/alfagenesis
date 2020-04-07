@@ -79,6 +79,10 @@ nav,
 section {
     display: block
 }
+.hidepolos{
+    display: none !important;
+    visibility: hidden !important ;
+}
 
 body {
     margin: 0;
@@ -4044,8 +4048,8 @@ label {
 .mfp-close-btn-in .mfp-close {
     color: #e3e3e3;
     font-size: 46px;
-    width: 30px;
-    height: 40px;
+    width: 25px;
+    height: 35px;
     right: 36px;
     top: 20px
 }
@@ -4131,8 +4135,8 @@ label {
     position: relative;
     margin: 0 auto;
     background-color: #fff;
-    width: 700px;
-    padding: 50px 150px 40px 150px;
+    width: 600px;
+    padding: 28px 81px 28px 81px;
     border-radius: 20px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -4141,14 +4145,14 @@ label {
 
 .callback-form header {
     font-family: ubuntu-regular, sans-serif;
-    font-size: 48px;
+    font-size: 45px;
     line-height: 55px;
     font-weight: 400
 }
 
 .callback-form p {
-    margin: 16px 0 20px 0;
-    font-size: 18px;
+    margin: 12px 0 16px 0;
+    font-size: 15px;
     line-height: 21px;
     font-weight: 400;
     color: #272727
@@ -4161,13 +4165,13 @@ label {
 .callback-form label {
     text-align: left;
     color: #bebebe;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16px
 }
 
 .callback-form input {
     background-color: transparent;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 25px;
     margin-top: 5px;
     color: #1d1d1d;
@@ -4177,30 +4181,32 @@ label {
 .callback-form textarea {
     border: none;
     resize: none;
-    height: 120px;
-    font-size: 18px;
+    height: 110px;
+    font-size: 13px;
     line-height: 21px
 }
 
 .callback-form .callback-form-block {
-    padding: 13px 40px 12px 40px;
+    padding: 8px 35px 7px 35px;
     width: 400px;
-    margin-bottom: 15px
+    margin-bottom: 10px;
+    margin-left: 19px;
 }
 
 .callback-form .callback-form-block-text input {
     margin-top: 0;
     padding: 13px 0 14px 0;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 21px
 }
 
 .callback-form .callback-form-block-textarea {
-    padding: 24px 40px 24px 40px
+    padding: 19px 35px 19px 35px
 }
 
 .callback-form .callback-form-block-file {
-    text-align: left
+    text-align: left;
+    padding-left: 35px;
 }
 
 .callback-form .callback-form-block-file input[type=file] {
@@ -4219,7 +4225,7 @@ label {
 
 .callback-form .callback-form-block-file .file-area {
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 5px;
     position: relative
 }
 
@@ -4262,20 +4268,20 @@ label {
 
 .callback-form .callback-form-block-file .file-area .file-wrap .file-area-description .file-area-description-large {
     color: #272727;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 21px;
     margin-bottom: 5px
 }
 
 .callback-form .callback-form-block-file .file-area .file-wrap .file-area-description .file-area-description-small {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     color: #acacac
 }
 
 .callback-form .police-conf {
     color: #878787;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 16px;
     margin-bottom: 0
 }
@@ -4304,8 +4310,9 @@ label {
 }
 
 .form-control-btn {
-    margin: 24px 0 17px 0;
-    padding: 19px 30px;
+    width: 91.4%;
+    margin: 19px 0 12px 20px;
+    padding: 14px 25px;
     background-color: #ffe20b;
     -webkit-box-shadow: 0 10px 20px rgba(255, 226, 11, .3);
     box-shadow: 0 10px 20px rgba(255, 226, 11, .3);
@@ -4322,7 +4329,7 @@ label {
 .form-control-btn .btn-form-callback {
     cursor: pointer;
     margin-top: 0;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 21px;
     color: #000;
     font-family: ubuntu-bold, sans-serif
@@ -4330,7 +4337,7 @@ label {
 
 .form-control-btn-fit {
     padding: 0;
-    margin: 30px 0 0 0;
+    margin: 40px 0 0 0;
     text-align: center;
     width: 355px
 }
@@ -4596,6 +4603,7 @@ label {
 }
 
 .menu-right .control-arrow {
+    z-index: 1000;
     width: 40px;
     height: 27px;
     text-align: center;
@@ -4661,7 +4669,9 @@ label {
 #jvlabelWrap{
     display: none;
 }
-
+.container-scroll .mCustomScrollBox {
+overflow: visible !important;
+}
 .menu-right .callback-chat:hover {
     -webkit-box-shadow: 0 5px 10px rgba(143, 0, 255, .5);
     box-shadow: 0 5px 10px rgba(143, 0, 255, .5)
@@ -4737,10 +4747,17 @@ label {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-flex-wrap: wrap;
+    -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    overflow-x: visible
+    flex-wrap: row nowrap !important;
+    overflow-x: visible;
+}
+.container-scroll{
+    position: relative;
+    width: 650px;
+}
+.js-page-scroll-tow{
+    overflow-x: inherit !important;
 }
 
 .menu-right .container-menu-right .card-projects-navigate .card-nav,
@@ -5083,6 +5100,7 @@ label {
 }
 
 .header-left-column {
+    height: 100%;
     width: 150px;
     position: absolute;
     left: -150px;
@@ -5620,7 +5638,7 @@ label {
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-yellow {
-    background-color: #ffe20b;
+    background-color: #2d3898;
     -webkit-box-shadow: 0 10px 20px rgba(255, 226, 11, .3);
     box-shadow: 0 10px 20px rgba(255, 226, 11, .3)
 }
@@ -5654,7 +5672,7 @@ label {
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-pink {
-    background-color: #ff008a;
+    background-color: #fff;
     -webkit-box-shadow: 0 10px 20px rgba(255, 0, 138, .19);
     box-shadow: 0 10px 20px rgba(255, 0, 138, .19)
 }
@@ -5697,7 +5715,7 @@ label {
 
 .screen-contacts .info-main {
     position: relative;
-    /*top: -30px*/
+    top: 47px
 }
 
 .screen-contacts .info-main .container-content-contacts {
@@ -7082,7 +7100,12 @@ label {
     transform: none;
     margin-right: 30px
 }
-
+.container-work{
+    width: 650px !important;
+}
+.mCSB_scrollTools {
+    opacity: .45 !important;
+}
 .container-menu-right .js-page-scroll-main {
     padding: 0
 }
@@ -8128,10 +8151,5 @@ label {
     .stages-images-collect-last {
         width: 100%!important;
         margin-bottom: 0!important;
-    }
-}
-@media (min-width:1200px){
-    .header-left-column {
-        height: 100%;
     }
 }

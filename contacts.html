@@ -10,6 +10,7 @@
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="icon" href="img/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
     <meta name="theme-color" content="#000">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
@@ -104,7 +105,7 @@
                 <div class="flex-wrapper-screen">
                     <div class="header header-colorize">
                         <div class="logo">
-                            <a href="/">a</a>
+                            <a href="main.html">a</a>
                         </div>
                         <div class="company-name">alfa genesis</div>
                         <nav>
@@ -128,7 +129,7 @@
                     </div>
                     <div class="header-left-column">
                         <div class="logo">
-                            <a href="/">a</a>
+                            <a href="main.html">a</a>
                         </div>
                         <nav>
                             <ul class="menu">
@@ -270,7 +271,7 @@
                 </div>
             </div>
         </div>
-        <div class="menu-right">
+        <div class="menu-right" id="menu-right">
             <div class="wrapper-callback-form">
                 <a href="#callback" class="wrapper-callback-form-open">
                     <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
@@ -302,7 +303,9 @@
                         <li><a href="">Магазин</a></li>
                     </ul>
                 </div>
-                <div class="card-projects-navigate">
+                <div class="container-scroll">
+                <div class="js-page-scroll js-page-scroll-tow">
+                <div class="js-page-scroll-main card-projects-navigate">
                     <a href="project_1.html" class="card-nav-link">
                         <div class="card-nav themes-purple">
                             <div class="card-project-nav-header">
@@ -344,6 +347,9 @@
                         </div>
                     </a>
                 </div>
+                </div>
+                </div>
+  
             </div>
         </div>
     </div>
@@ -353,7 +359,7 @@
     function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
             center: { lat: 56.142267, lng: 47.2491123 },
-            zoom: 14,
+            zoom: 13.8,
             scrollwheel: true,
             draggable: true,
             zoomControl: true,
