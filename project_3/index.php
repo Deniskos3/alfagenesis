@@ -8,16 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:image" content="path/to/image.jpg">
-    <link rel="icon" href="img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" href="../img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon-180x180.png">
     <meta name="theme-color" content="#000">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../fonts/fontawesome/css/all.css">
 </head>
 
 <body>
 
-<div id="app-projects">
+<div id="app-project">
     <div class="hidden">
         <div id="modal-police" class="modal-police-wrapper">
             <div class="modal-block-police">
@@ -40,8 +40,7 @@
             <form  method="POST" id="callback" class="callback-form forms" enctype="multipart/form-data">
                 <header>Обсудим проект?</header>
                 <!-- скрытые кнопки показывающие с какой стр был произведен клик -->
-                <input name="strsite" type="hidden" value=" проекта&#8221;Компания- эквайер
-                 COOLPAY&#8221;">
+                <input name="strsite" type="hidden" value=" проекта&#8221;Транспортная компания-Реалтранзит&#8221;">
                 <input name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
                 <!--  -->
                 <p>Оставьте заявку и мы перезвоним вам<br>в течение <span>10 минут</span></p>
@@ -98,22 +97,22 @@
             </div>
         </div>
     </div>
-    <div id="app-project">
+    <div id="app-projects">
         <div class="screen-projects">
             <div class="screen-page-projects">
                 <div class="container-custom">
                     <div class="flex-wrapper-screen">
                         <div class="header header-colorize">
                             <div class="logo">
-                                <a href="mail.html">a</a>
+                                <a href="/">a</a>
                             </div>
                             <div class="company-name">alfa genesis</div>
                             <nav>
                                 <ul class="menu">
-                                    <li><a href="projects.html">Проекты</a></li>
-                                    <li><a href="work.html">Как рaботаем</a></li>
-                                    <li><a href="services.html">Услуги</a></li>
-                                    <li><a href="contacts.html">Контакты</a></li>
+                                    <li><a href="/projects">Проекты</a></li>
+                                    <li><a href="/work">Как рaботаем</a></li>
+                                    <li><a href="/services">Услуги</a></li>
+                                    <li><a href="/contacts">Контакты</a></li>
                                 </ul>
                             </nav>
                             <div class="header-mobile">
@@ -129,11 +128,11 @@
                         </div>
                         <div class="header-left-column header-left-column-active">
                             <div class="logo">
-                                <a href="main.html">a</a>
+                                <a href="/">a</a>
                             </div>
                             <nav>
                                 <ul class="menu">
-                                    <li><a href="projects.html">
+                                    <li><a href="/projects">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M5.54719 24.3498C5.33208 24.7788 5.41586 25.2975 5.75477 25.6367L6.02701 25.9089C6.81355 24.9769 7.73027 23.9653 8.8421 22.8538C8.92067 22.7752 9.00156 22.7372 9.08042 22.6648L7.32903 20.9131C6.31084 22.7546 5.71709 24.0129 5.54719 24.3498Z" fill="white"/>
@@ -170,7 +169,7 @@
                                             </svg>
                                             <p>Как рaботаем</p>
                                         </a></li>
-                                    <li><a href="services.html">
+                                    <li><a href="/services">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M12.3203 24.5667H32.4339C32.932 24.5667 33.3689 24.2374 33.5037 23.759L37.9571 8.17276C38.0528 7.83675 37.9872 7.4758 37.7765 7.19661C37.5654 6.91829 37.2372 6.75391 36.887 6.75391H9.7502L8.95438 3.17285C8.84131 2.66289 8.38904 2.30078 7.86719 2.30078H1.11328C0.498077 2.30078 0 2.79886 0 3.41406C0 4.02956 0.498077 4.52734 1.11328 4.52734H6.97366L10.9939 22.6182C9.81108 23.1325 8.98047 24.3098 8.98047 25.68C8.98047 27.5215 10.4788 29.0198 12.3203 29.0198H32.4339C33.0494 29.0198 33.5472 28.522 33.5472 27.9065C33.5472 27.2913 33.0494 26.7933 32.4339 26.7933H12.3203C11.7071 26.7933 11.207 26.2943 11.207 25.68C11.207 25.0656 11.7071 24.5667 12.3203 24.5667Z" fill="white"/>
@@ -185,7 +184,7 @@
                                             </svg>
                                             <p>Услуги</p>
                                         </a></li>
-                                    <li><a href="contacts.html">
+                                    <li><a href="/contacts">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M28.9444 31.9557L22.5386 27.6851C22.2521 27.496 21.8683 27.5582 21.6563 27.8283L19.7911 30.2263C19.1866 31.0141 18.0956 31.2389 17.2289 30.7543L16.8841 30.5649C15.64 29.8862 14.0911 29.0418 11.0165 25.9672C7.94185 22.8926 7.09682 21.3437 6.41875 20.0989L6.22871 19.7541C5.74417 18.8876 5.96903 17.7968 6.75675 17.1926L9.15405 15.3268C9.42441 15.1149 9.48677 14.7309 9.29725 14.4444L5.02735 8.03791C4.83315 7.74721 4.44512 7.65976 4.14498 7.83904L1.4647 9.44624C0.889666 9.78186 0.466744 10.3269 0.284421 10.9673C-0.595868 14.1729 0.144635 19.786 8.6701 28.3122C17.1956 36.8384 22.8074 37.5802 26.0157 36.6992C26.6562 36.5166 27.2012 36.0935 27.5367 35.5182L29.1432 32.8379C29.323 32.538 29.2354 32.1497 28.9444 31.9557Z" fill="white"/>
@@ -235,40 +234,40 @@
                                     <div class="js-page-scroll-projects">
                                         <div class="js-page-scroll-main-projects">
                                             <div class="js-page-scroll-section-projects">
-                                                <a href="project_1.html" class="card-nav-link">
+                                                <a href="/project_1" class="card-nav-link">
                                                     <div class="card-nav themes-purple">
                                                         <div class="card-project-nav-header">
                                                             <h3>БФ "Помогите детям"</h3>
                                                             <p>Разработка сервис благотворительного фонда для помощи детям онлайн, с персональным кабинетом</p>
                                                         </div>
                                                         <div class="card-project-nav-image">
-                                                            <img src="img/icons/projects/help_child.png" alt="">
+                                                            <img src="../img/icons/projects/help_child.png" alt="">
                                                         </div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div class="js-page-scroll-section-projects">
-                                                <a href="project.html" class="card-nav-link">
+                                                <a href="/project_2" class="card-nav-link">
                                                     <div class="card-nav themes-yellow">
                                                         <div class="card-project-nav-header">
                                                             <h3>COOL PAY</h3>
                                                             <p>Лучший эквайринг для </br>бизнеса</p>
                                                         </div>
                                                         <div class="card-project-nav-image">
-                                                            <img src="img/icons/projects/logo1.png" alt="">
+                                                            <img src="../img/icons/projects/logo1.png" alt="">
                                                         </div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div class="js-page-scroll-section-projects">
-                                                <a href="project_2.html" class="card-nav-link">
+                                                <a href="/project_3" class="card-nav-link">
                                                     <div class="card-nav themes-pink">
                                                         <div class="card-project-nav-header">
                                                             <h3 class="color-dark">Realtransit</h3>
                                                             <p class="color-dark">Доставка грузов из Китая <br/>в Россию</p>
                                                         </div>
                                                         <div class="card-project-nav-image">
-                                                            <img src="img/icons/projects/123.png" alt="">
+                                                            <img src="../img/icons/projects/123.png" alt="">
                                                         </div>
                                                     </div>
                                                 </a>
@@ -282,7 +281,6 @@
                                                     </div>
                                                 </a>
                                             </div>
-                                        
                                         </div>
                                     </div>
                                 </div>
@@ -344,10 +342,10 @@
                 <div class="container-menu-right container-menu-right-project">
                     <div class="menu-project-left-column">
                         <a href="" class="project-sort-link">Сервисы</a>
-                        <h2>Компания- эквайер <br>COOLPAY</h2>
+                        <h2>Транспортная компания <br> "Реалтранзит"</h2>
                         <p class="project-task">Задача</p>
-                        <p class="project-task-description">Разработка информационного сайта с возможностью рассчета процентной ставки для любого бизнеса.</p>
-                        <img class="project-task-images" src="img/projects/collpay/image.png" alt="">
+                        <p class="project-task-description">Разработка презентационного, но и функционального сайта транспортной компани с Личным кабинетом и Панелью администратора.</p>
+                        <img class="project-task-images" src="../img/projects/realtransit/image_1.png" alt="">
                         <div class="project-technology">
                             <p>Технологии</p>
                             <div class="stack-technology">
@@ -366,38 +364,14 @@
                             </div>
                         </div>
                         <div class="project-stages stage-first">
-                            <p class="stage-header">1. Редизайн сайта</p>
-                            <span>Символика бренда</span>
-                            <p class="stage-descr">
-                                Основная суть проекта заключается в  предоставлении легких и быстрых платежей. Именно поэтому название проекта составлено из двух простых слов - “cool” означает “круто”, а “pay” - “платежи”. Слово "Cool" сделано в "порезанном" стиле, что делает логотип по-своему уникальным.
-                            </p>
-                            <div class="stages-images-collect-flex">
-                                <img class="stages-images-collect-collpay" src="img/projects/collpay/group_1.png" alt="">
-                                <img class="stages-images-collect-collpay" src="img/projects/collpay/group_2.png" alt="">
-                            </div>
-
-                            <div class="stages-design">
-                                <span>Цветовая палитра:</span>
-                                <p>Основной символикой являлся контраст.  В основе проекта  лежит красный цвет, который является максимально выделяющимся. Оптимальным контрастным цветом был выбран синий. Данный цвет является более серьезным. Это говорит о том, что компания является не только стильной, но и надежной.</p>
-                                <div class="stages-design-colors">
-                                    <div class="stages-design-colors-left stages-design-colors-flex">
-                                        <div class="stages-design-circle circle-redff1732"></div>
-                                        <p>Акцентный цвет <br>#ff1732</p>
-                                    </div>
-                                    <div class="stages-design-colors-right stages-design-colors-flex">
-                                        <div class="stages-design-circle circle-blue2F7FFA"></div>
-                                        <p>Акцентный цвет <br>#2f7ffa</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-stages stage-last">
                             <p class="stage-header">1. Разработка сайта</p>
                             <p class="stage-descr">
-                                На сайте используются фоны, которые показывают реальную жизнь. Это сделано для того, чтобы пользователи видели интрнет-компанию, связанную с миром благодаря выполнению платежей. Именно сам процесс оплаты показан на фоновых изображениях.
+                                Адаптивная верстка html-страниц сайта на основе утвержденного дизайна, с использованием JS, CSS. На сайте реализовано большое количество анимаций при скроле страниц. Пользователь переходит со страницы на страницу не ожидания загрузки контента.
                             </p>
-                            <img src="img/projects/collpay/image_2.png" alt="">
-                            <p>Особенностью сайта являются иконки.  Они выглядят очень реалистично в виде самих аппаратов компании. Это подчеркивает индивидуальность проекта.</p>
+                            <img class="stages-images-collect stages-images-collect-last" src="../img/projects/realtransit/image_2.png" alt="">
+                        </div>
+                        <div class="project-stages stage-last">
+                            <p>На сайт вносились новшества в течение 240 рабочих часов после 1 сдачи проекта. За это время добавили: настроили поисковую оптимизацию, добавили страницы продуктов и разработали более широкий функционал для Панели администратора.</p>
                         </div>
                         <div class="project-form-callback_wrapper">
                             <div class="call-left-block">
@@ -411,7 +385,7 @@
                                     <!--									</span>-->
                                 </div>
                             </div>
-                            <img class="call-right-block" src="img/projects/help_child/callback-form.png" alt="">
+                            <img class="call-right-block" src="../img/projects/help_child/callback-form.png" alt="">
                         </div>
                         <div class="footer">
                             <div class="footer-block footer-name">
@@ -443,25 +417,25 @@
                         </div>
                     </div>
                     <div class="menu-project-right-column">
-                        <img class="project-sticker" src="img/projects/collpay/group_2.png" alt="">
-                        <p class="desc-right-column-project">- компания «КулПей» является официальным партнером крупнейших процессингов и банков России.</p>
+                        <img class="project-sticker" src="../img/projects/realtransit/logo_real.png" alt="">
+                        <p>- доставка грузов из Китая в самые короткие сроки любым удобным способом</p>
                         <div class="right-column-report">
                             <div class="right-column-report__left">
                                 <span>Адрес проекта</span>
-                                <a href="">coll-pay.com</a>
+                                <a href="">realtransit.ru</a>
                             </div>
                             <div class="right-column-report__right">
                                 <span>Разработка</span>
-                                <p>2016 год</p>
+                                <p>2018 год</p>
                             </div>
                         </div>
                         <div class="right-column-stats">
                             <div class="stat">
-                                <span>12</span>
+                                <span>6</span>
                                 <p>человек <br>в команде</p>
                             </div>
                             <div class="stat">
-                                <span>200</span>
+                                <span>80</span>
                                 <p>часов <br>на разработку</p>
                             </div>
                             <div class="stat">
@@ -530,14 +504,13 @@
             </div>
         </div>
     </div>
-
 </div>
 
 
 <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 <script src="//code.jivosite.com/widget/FejpRzp385" async></script>
-<script src="js/scripts.min.js"></script>
+<script src="../js/scripts.min.js"></script>
 <script src="https://yastatic.net/share2/share.js" async="async" ></script>
-<script src="mail/js/mail.js"></script>
+<script src="../mail/js/mail.js"></script>
 </body>
 </html>

@@ -8,11 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:image" content="path/to/image.jpg">
-    <link rel="icon" href="img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" href="../img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon-180x180.png">
     <meta name="theme-color" content="#000">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../fonts/fontawesome/css/all.css">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
             <form  method="POST" id="callback" class="callback-form forms" enctype="multipart/form-data">
                 <header>Обсудим проект?</header>
                 <!-- скрытые кнопки показывающие с какой стр был произведен клик -->
-                <input name="strsite" type="hidden" value=" проекта&#8221;Транспортная компания-Реалтранзит&#8221;">
+                <input name="strsite" type="hidden" value=" проекта&#8221;Благотворительный фонд - Помогите детям&#8221;">
                 <input name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
                 <!--  -->
                 <p>Оставьте заявку и мы перезвоним вам<br>в течение <span>10 минут</span></p>
@@ -104,15 +104,15 @@
                     <div class="flex-wrapper-screen">
                         <div class="header header-colorize">
                             <div class="logo">
-                                <a href="main.html">a</a>
+                                <a href="/">a</a>
                             </div>
                             <div class="company-name">alfa genesis</div>
                             <nav>
                                 <ul class="menu">
-                                    <li><a href="projects.html">Проекты</a></li>
-                                    <li><a href="work.html">Как рaботаем</a></li>
-                                    <li><a href="services.html">Услуги</a></li>
-                                    <li><a href="contacts.html">Контакты</a></li>
+                                    <li><a href="/projects">Проекты</a></li>
+                                    <li><a href="/work">Как рaботаем</a></li>
+                                    <li><a href="/services">Услуги</a></li>
+                                    <li><a href="/contacts">Контакты</a></li>
                                 </ul>
                             </nav>
                             <div class="header-mobile">
@@ -132,7 +132,7 @@
                             </div>
                             <nav>
                                 <ul class="menu">
-                                    <li><a href="projects.html">
+                                    <li><a href="/projects">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M5.54719 24.3498C5.33208 24.7788 5.41586 25.2975 5.75477 25.6367L6.02701 25.9089C6.81355 24.9769 7.73027 23.9653 8.8421 22.8538C8.92067 22.7752 9.00156 22.7372 9.08042 22.6648L7.32903 20.9131C6.31084 22.7546 5.71709 24.0129 5.54719 24.3498Z" fill="white"/>
@@ -152,7 +152,7 @@
                                             </svg>
                                             <p>Проекты</p>
                                         </a></li>
-                                    <li><a href="work.html">
+                                    <li><a href="/work">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M5.93758 8.70833C5.06358 8.70833 4.35425 7.999 4.35425 7.125V1.58333C4.35425 0.709333 5.06358 0 5.93758 0C6.81158 0 7.52091 0.709333 7.52091 1.58333V7.125C7.52091 7.999 6.81158 8.70833 5.93758 8.70833Z" fill="white"/>
@@ -169,7 +169,7 @@
                                             </svg>
                                             <p>Как рaботаем</p>
                                         </a></li>
-                                    <li><a href="services.html">
+                                    <li><a href="/services">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M12.3203 24.5667H32.4339C32.932 24.5667 33.3689 24.2374 33.5037 23.759L37.9571 8.17276C38.0528 7.83675 37.9872 7.4758 37.7765 7.19661C37.5654 6.91829 37.2372 6.75391 36.887 6.75391H9.7502L8.95438 3.17285C8.84131 2.66289 8.38904 2.30078 7.86719 2.30078H1.11328C0.498077 2.30078 0 2.79886 0 3.41406C0 4.02956 0.498077 4.52734 1.11328 4.52734H6.97366L10.9939 22.6182C9.81108 23.1325 8.98047 24.3098 8.98047 25.68C8.98047 27.5215 10.4788 29.0198 12.3203 29.0198H32.4339C33.0494 29.0198 33.5472 28.522 33.5472 27.9065C33.5472 27.2913 33.0494 26.7933 32.4339 26.7933H12.3203C11.7071 26.7933 11.207 26.2943 11.207 25.68C11.207 25.0656 11.7071 24.5667 12.3203 24.5667Z" fill="white"/>
@@ -184,7 +184,7 @@
                                             </svg>
                                             <p>Услуги</p>
                                         </a></li>
-                                    <li><a href="contacts.html">
+                                    <li><a href="/contacts">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M28.9444 31.9557L22.5386 27.6851C22.2521 27.496 21.8683 27.5582 21.6563 27.8283L19.7911 30.2263C19.1866 31.0141 18.0956 31.2389 17.2289 30.7543L16.8841 30.5649C15.64 29.8862 14.0911 29.0418 11.0165 25.9672C7.94185 22.8926 7.09682 21.3437 6.41875 20.0989L6.22871 19.7541C5.74417 18.8876 5.96903 17.7968 6.75675 17.1926L9.15405 15.3268C9.42441 15.1149 9.48677 14.7309 9.29725 14.4444L5.02735 8.03791C4.83315 7.74721 4.44512 7.65976 4.14498 7.83904L1.4647 9.44624C0.889666 9.78186 0.466744 10.3269 0.284421 10.9673C-0.595868 14.1729 0.144635 19.786 8.6701 28.3122C17.1956 36.8384 22.8074 37.5802 26.0157 36.6992C26.6562 36.5166 27.2012 36.0935 27.5367 35.5182L29.1432 32.8379C29.323 32.538 29.2354 32.1497 28.9444 31.9557Z" fill="white"/>
@@ -234,40 +234,40 @@
                                     <div class="js-page-scroll-projects">
                                         <div class="js-page-scroll-main-projects">
                                             <div class="js-page-scroll-section-projects">
-                                                <a href="project_1.html" class="card-nav-link">
+                                                <a href="/project_1" class="card-nav-link">
                                                     <div class="card-nav themes-purple">
                                                         <div class="card-project-nav-header">
                                                             <h3>БФ "Помогите детям"</h3>
                                                             <p>Разработка сервис благотворительного фонда для помощи детям онлайн, с персональным кабинетом</p>
                                                         </div>
                                                         <div class="card-project-nav-image">
-                                                            <img src="img/icons/projects/help_child.png" alt="">
+                                                            <img src="../img/icons/projects/help_child.png" alt="">
                                                         </div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div class="js-page-scroll-section-projects">
-                                                <a href="project.html" class="card-nav-link">
+                                                <a href="/project_2" class="card-nav-link">
                                                     <div class="card-nav themes-yellow">
                                                         <div class="card-project-nav-header">
                                                             <h3>COOL PAY</h3>
                                                             <p>Лучший эквайринг для </br>бизнеса</p>
                                                         </div>
                                                         <div class="card-project-nav-image">
-                                                            <img src="img/icons/projects/logo1.png" alt="">
+                                                            <img src="../img/icons/projects/logo1.png" alt="">
                                                         </div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <div class="js-page-scroll-section-projects">
-                                                <a href="project_2.html" class="card-nav-link">
+                                                <a href="/project_3" class="card-nav-link">
                                                     <div class="card-nav themes-pink">
                                                         <div class="card-project-nav-header">
                                                             <h3 class="color-dark">Realtransit</h3>
                                                             <p class="color-dark">Доставка грузов из Китая <br/>в Россию</p>
                                                         </div>
                                                         <div class="card-project-nav-image">
-                                                            <img src="img/icons/projects/123.png" alt="">
+                                                            <img src="../img/icons/projects/123.png" alt="">
                                                         </div>
                                                     </div>
                                                 </a>
@@ -342,16 +342,16 @@
                 <div class="container-menu-right container-menu-right-project">
                     <div class="menu-project-left-column">
                         <a href="" class="project-sort-link">Сервисы</a>
-                        <h2>Транспортная компания <br> "Реалтранзит"</h2>
+                        <h2>Благотворительный фонд<br>"Помогите детям"</h2>
                         <p class="project-task">Задача</p>
-                        <p class="project-task-description">Разработка презентационного, но и функционального сайта транспортной компани с Личным кабинетом и Панелью администратора.</p>
-                        <img class="project-task-images" src="img/projects/realtransit/image_1.png" alt="">
+                        <p class="project-task-description">Разработать сервис с личным кабинетом с возможность перевода средств для помощи детям с диагнозов ДЦП. Показать прозрачность сервиса за счет отчетов и личного кабинета. Разработать  систему рекомендаций.</p>
+                        <img class="project-task-images" src="../img/projects/help_child/project-images_1.png" alt="">
                         <div class="project-technology">
                             <p>Технологии</p>
                             <div class="stack-technology">
                                 <div class="item-tech">
                                     <span>Дизайн</span>
-                                    <p>Adobe Photoshop, <br>Adobe Illustrator</p>
+                                    <p>Figma, Adobe Photoshop, <br>Adobe Illustrator</p>
                                 </div>
                                 <div class="item-tech">
                                     <span>Верстка</span>
@@ -359,19 +359,39 @@
                                 </div>
                                 <div class="item-tech">
                                     <span>Программная часть</span>
-                                    <p>PHP 5</p>
+                                    <p>Symphony + PHP 5</p>
                                 </div>
                             </div>
                         </div>
                         <div class="project-stages stage-first">
-                            <p class="stage-header">1. Разработка сайта</p>
+                            <p class="stage-header">1. Разработка фирменного стиля</p>
+                            <span>Символика бренда (логотип):</span>
                             <p class="stage-descr">
-                                Адаптивная верстка html-страниц сайта на основе утвержденного дизайна, с использованием JS, CSS. На сайте реализовано большое количество анимаций при скроле страниц. Пользователь переходит со страницы на страницу не ожидания загрузки контента.
+                                Призыв о помощи - важный аспект благотворительного проекта в России. Название проекта было предложено в виде простого призыва человека для помощи детями с ДЦП. Разработкой логотипа мы хотели подчеркнуть сложность сбора средств для деток, а так же то, что родители часто не обращаются в благотворительные фонды за помощью, а ведут самостоятельные сборы средств в социальных сетях. В связи с этим формат логотипа получился в виде диалогового окошка в котором заключено название проекта “Помогите детям”:
                             </p>
-                            <img class="stages-images-collect stages-images-collect-last" src="../img/projects/realtransit/image_2.png" alt="">
+                            <img class="stages-images-collect" src="../img/projects/help_child/images-collect.png" alt="">
+                            <div class="stages-design">
+                                <span>Цветовая палитра:</span>
+                                <p>Цветовой палитрой проекта хотели призвать к помощи благотворителей и вселить надежду в семьи, которые обращаются за помощью в фонд. В основе проекта белый цвет, который позволяет с легкостью ориентироваться на сайте, акценты помогли нам расставить контрастные цвета:</p>
+                                <div class="stages-design-colors">
+                                    <div class="stages-design-colors-left stages-design-colors-flex">
+                                        <div class="stages-design-circle circle-red"></div>
+                                        <p>Основной цвет <br>#FF8320</p>
+                                    </div>
+                                    <div class="stages-design-colors-right stages-design-colors-flex">
+                                        <div class="stages-design-circle circle-purple"></div>
+                                        <p>Основной цвет <br>#4B27A1</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="project-stages stage-last">
-                            <p>На сайт вносились новшества в течение 240 рабочих часов после 1 сдачи проекта. За это время добавили: настроили поисковую оптимизацию, добавили страницы продуктов и разработали более широкий функционал для Панели администратора.</p>
+                            <p class="stage-header">1. Разработка сайта</p>
+                            <p class="stage-descr">
+                                Призыв о помощи - важный аспект благотворительного проекта в России. Название проекта было предложено в виде простого призыва человека для помощи детями с ДЦП. Разработкой логотипа мы хотели подчеркнуть сложность сбора средств для деток, а так же то, что родители часто не обращаются в благотворительные фонды за помощью, а ведут самостоятельные сборы средств в социальных сетях. В связи с этим формат логотипа получился в виде диалогового окошка в котором заключено название проекта “Помогите детям”:
+                            </p>
+                            <img src="../img/projects/help_child/project-images_2.png" alt="">
+                            <p>На данный момент ведется Level-Up сайта и в скором времени вы сможете увидеть новый функционал сайта благотворительного фонда “Помогите детям”, где пожертвовать средства на реабилитацию деток можно будет в 2 шага </p>
                         </div>
                         <div class="project-form-callback_wrapper">
                             <div class="call-left-block">
@@ -417,12 +437,12 @@
                         </div>
                     </div>
                     <div class="menu-project-right-column">
-                        <img class="project-sticker" src="img/projects/realtransit/logo_real.png" alt="">
-                        <p>- доставка грузов из Китая в самые короткие сроки любым удобным способом</p>
+                        <img class="project-sticker" src="../img/projects/help_child/sticker.png" alt="">
+                        <p class="desc-right-column-project">— благотворительный фонд для детей больныз с ДЦП. Онлайн-сервис и информационный сайт.∞</p>
                         <div class="right-column-report">
                             <div class="right-column-report__left">
                                 <span>Адрес проекта</span>
-                                <a href="">realtransit.ru</a>
+                                <a href="/project_1">помогитедетям.рф</a>
                             </div>
                             <div class="right-column-report__right">
                                 <span>Разработка</span>
@@ -431,11 +451,11 @@
                         </div>
                         <div class="right-column-stats">
                             <div class="stat">
-                                <span>6</span>
+                                <span>8</span>
                                 <p>человек <br>в команде</p>
                             </div>
                             <div class="stat">
-                                <span>80</span>
+                                <span>240</span>
                                 <p>часов <br>на разработку</p>
                             </div>
                             <div class="stat">
@@ -449,7 +469,7 @@
                                 <p>Поделитесь в соц. сетях</p>
                             </div>
                             <div class="share-right">
-                                <div class="share-social share-social-vk ya-share2 " data-services="vkontakte">
+                                <div class="share-social share-social-vk ya-share2 " data-services="vkontakte" >
                                     <a href="">
                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-vk fa-w-18 fa-7x"><path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path></svg>
                                     </a>
@@ -509,8 +529,8 @@
 
 <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 <script src="//code.jivosite.com/widget/FejpRzp385" async></script>
-<script src="js/scripts.min.js"></script>
+<script src="../js/scripts.min.js"></script>
 <script src="https://yastatic.net/share2/share.js" async="async" ></script>
-<script src="mail/js/mail.js"></script>
+<script src="../mail/js/mail.js"></script>
 </body>
 </html>

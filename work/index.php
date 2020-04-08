@@ -8,12 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:image" content="path/to/image.jpg">
-    <link rel="icon" href="img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" href="../img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon-180x180.png">
     <meta name="theme-color" content="#000">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
-    <link rel="stylesheet" href="libs/fancybox/source/jquery.fancybox.css" type="text/css"/>
+    <link rel="stylesheet" href="../libs/fancybox/source/jquery.fancybox.css" type="text/css"/>
 </head>
 
 <body>
@@ -105,15 +105,15 @@
                     <div class="flex-wrapper-screen-row">
                         <div class="header header-colorize">
                             <div class="logo">
-                                <a href="main.html">a</a>
+                                <a href="/">a</a>
                             </div>
                             <div class="company-name">alfa genesis</div>
                             <nav>
                                 <ul class="menu">
-                                    <li><a href="project.html">Проекты</a></li>
-                                    <li><a href="work.html">Как рaботаем</a></li>
-                                    <li><a href="services.html">Услуги</a></li>
-                                    <li><a href="contacts.html">Контакты</a></li>
+                                    <li><a href="/projects">Проекты</a></li>
+                                    <li><a href="/work">Как рaботаем</a></li>
+                                    <li><a href="/services">Услуги</a></li>
+                                    <li><a href="/contacts">Контакты</a></li>
                                 </ul>
                             </nav>
                             <div class="header-mobile">
@@ -129,11 +129,11 @@
                         </div>
                         <div class="header-left-column">
                             <div class="logo">
-                                <a href="main.html">a</a>
+                                <a href="/">a</a>
                             </div>
                             <nav>
                                 <ul class="menu">
-                                    <li><a href="projects.html">
+                                    <li><a href="/projects">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M5.54719 24.3498C5.33208 24.7788 5.41586 25.2975 5.75477 25.6367L6.02701 25.9089C6.81355 24.9769 7.73027 23.9653 8.8421 22.8538C8.92067 22.7752 9.00156 22.7372 9.08042 22.6648L7.32903 20.9131C6.31084 22.7546 5.71709 24.0129 5.54719 24.3498Z" fill="white"/>
@@ -153,7 +153,7 @@
                                             </svg>
                                             <p>Проекты</p>
                                         </a></li>
-                                    <li><a href="work.html">
+                                    <li><a href="/work">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M5.93758 8.70833C5.06358 8.70833 4.35425 7.999 4.35425 7.125V1.58333C4.35425 0.709333 5.06358 0 5.93758 0C6.81158 0 7.52091 0.709333 7.52091 1.58333V7.125C7.52091 7.999 6.81158 8.70833 5.93758 8.70833Z" fill="white"/>
@@ -170,7 +170,7 @@
                                             </svg>
                                             <p>Как рaботаем</p>
                                         </a></li>
-                                    <li><a href="services.html">
+                                    <li><a href="/services">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M12.3203 24.5667H32.4339C32.932 24.5667 33.3689 24.2374 33.5037 23.759L37.9571 8.17276C38.0528 7.83675 37.9872 7.4758 37.7765 7.19661C37.5654 6.91829 37.2372 6.75391 36.887 6.75391H9.7502L8.95438 3.17285C8.84131 2.66289 8.38904 2.30078 7.86719 2.30078H1.11328C0.498077 2.30078 0 2.79886 0 3.41406C0 4.02956 0.498077 4.52734 1.11328 4.52734H6.97366L10.9939 22.6182C9.81108 23.1325 8.98047 24.3098 8.98047 25.68C8.98047 27.5215 10.4788 29.0198 12.3203 29.0198H32.4339C33.0494 29.0198 33.5472 28.522 33.5472 27.9065C33.5472 27.2913 33.0494 26.7933 32.4339 26.7933H12.3203C11.7071 26.7933 11.207 26.2943 11.207 25.68C11.207 25.0656 11.7071 24.5667 12.3203 24.5667Z" fill="white"/>
@@ -185,7 +185,7 @@
                                             </svg>
                                             <p>Услуги</p>
                                         </a></li>
-                                    <li><a href="contacts.html">
+                                    <li><a href="/contacts">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M28.9444 31.9557L22.5386 27.6851C22.2521 27.496 21.8683 27.5582 21.6563 27.8283L19.7911 30.2263C19.1866 31.0141 18.0956 31.2389 17.2289 30.7543L16.8841 30.5649C15.64 29.8862 14.0911 29.0418 11.0165 25.9672C7.94185 22.8926 7.09682 21.3437 6.41875 20.0989L6.22871 19.7541C5.74417 18.8876 5.96903 17.7968 6.75675 17.1926L9.15405 15.3268C9.42441 15.1149 9.48677 14.7309 9.29725 14.4444L5.02735 8.03791C4.83315 7.74721 4.44512 7.65976 4.14498 7.83904L1.4647 9.44624C0.889666 9.78186 0.466744 10.3269 0.284421 10.9673C-0.595868 14.1729 0.144635 19.786 8.6701 28.3122C17.1956 36.8384 22.8074 37.5802 26.0157 36.6992C26.6562 36.5166 27.2012 36.0935 27.5367 35.5182L29.1432 32.8379C29.323 32.538 29.2354 32.1497 28.9444 31.9557Z" fill="white"/>
@@ -275,7 +275,7 @@
                                                 <div class="card-work-bottom">
                                                     <p class="card-work-description">Анализируем нишу, собираем прототип и составляем техничекое задание для будущего сайта</p>
                                                     <div class="card-work-link">
-                                                        <a href="img/files/brif.pdf" class="fancybox" data-fancybox-type="iframe">
+                                                        <a href="../img/files/brif.pdf" class="fancybox" data-fancybox-type="iframe">
                                                             <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M19.0312 5.2034L13.9533 0.125549C13.8728 0.0451581 13.7639 0 13.6502 0H3.92636C2.77784 0 1.84351 0.934416 1.84351 2.08293V18.9171C1.84351 20.0656 2.77788 21 3.9264 21H17.0738C18.2223 21 19.1567 20.0656 19.1567 18.9171V5.50646C19.1567 5.39281 19.1115 5.28379 19.0312 5.2034ZM14.0789 1.46339L17.6935 5.07793H15.3046C14.9772 5.07793 14.6693 4.95041 14.4378 4.71892C14.2064 4.48747 14.0789 4.17965 14.0789 3.85222V1.46339ZM18.2995 18.9171C18.2995 19.593 17.7497 20.1428 17.0738 20.1428H3.92636C3.25046 20.1428 2.70061 19.593 2.70061 18.9171V2.08293C2.70065 1.40704 3.2505 0.857143 3.92636 0.857143H13.2218V3.85214C13.2217 4.40851 13.4383 4.93159 13.8317 5.32497C14.2251 5.71839 14.7482 5.93503 15.3046 5.93503H18.2995V18.9171H18.2995Z" fill="black"/>
                                                                 <path d="M11.283 14.417H11.0912C10.8545 14.417 10.6626 14.6089 10.6626 14.8456C10.6626 15.0823 10.8545 15.2741 11.0912 15.2741H11.283C11.5197 15.2741 11.7116 15.0823 11.7116 14.8456C11.7116 14.6089 11.5197 14.417 11.283 14.417Z" fill="black"/>
@@ -307,7 +307,7 @@
                                                 <div class="card-work-bottom">
                                                     <p class="card-work-description">Согласно результатам анализа и ваших пожеланий составляем бриф на разработку дизайна сайта и передаем в работу дизайнеру</p>
                                                     <div class="card-work-link">
-                                                        <a href="img/files/analyze.pdf" class="fancybox" data-fancybox-type="iframe">
+                                                        <a href="../img/files/analyze.pdf" class="fancybox" data-fancybox-type="iframe">
                                                             <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M19.0312 5.2034L13.9533 0.125549C13.8728 0.0451581 13.7639 0 13.6502 0H3.92636C2.77784 0 1.84351 0.934416 1.84351 2.08293V18.9171C1.84351 20.0656 2.77788 21 3.9264 21H17.0738C18.2223 21 19.1567 20.0656 19.1567 18.9171V5.50646C19.1567 5.39281 19.1115 5.28379 19.0312 5.2034ZM14.0789 1.46339L17.6935 5.07793H15.3046C14.9772 5.07793 14.6693 4.95041 14.4378 4.71892C14.2064 4.48747 14.0789 4.17965 14.0789 3.85222V1.46339ZM18.2995 18.9171C18.2995 19.593 17.7497 20.1428 17.0738 20.1428H3.92636C3.25046 20.1428 2.70061 19.593 2.70061 18.9171V2.08293C2.70065 1.40704 3.2505 0.857143 3.92636 0.857143H13.2218V3.85214C13.2217 4.40851 13.4383 4.93159 13.8317 5.32497C14.2251 5.71839 14.7482 5.93503 15.3046 5.93503H18.2995V18.9171H18.2995Z" fill="black"/>
                                                                 <path d="M11.283 14.417H11.0912C10.8545 14.417 10.6626 14.6089 10.6626 14.8456C10.6626 15.0823 10.8545 15.2741 11.0912 15.2741H11.283C11.5197 15.2741 11.7116 15.0823 11.7116 14.8456C11.7116 14.6089 11.5197 14.417 11.283 14.417Z" fill="black"/>
@@ -339,7 +339,7 @@
                                                 <div class="card-work-bottom">
                                                     <p class="card-work-description">Адаптивная, статичная и динамичная верстка дизайна</p>
                                                     <div class="card-work-link">
-                                                        <a href="img/files/tz.pdf" class="fancybox" data-fancybox-type="iframe">
+                                                        <a href="../img/files/tz.pdf" class="fancybox" data-fancybox-type="iframe">
                                                             <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                 <path d="M19.0312 5.2034L13.9533 0.125549C13.8728 0.0451581 13.7639 0 13.6502 0H3.92636C2.77784 0 1.84351 0.934416 1.84351 2.08293V18.9171C1.84351 20.0656 2.77788 21 3.9264 21H17.0738C18.2223 21 19.1567 20.0656 19.1567 18.9171V5.50646C19.1567 5.39281 19.1115 5.28379 19.0312 5.2034ZM14.0789 1.46339L17.6935 5.07793H15.3046C14.9772 5.07793 14.6693 4.95041 14.4378 4.71892C14.2064 4.48747 14.0789 4.17965 14.0789 3.85222V1.46339ZM18.2995 18.9171C18.2995 19.593 17.7497 20.1428 17.0738 20.1428H3.92636C3.25046 20.1428 2.70061 19.593 2.70061 18.9171V2.08293C2.70065 1.40704 3.2505 0.857143 3.92636 0.857143H13.2218V3.85214C13.2217 4.40851 13.4383 4.93159 13.8317 5.32497C14.2251 5.71839 14.7482 5.93503 15.3046 5.93503H18.2995V18.9171H18.2995Z" fill="black"/>
                                                                 <path d="M11.283 14.417H11.0912C10.8545 14.417 10.6626 14.6089 10.6626 14.8456C10.6626 15.0823 10.8545 15.2741 11.0912 15.2741H11.283C11.5197 15.2741 11.7116 15.0823 11.7116 14.8456C11.7116 14.6089 11.5197 14.417 11.283 14.417Z" fill="black"/>
@@ -491,36 +491,36 @@
                 <div class="container-scroll">
                     <div class="js-page-scroll js-page-scroll-tow">
                     <div class="js-page-scroll-main card-projects-navigate">
-                        <a href="project_1.html" class="card-nav-link">
+                        <a href="/project_1" class="card-nav-link">
                             <div class="card-nav themes-purple">
                                 <div class="card-project-nav-header">
                                     <h3>БФ "Помогите детям"</h3>
                                     <p>Разработка сервис благотворительного фонда для помощи детям онлайн, с персональным кабинетом</p>
                                 </div>
                                 <div class="card-project-nav-image">
-                                    <img src="img/icons/projects/help_child.png" alt="">
+                                    <img src="../img/icons/projects/help_child.png" alt="">
                                 </div>
                             </div>
                         </a>
-                        <a href="project.html" class="card-nav-link">
+                        <a href="/project_2" class="card-nav-link">
                             <div class="card-nav themes-yellow">
                                 <div class="card-project-nav-header">
                                     <h3>COOL PAY</h3>
                                     <p>Лучший эквайринг для </br>бизнеса</p>
                                 </div>
                                 <div class="card-project-nav-image">
-                                    <img src="img/icons/projects/logo1.png" alt="">
+                                    <img src="../img/icons/projects/logo1.png" alt="">
                                 </div>
                             </div>
                         </a>
-                        <a href="project_2.html" class="card-nav-link">
+                        <a href="/project_3" class="card-nav-link">
                             <div class="card-nav themes-pink">
                                 <div class="card-project-nav-header">
                                     <h3 class="color-dark">Realtransit</h3>
                                     <p class="color-dark">Доставка грузов из Китая <br/>в Россию</p>
                                 </div>
                                 <div class="card-project-nav-image">
-                                    <img src="img/icons/projects/123.png" alt="">
+                                    <img src="../img/icons/projects/123.png" alt="">
                                 </div>
                             </div>
                         </a>
@@ -569,7 +569,7 @@
 
 <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 <script src="//code.jivosite.com/widget/FejpRzp385" async></script>
-<script src="js/scripts.min.js"></script>
-<script src="mail/js/mail.js"></script>
+<script src="../js/scripts.min.js"></script>
+<script src="../mail/js/mail.js"></script>
 </body>
 </html>
