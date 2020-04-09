@@ -41,8 +41,8 @@
             <form  method="POST" id="callback" class="callback-form forms" enctype="multipart/form-data">
                 <header>Обсудим проект?</header>
                 <!-- скрытые кнопки показывающие с какой стр был произведен клик -->
-                <input name="strsite" type="hidden" value=" услуги">
-                <input name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
+                <input id="strsite" name="strsite" type="hidden" value=" услуги">
+                <input id="butstrsite" name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
                 <!--  -->
                 <p>Оставьте заявку и мы перезвоним вам<br>в течение <span>10 минут</span></p>
                 <div class="callback-form-block">
@@ -551,7 +551,20 @@
                 </div>
             </div>
         </div>
-        <div class="menu-right menu-right-custom">
+        <div class="wrapper-callback-form">
+                <a href="#callback" class="wrapper-callback-form-open">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
+                </a>
+        </div>
+        <div class="callback-chat">
+                <a href="#">
+                    <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.22231 25.5334H2.1675L3.62046 24.0804C4.40388 23.297 4.8931 22.278 5.02463 21.1727C1.66971 18.971 0 15.7815 0 12.4378C0 6.26895 5.66971 0 14.5491 0C23.9559 0 29 5.76861 29 11.8973C29 18.0664 23.9026 23.8311 14.5491 23.8311C12.9106 23.8311 11.2009 23.6124 9.67436 23.2111C8.22935 24.6932 6.27145 25.5334 4.22231 25.5334Z" fill="white"/>
+                    </svg>
+                </a>
+
+        </div>
+        <!-- <div class="menu-right menu-right-custom">
             <div class="wrapper-callback-form">
                 <a href="#callback" class="wrapper-callback-form-open">
                     <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
@@ -626,7 +639,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="footer-mobile">
             <div class="footer-block footer-name">
                 <p>ООО “Альфа Генезис”</p>

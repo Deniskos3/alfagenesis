@@ -4069,7 +4069,6 @@ label {
     -webkit-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
-    opacity: 0;
     cursor: pointer;
     position: fixed;
     right: 50px;
@@ -4080,7 +4079,8 @@ label {
 .wrapper-callback-form-mobile:hover,
 .wrapper-callback-form:hover {
     -webkit-box-shadow: 0 5px 12px rgba(255, 92, 0, .75);
-    box-shadow: 0 5px 12px rgba(255, 92, 0, .75)
+    box-shadow: 0 5px 12px rgba(255, 92, 0, .75);
+    top: 48px;
 }
 
 .wrapper-callback-form a,
@@ -4591,13 +4591,9 @@ label {
     left: calc(100% - 80px);
 }
 
-.menu-right:hover .callback-chat {
-    opacity: 1
-}
 
-.menu-right:hover .wrapper-callback-form {
-    opacity: 1
-}
+
+
 .menu-right-custom-control {
     overflow-y: inherit;
 }
@@ -4632,7 +4628,7 @@ label {
 }
 
 
-.menu-right .callback-chat {
+.callback-chat {
     z-index: 10;
     -webkit-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
@@ -4672,9 +4668,9 @@ label {
 .container-scroll .mCustomScrollBox {
 overflow: visible !important;
 }
-.menu-right .callback-chat:hover {
+.callback-chat:hover {
     -webkit-box-shadow: 0 5px 10px rgba(143, 0, 255, .5);
-    box-shadow: 0 5px 10px rgba(143, 0, 255, .5)
+    box-shadow: 0 5px 10px rgba(143, 0, 255, .5);
 }
 
 .menu-right .container-menu-right,
@@ -4754,7 +4750,7 @@ overflow: visible !important;
 }
 .container-scroll{
     position: relative;
-    width: 650px;
+    width: 350px;
 }
 .js-page-scroll-tow{
     overflow-x: inherit !important;
@@ -5125,10 +5121,12 @@ overflow: visible !important;
     transition: .5s all ease;
     z-index: 2
 }
-
+.header-left-column nav{
+    height: 100%;
+}
 .header-left-column .logo {
-    margin-top: 60px;
-    margin-bottom: 95px;
+    margin-top: 45px;
+    margin-bottom: 63px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -5157,6 +5155,7 @@ overflow: visible !important;
 }
 
 .header-left-column .menu {
+    height: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -5173,15 +5172,18 @@ overflow: visible !important;
 }
 
 .header-left-column .menu li {
-    margin-bottom: 50px
+    /* margin-bottom: 50px */
+    height: 33%;
 }
 
 .header-left-column .menu li a {
     padding: 20px 15px;
     display: block;
     text-align: center;
-    border-radius: 8px
+    border-radius: 8px;
+    height: 100%;
 }
+
 
 .header-left-column .menu li a:hover {
     background-color: #8600f0
@@ -5225,7 +5227,8 @@ overflow: visible !important;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    margin-top: 6%;
 }
 
 .footer .footer-block {
@@ -5715,7 +5718,7 @@ overflow: visible !important;
 
 .screen-contacts .info-main {
     position: relative;
-    top: 47px
+    top: 53px;
 }
 
 .screen-contacts .info-main .container-content-contacts {
@@ -5822,15 +5825,15 @@ overflow: visible !important;
 }
 
 .screen-contacts .info-main .container-content-contacts .content-contacts-right {
-    margin-left: 120px
+    margin-left: 110px
 }
 
 .screen-contacts .info-main .container-content-contacts .content-contacts-right #map {
     border-radius: 31px;
     position: relative;
     margin: auto;
-    width: 720px;
-    height: 630px
+    width: 721px;
+    height: 631px
 }
 
 .screen-services .info-main {
@@ -7153,8 +7156,26 @@ overflow: visible !important;
 .hidden {
     display: none
 }
+@media (min-width: 1600px) and (max-width: 2400px){
+    .header-left-column .menu li a svg {
+    width: 59% !important;
+    height: 30% !important;
+}
+}
+@media (min-width: 2400px) and (max-width: 2900px){
+    .header-left-column .menu li a svg {
+    width: 80% !important;
+    height: 30% !important;
+}
+}
 
 @media (max-width:575.98px) {
+    .js-page-scroll-section-projects {
+        width: 350px !important;
+    }
+    .js-page-scroll-projects{
+        width: 350px !important;
+    }
     .company-name {
         display: block
     }
@@ -7177,6 +7198,7 @@ overflow: visible !important;
         height: 100vh
     }
     .screen .background-screen {
+        overflow-x: hidden;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
@@ -7189,7 +7211,10 @@ overflow: visible !important;
         top: inherit;
         height: auto;
         overflow: inherit;
-        border-radius: 0
+        border-radius: 0;
+        left: 0%!important;
+
+
     }
     .menu-right:hover {
         left: inherit
@@ -7232,17 +7257,24 @@ overflow: visible !important;
     .menu-right .container-menu-right .card-projects-navigate .card-nav-link .card-nav {
         margin: 30px -15px 30px 15px
     }
+    .wrapper-callback-form {
+        display: none;
+    }
     .menu-right .wrapper-callback-form {
         position: absolute;
         opacity: 1;
         top: 40px;
         right: 35px;
         width: 34px;
-        height: 34px
+        height: 34px;
+        display: block !important;
     }
     .menu-right .wrapper-callback-form a svg {
         width: 18px;
         height: 18px
+    }
+    .callback-chat{
+        display: none;
     }
     .menu-right .callback-chat {
         display: none
@@ -7734,7 +7766,7 @@ overflow: visible !important;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-        width: 240px;
+        width: 100%;
         font-size: 14px;
         line-height: 16px;
         font-family: ubuntu-bold, sans-serif
@@ -8151,5 +8183,8 @@ overflow: visible !important;
     .stages-images-collect-last {
         width: 100%!important;
         margin-bottom: 0!important;
+    }
+    .services-card-default .s-card-btn a{
+
     }
 }

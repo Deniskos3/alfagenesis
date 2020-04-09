@@ -40,8 +40,8 @@
             <form  method="POST" id="callback" class="callback-form forms" enctype="multipart/form-data">
                 <header>Обсудим проект?</header>
                 <!-- скрытые кнопки показывающие с какой стр был произведен клик -->
-                <input name="strsite" type="hidden" value=" проекта&#8221;Транспортная компания-Реалтранзит&#8221;">
-                <input name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
+                <input id="strsite" name="strsite" type="hidden" value=" проекта&#8221;Транспортная компания-Реалтранзит&#8221;">
+                <input id="butstrsite" name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
                 <!--  -->
                 <p>Оставьте заявку и мы перезвоним вам<br>в течение <span>10 минут</span></p>
                 <div class="callback-form-block">
@@ -317,13 +317,13 @@
                     </div>
                 </div>
             </div>
-            <div class="menu-right menu-right-project">
+            <div class="menu-right menu-right-project full_opened_menu">
                 <div class="wrapper-callback-form">
                     <a href="#callback" class="wrapper-callback-form-open">
                         <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
                     </a>
                 </div>
-                <div class="control-arrow-projects">
+                <div class="control-arrow-projects vis">
                     <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
                     </svg>
@@ -379,7 +379,7 @@
                                 <span>Свяжитесь с нами, <br>мы предложим лучший вариант для вас!</span>
                                 <div class="callback-form-block">
                                     <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
-                                    <input id="callback_phone" type="tel" placeholder="+7" name="phone">
+                                    <input id="callback_phone" type="tel" placeholder="+7" name="phone" value="+7">
                                     <!--									<span class="hidden validate_flag">-->
                                     <!--										<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline&#45;&#45;fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>-->
                                     <!--									</span>-->

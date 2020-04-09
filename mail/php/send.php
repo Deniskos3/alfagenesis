@@ -13,7 +13,7 @@ $strsite=$_POST['strsite'];
 $butstrsite=$_POST['butstrsite'];
 
 $token = "1187877709:AAG8vYlhLbflTNUffI3yJJ1kPHVqrRC6djs";
-// $chat_id = "-395843976"; айли чата с начальство !!! не трогать
+// $chat_id = "-395843976"; айди чата с начальство !!! не трогать
 $chat_id = "-438865797";
 $msg1 = "ok1";
 $arr = array(

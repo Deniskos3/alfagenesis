@@ -41,8 +41,8 @@
             <form  method="POST" id="callback" class="callback-form forms" enctype="multipart/form-data">
                 <header>Обсудим проект?</header>
                  <!-- скрытые кнопки показывающие с какой стр был произведен клик -->
-                 <input name="strsite" type="hidden" value="услуги">
-                 <input name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
+                 <input id="strsite" name="strsite" type="hidden" value="услуги">
+                 <input id="butstrsite" name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
                  <!--  -->
                 <p>Оставьте заявку и мы перезвоним вам<br>в течение <span>10 минут</span></p>
                 <div class="callback-form-block">
