@@ -99,9 +99,9 @@
             </div>
         </div>
     </div>
-    <div class="screen">
+    <div class="screen" id="screenmain">
         <div class="background-screen screen-page">
-            <div class="container-custom">
+            <div class="container-custom" id="container-cust">
                 <div class="flex-wrapper-screen">
                     <div class="header">
                         <div class="logo">
@@ -109,7 +109,7 @@
                         </div>
                         <div class="company-name">alfa genesis</div>
                         <nav>
-                            <ul class="menu">
+                            <ul class="menu" >
                                 <li><a href="/projects">Проекты</a></li>
                                 <li><a href="/work">Как рaботаем</a></li>
                                 <li><a href="/services">Услуги</a></li>
@@ -291,7 +291,7 @@
                     </a>
 
                 </div>
-                <div class="container-menu-right">
+            <div class="container-menu-right" >
                 <h2>Проекты студии</h2>
                 <div class="project-navigate">
                     <ul>
@@ -347,7 +347,7 @@
                 </div>
                 </div>
                 </div>
-  
+
             </div>
                 <div class="footer-mobile">
                     <div class="footer-block footer-name">

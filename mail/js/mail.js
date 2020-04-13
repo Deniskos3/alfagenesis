@@ -9,10 +9,17 @@ $("#form-send").on("click",function(){
     if(phone=="") {
     }else{
    $("#callback").on("click",function(e){ 
+    let mainstr=$(this).find('#strsite').val().trim();
+    if (mainstr=='главная страница сайта'){
+      var urlmail='mail/php/send.php';
+    }else{
+      var urlmail='../mail/php/send.php';
+    }
+    console.log(mainstr);
     console.log("333");
     e.preventDefault();
     $.ajax({
-      url: 'mail/php/send.php',
+      url: urlmail,
       type: 'POST',
       contentType: false,
       processData: false,

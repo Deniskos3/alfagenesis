@@ -488,7 +488,7 @@
                         </div>
                         <div class="right-column-callback">
                             <p>Готовы к сотрудничеству?</p>
-                            <a class="btn-yellow">Заказать похожий проект</a>
+                            <a href="#callback" class="btn-yellow">Заказать похожий проект</a>
                         </div>
                     </div>
 
