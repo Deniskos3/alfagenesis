@@ -3985,7 +3985,7 @@ label {
 }
 
 .hidden {
-    display: none
+    display: none !important;
 }
 
 .validate_flag {
@@ -7208,6 +7208,10 @@ overflow: visible !important;
 }
 
 @media (max-width:575.98px) {
+    #container-cust {
+
+    margin-left: 0px !important;
+    }
     ._show_1e.wrap_mW {
         display: none !important;
     }

@@ -11,6 +11,7 @@ $phone = $_POST['phone'];
 $callback_comment = $_POST['callback_comment'];
 $strsite=$_POST['strsite'];
 $butstrsite=$_POST['butstrsite'];
+echo $phone;
 
 $token = "1187877709:AAG8vYlhLbflTNUffI3yJJ1kPHVqrRC6djs";
 // $chat_id = "-395843976"; айди чата с начальство !!! не трогать

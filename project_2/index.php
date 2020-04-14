@@ -405,10 +405,10 @@
                                 <span>Свяжитесь с нами, <br>мы предложим лучший вариант для вас!</span>
                                 <div class="callback-form-block">
                                     <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
-                                    <input id="callback_phone" type="tel" placeholder="+7" name="phone" value="+7">
-                                    <!--									<span class="hidden validate_flag">-->
-                                    <!--										<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline&#45;&#45;fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>-->
-                                    <!--									</span>-->
+                                    <input id="callback_phone1" type="tel" placeholder="+7" name="phone" value="+7">
+                                	<span class="hidden validate_flag">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline&#45;&#45;fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
+        							</span>
                                 </div>
                             </div>
                             <img class="call-right-block" src="img/projects/help_child/callback-form.png" alt="">
