@@ -4751,7 +4751,8 @@ overflow: visible !important;
 }
 .container-scroll{
     position: relative;
-    width: 40%;
+    min-width: 350px;
+    max-width: 510px;
 }
 .js-page-scroll-tow{
     overflow-x: inherit !important;
@@ -7190,12 +7191,19 @@ overflow: visible !important;
     height: 30% !important;
     }
     .container-scroll{
-        width: 50%;
+        min-width: 465px;
+        max-width: 530px;
     }
     #container-cust{
         margin-left: 55px;
     }
    
+}
+@media (min-width: 1800px) and (max-width: 2400px){
+    .container-scroll{
+        min-width: 545px !important;
+        max-width: 600px !important;
+    }
 }
 @media (min-width: 2400px) and (max-width: 2900px){
     .header-left-column .menu li a svg {
@@ -7203,11 +7211,23 @@ overflow: visible !important;
     height: 30% !important;
 }
 .container-scroll{
-    width: 78%;
+    min-width: 600px;
+    max-width: 930px;
 }
+}
+@media (min-width: 2900px){
+    .container-scroll{
+    max-width: 1300px;
+    }
 }
 
 @media (max-width:575.98px) {
+    .wrapper-callback-form-mobile:hover,
+    .wrapper-callback-form:hover {
+    -webkit-box-shadow: 0 5px 12px rgba(255, 92, 0, .75);
+    box-shadow: 0 5px 12px rgba(255, 92, 0, .75);
+    top: inherit;
+    }
     #container-cust {
 
     margin-left: 0px !important;
@@ -7324,7 +7344,7 @@ overflow: visible !important;
         right: 35px;
         width: 34px;
         height: 34px;
-        display: block !important;
+        display: block ;
     }
     .menu-right .wrapper-callback-form a svg {
         width: 18px;
@@ -7908,7 +7928,8 @@ overflow: visible !important;
     }
     #app-project .menu-right-project .container-menu-right-project .menu-project-left-column {
         padding: 0 30px;
-        width: 100%
+        width: 100%;
+        min-width: 300px ;
     }
     #app-project .menu-right-project .container-menu-right-project .menu-project-left-column .project-sort-link {
         font-size: 12px;
