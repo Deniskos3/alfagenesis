@@ -196,7 +196,7 @@
                     <div class="footer footer-colorize">
                         <div class="footer-block footer-name">
                             <p>ООО “Альфа Генезис”</p>
-                            <span>ИНН 2130213330 ОГРН 1234123231224</span>
+                            <span>ИНН 2130175319 ОГРН 1162130061840</span>
                         </div>
                         <div class="footer-block footer-phone">
                             <p>Поддержка по РФ</p>

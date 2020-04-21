@@ -96,7 +96,7 @@
             </div>
         </div>
     </div>
-    <div class="screen-projects">
+    <div class="screen-projects" id="projects">
         <div class="screen-page-projects">
             <div class="container-custom">
                 <div class="flex-wrapper-screen">
@@ -287,7 +287,7 @@
                     <div class="footer footer-colorize">
                         <div class="footer-block footer-name">
                             <p>ООО “Альфа Генезис”</p>
-                            <span>ИНН 2130213330 ОГРН 1234123231224</span>
+                            <span>ИНН 2130175319 ОГРН 1162130061840</span>
                         </div>
                         <div class="footer-block footer-phone">
                             <p>Поддержка по РФ</p>
@@ -402,8 +402,8 @@
         <div class="footer-mobile">
             <div class="footer-block footer-name">
                 <p>ООО “Альфа Генезис”</p>
-                <p>ИНН 2130213330</p>
-                <p>ОГРН 1234123231224</p>
+                <p>ИНН 2130175319</p>
+                <p>ОГРН 1162130061840</p>
             </div>
             <div class="footer-block footer-phone">
                 <p>Поддержка по РФ</p>

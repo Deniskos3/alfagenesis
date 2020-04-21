@@ -127,6 +127,7 @@
                             </div>
                         </div>
                         <div class="header-left-column header-left-column-active">
+                        <div id="backblack"> </div>
                             <div class="logo">
                                 <a href="/">a</a>
                             </div>
@@ -289,7 +290,7 @@
                         <div class="footer footer-colorize">
                             <div class="footer-block footer-name">
                                 <p>ООО “Альфа Генезис”</p>
-                                <span>ИНН 2130213330 ОГРН 1234123231224</span>
+                                <span>ИНН 2130175319 ОГРН 1162130061840</span>
                             </div>
                             <div class="footer-block footer-phone">
                                 <p>Поддержка по РФ</p>
@@ -376,7 +377,7 @@
                         <div class="project-form-callback_wrapper">
                             <div class="call-left-block">
                                 <p>Время начать работу</p>
-                                <span>Свяжитесь с нами, <br>мы предложим лучший вариант для вас!</span>
+                                <span id="call-left-block-span">Свяжитесь с нами, <br>мы предложим лучший вариант для вас!</span>
                                 <div class="callback-form-block">
                                     <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
                                     <input id="callback_phone1" type="tel" placeholder="+7" name="phone" value="+7">
@@ -390,7 +391,7 @@
                         <div class="footer">
                             <div class="footer-block footer-name">
                                 <p>ООО “Альфа Генезис”</p>
-                                <span>ИНН 2130213330 ОГРН 1234123231224</span>
+                                <span>ИНН 2130175319 ОГРН 1162130061840</span>
                             </div>
                             <div class="footer-block footer-phone">
                                 <p>Поддержка по РФ</p>
@@ -477,8 +478,8 @@
             <div class="footer-mobile">
                 <div class="footer-block footer-name">
                     <p>ООО “Альфа Генезис”</p>
-                    <p>ИНН 2130213330</p>
-                    <p>ОГРН 1234123231224</p>
+                    <p>ИНН 2130175319</p>
+                    <p>ОГРН 1162130061840</p>
                 </div>
                 <div class="footer-block footer-phone">
                     <p>Поддержка по РФ</p>

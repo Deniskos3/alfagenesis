@@ -63,20 +63,20 @@ $(function() {
 
     $('[name="phone"]').mask('+7 (000) 000-00-00');
 
-    // let input = document.getElementById('callback_phone');
-    // input.oninput = function() {
-    //     let value = input.value;
-    //     let flag = document.getElementsByClassName('validate_flag');
-    //     let label = document.getElementsByClassName('callback_phone_label');
-    //     if(value.length === 18) {
-    //         flag[0].classList.remove('hidden');
-    //         label[0].innerText = 'Ваш номер телефона';
-    //     }
-    //     else {
-    //         flag[0].classList.add('hidden');
-    //         label[0].innerText = 'Введите ваш номер и мы перезвоним';
-    //     }
-    // };
+    let input = document.getElementById('callback_phone');
+    input.oninput = function() {
+        let value = input.value;
+        let flag = document.getElementsByClassName('validate_flag');
+        let label = document.getElementsByClassName('callback_phone_label');
+        if(value.length === 18) {
+            flag[0].classList.remove('hidden');
+            label[0].innerText = 'Ваш номер телефона';
+        }
+        else {
+            flag[0].classList.add('hidden');
+            label[0].innerText = 'Введите ваш номер и мы перезвоним';
+        }
+    };
 
     $('.hamburger-icon').click(function(){
         $(this).toggleClass('open');
