@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="icon" href="img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <meta name="theme-color" content="#000">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                     <div class="info-main">
-                        <div class="info-main-wrap">
+                        <div class="info-main-wrap" id="info">
                             <h1>Закажите сайт сейчас<br>и начните зарабатывать</h1>
                             <p>Расскажите нам о вашем бизнесе<br>Остальное мы сделаем за вас</p>
                         </div>
@@ -231,6 +231,10 @@
                             <span class="hidden validate_flag">
 									<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
 								</span>
+                        </div>
+                        <div class="info-main-wrap" id="info-send">
+                            <h1>Спасибо за обращение!</h1>
+                            <p>Мы перезвоним вам в течение <span >10 минут!</span></p>
                         </div>
                     </div>
                     <div class="footer">

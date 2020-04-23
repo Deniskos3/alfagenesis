@@ -225,7 +225,7 @@
                                             <span>Для Ваших брифов и заявок</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="contacts-call-desk">Заказать звонок</a>
+                                    <a href="#callback" class="contacts-call-desk">Заказать звонок</a>
                                 </div>
                                 <div class="content-contacts-question">
                                     <p>Обсудим ваш проект?</p>

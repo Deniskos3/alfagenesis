@@ -395,7 +395,11 @@
                             <p>На данный момент ведется Level-Up сайта и в скором времени вы сможете увидеть новый функционал сайта благотворительного фонда “Помогите детям”, где пожертвовать средства на реабилитацию деток можно будет в 2 шага </p>
                         </div>
                         <div class="project-form-callback_wrapper">
-                            <div class="call-left-block">
+                            <div class="call-left-block" id="info-send">
+                            <p>Спасибо за обращение!</p>
+                            <span>Мы перезвоним вам в течение 10 минут!</span>
+                            </div>
+                            <div class="call-left-block" id="info">
                                 <p>Время начать работу</p>
                                 <span id="call-left-block-span">Свяжитесь с нами, <br>мы предложим лучший вариант для вас!</span>
                                 <div class="callback-form-block">
@@ -406,7 +410,7 @@
                                     									</span>
                                 </div>
                             </div>
-                            <img class="call-right-block" src="img/projects/help_child/callback-form.png" alt="">
+                            <img class="call-right-block" src="../img/projects/help_child/callback-form.png" alt="картинка">
                         </div>
                         <div class="footer">
                             <div class="footer-block footer-name">
