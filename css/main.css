@@ -4838,8 +4838,8 @@ overflow: visible !important;
 .menu-right .container-menu-right .card-projects-navigate .themes-yellow,
 .menu-right .container-projects-content .card-projects-navigate .themes-yellow {
     background-color: #2D3898;
-    -webkit-box-shadow: 0 10px 20px rgba(255, 226, 11, .3);
-    box-shadow: 0 10px 20px rgba(255, 226, 11, .3)
+    -webkit-box-shadow: 0 10px 20px rgba(46, 56, 153, 0.3);
+    box-shadow: 0 10px 20px rgba(46, 56, 153, 0.3)
 }
 
 .menu-right .container-menu-right .card-projects-navigate .themes-yellow p,
@@ -4849,8 +4849,8 @@ overflow: visible !important;
 
 .menu-right .container-menu-right .card-projects-navigate .themes-yellow:hover,
 .menu-right .container-projects-content .card-projects-navigate .themes-yellow:hover {
-    -webkit-box-shadow: 0 4px 15px rgba(255, 226, 11, .9);
-    box-shadow: 0 4px 15px rgba(255, 226, 11, .9)
+    -webkit-box-shadow: 0 4px 15px rgba(46, 56, 153, 0.9);
+    box-shadow: 0 4px 15px rgba(46, 56, 153, 0.9)
 }
 
 .menu-right .container-menu-right .card-projects-navigate .themes-purple,
@@ -4879,14 +4879,14 @@ overflow: visible !important;
 .menu-right .container-menu-right .card-projects-navigate .themes-pink,
 .menu-right .container-projects-content .card-projects-navigate .themes-pink {
     background-color: #FFFFFF;
-    -webkit-box-shadow: 0 10px 20px rgba(255, 0, 138, .19);
-    box-shadow: 0 10px 20px rgba(255, 0, 138, .19)
+    -webkit-box-shadow: 0 10px 20px rgba(131, 130, 130, 0.25);
+    box-shadow: 0 10px 20px rgba(131, 130, 130, 0.25)
 }
 
 .menu-right .container-menu-right .card-projects-navigate .themes-pink:hover,
 .menu-right .container-projects-content .card-projects-navigate .themes-pink:hover {
-    -webkit-box-shadow: 0 4px 15px rgba(255, 0, 138, .7);
-    box-shadow: 0 4px 15px rgba(255, 0, 138, .7)
+    -webkit-box-shadow: 0 4px 15px rgba(145, 145, 145, 0.53);
+    box-shadow: 0 4px 15px rgba(145, 145, 145, 0.53)
 }
 
 .menu-right .container-menu-right .card-projects-navigate .themes-pink h3,
@@ -5161,6 +5161,7 @@ overflow: visible !important;
 }
 
 .header-left-column .logo a {
+    height: 58px;
     width: 57px;
     padding: 8px 0 14px 0;
     display: block;
@@ -5188,10 +5189,10 @@ overflow: visible !important;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center
+    -webkit-box-pack: space-between;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
 }
 
 .header-left-column .menu li {
@@ -5204,7 +5205,6 @@ overflow: visible !important;
     display: block;
     text-align: center;
     border-radius: 8px;
-    height: 100%;
 }
 
 
@@ -5233,8 +5233,17 @@ overflow: visible !important;
 .mobile-menu-social {
     display: none
 }
-
+#screenmain .callback-form-block{
+    margin-left: -9px;
+}
+#screenmain .info-main{
+    margin-left: 68px;
+}
+#screenmain .footer {
+    margin-left: 57px;
+}
 .footer {
+    margin-left: 63px;
     font-size: 0.67rem;
     line-height: 14px;
     display: -webkit-box;
@@ -5422,7 +5431,7 @@ overflow: visible !important;
 
 .screen-work .screen-page-work .info-main {
     position: relative;
-    /*top: -30px*/
+    top:50px
 }
 
 .screen-work .screen-page-work .info-main h1 {
@@ -5666,8 +5675,8 @@ overflow: visible !important;
 
 #app-projects .container-projects-content .card-projects-navigate .themes-yellow {
     background-color: #2d3898;
-    -webkit-box-shadow: 0 10px 20px rgba(255, 226, 11, .3);
-    box-shadow: 0 10px 20px rgba(255, 226, 11, .3)
+    -webkit-box-shadow: 0 10px 20px rgba(46, 56, 153, .3);
+    box-shadow: 0 10px 20px rgba(46, 56, 153, .3)
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-yellow p {
@@ -5675,8 +5684,8 @@ overflow: visible !important;
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-yellow:hover {
-    -webkit-box-shadow: 0 4px 15px rgba(255, 226, 11, .9);
-    box-shadow: 0 4px 15px rgba(255, 226, 11, .9)
+    -webkit-box-shadow: 0 4px 15px rgba(46, 56, 153, 0.9);
+    box-shadow: 0 4px 15px rgba(46, 56, 153, .9)
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-purple {
@@ -5700,13 +5709,13 @@ overflow: visible !important;
 
 #app-projects .container-projects-content .card-projects-navigate .themes-pink {
     background-color: #fff;
-    -webkit-box-shadow: 0 10px 20px rgba(255, 0, 138, .19);
-    box-shadow: 0 10px 20px rgba(255, 0, 138, .19)
+    -webkit-box-shadow: 0 10px 20px rgba(131, 130, 130, 0.25);
+    box-shadow: 0 10px 20px rgba(131, 130, 130, 0.25)
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-pink:hover {
-    -webkit-box-shadow: 0 4px 15px rgba(255, 0, 138, .7);
-    box-shadow: 0 4px 15px rgba(255, 0, 138, .7)
+    -webkit-box-shadow: 0 4px 15px rgba(145, 145, 145, 0.53);
+    box-shadow: 0 4px 15px rgba(145, 145, 145, 0.53)
 }
 
 #app-projects .container-projects-content .card-projects-navigate .themes-pink h3 {
@@ -7197,6 +7206,10 @@ overflow: visible;
     margin-top: 80px;
     margin-bottom: 0
 }
+.header-left-column .menu li a svg {
+    width: 37% !important;
+    height: 15% !important;
+}
 
 #app-projects .container-menu-right-project-another .card-projects-navigate {
     height: 100%;
@@ -7252,9 +7265,14 @@ overflow: visible;
         margin-left: 40px;
     }
     .header-left-column .menu li a {
-        padding: 16% 15px 0% 15px;
-        height: 90%;
+        padding: 13% 15px 13% 15px;
+        
     }
+    .header-left-column .menu li a svg {
+    width: 37% !important;
+    height: 16% !important;
+    }
+
 }
 @media (min-width:4000px) {
     #container-cust{
@@ -7280,13 +7298,10 @@ overflow: visible;
         margin-left: 55px;
     }
     .header-left-column .menu li a {
-        padding: 30% 15px 0% 15px;
-        height: 90%;
+        padding: 13% 15px 13% 15px;
+      
     }
-    .header-left-column .menu li a svg {
-        width: 67% !important;
-        height: 36% !important;
-    }
+   
     
     
     
@@ -7294,12 +7309,11 @@ overflow: visible;
 }
 @media (min-width: 1800px) and (max-width: 2400px){
      .header-left-column .menu li a {
-        padding: 30% 15px 0% 15px;
-        height: 80%;
+        padding: 15% 15px 15% 15px;
     }
     .header-left-column .menu li a svg {
-        width: 73% !important;
-        height: 40% !important;
+        width: 46% !important;
+        height: 23% !important;
     }
     .container-scroll{
         min-width: 545px ;
@@ -7313,8 +7327,8 @@ overflow: visible;
     height: 42% !important;
 }
 .header-left-column .menu li a {
-    padding: 43% 15px 0% 15px;
-    height: 80%;
+    padding: 22% 15px 21% 15px;
+  
 }
 .container-scroll{
     min-width: 600px;
@@ -7326,8 +7340,8 @@ overflow: visible;
     max-width: 1300px;
     }
     .header-left-column .menu li a {
-        padding: 53% 15px 0% 15px;
-        height: 80%;
+        padding: 28% 15px 25% 15px;
+       
     }
     .header-left-column .menu li a svg {
         width: 77% !important;
@@ -7403,6 +7417,7 @@ overflow: visible;
     #app-main .company-name {
         color: #fff
     }
+    
     .footer {
         display: none
     }
