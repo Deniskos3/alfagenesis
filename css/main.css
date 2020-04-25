@@ -4768,7 +4768,7 @@ overflow: visible !important;
 .container-scroll{
     position: relative;
     min-width: 350px;
-    max-width: 496px;
+    max-width: 419px;
     margin-left:-20px;
 }
 .js-page-scroll-tow{
@@ -4914,14 +4914,14 @@ overflow: visible !important;
     -ms-flex-align: center;
     align-items: center;
     background-color: #fafafa;
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
+    -webkit-box-shadow: 0 10px 20px rgba(131, 130, 130, 0.25);
+    box-shadow: 0 10px 20px rgba(131, 130, 130, 0.25)
 }
 
 .menu-right .container-menu-right .card-projects-navigate .themes-transparent:hover,
 .menu-right .container-projects-content .card-projects-navigate .themes-transparent:hover {
-    -webkit-box-shadow: 0 10px 20px rgba(133, 4, 225, .19);
-    box-shadow: 0 10px 20px rgba(133, 4, 225, .19)
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2)
 }
 
 .menu-right .container-menu-right .card-projects-navigate-bar-vertical,
@@ -5475,7 +5475,11 @@ overflow: visible !important;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-right: 50px
+    margin-right: 50px;
+    -o-transition: all 0.43s ease-in-out;
+  -moz-transition: all 0.43s ease-in-out;
+  -webkit-transition: all 0.43s ease-in-out;
+  transition: all 0.43s ease-in-out;
 }
 
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work .card-work-stage, .screen .screen-page .container-content-work .wrapper-cards-work .card-work .card-work-stage {
@@ -6565,7 +6569,7 @@ overflow: visible !important;
     max-width: 435px;
     min-width:350px;
     position: sticky;
-    top:0px;
+    top:40px;
     right: 0px;
     height: 800px;
     margin-top: 60px;
@@ -7198,8 +7202,10 @@ overflow: visible;
     height: 7px !important;
 }
 #mCSB_1_scrollbar_horizontal{
-    margin-left:18px
+    margin-left:18px;
+    width: 94%;
 }
+
 
 #app-projects .container-menu-right-project-another {
     height: inherit;
@@ -7207,7 +7213,7 @@ overflow: visible;
     margin-bottom: 0
 }
 .header-left-column .menu li a svg {
-    width: 37% !important;
+    width: 36% !important;
     height: 15% !important;
 }
 
@@ -7272,6 +7278,11 @@ overflow: visible;
     width: 37% !important;
     height: 16% !important;
     }
+    .container-scroll{
+
+        min-width: 419px;
+        max-width: 479px;
+    }
 
 }
 @media (min-width:4000px) {
@@ -7292,7 +7303,7 @@ overflow: visible;
     
     .container-scroll{
         min-width: 465px;
-        max-width: 570px;
+        max-width: 553px;
     }
     #container-cust{
         margin-left: 55px;
@@ -7318,8 +7329,13 @@ overflow: visible;
     .container-scroll{
         min-width: 545px ;
         max-width: 600px ;
+    }  
+}
+@media (min-width: 2000px) and (max-width: 2400px){
+    .container-scroll{
+        min-width: 545px ;
+        max-width: 690px ;
     }
-    
 }
 @media (min-width: 2400px) and (max-width: 2900px){
     .header-left-column .menu li a svg {
@@ -7332,7 +7348,7 @@ overflow: visible;
 }
 .container-scroll{
     min-width: 600px;
-    max-width: 930px;
+    max-width: 953px;
 }
 }
 @media (min-width: 2900px){
@@ -7550,7 +7566,7 @@ overflow: visible;
         width: 100vw !important;
         height: 100vh;
         left: -100vw;
-        padding: 100px 30px 45px 30px !important;
+        padding: 130px 30px 45px 30px !important;
         -webkit-box-align: start;
         -webkit-align-items: start;
         -ms-flex-align: start;
@@ -8426,8 +8442,9 @@ overflow: visible;
         width: 100%!important;
         margin-bottom: 0!important;
     }
-    .services-card-default .s-card-btn a{
-
+    .header-left-column .menu li a svg {
+        width: 38px !important;
+        height: 38px !important;
     }
     
 }
