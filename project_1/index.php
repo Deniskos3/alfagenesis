@@ -315,15 +315,23 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="wrapper-callback-form">
+                            <a href="#callback" class="wrapper-callback-form-open">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
+                            </a>
+                         </div>
+                         <div class="callback-chat">
+                            <a href="#">
+                            <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.22231 25.5334H2.1675L3.62046 24.0804C4.40388 23.297 4.8931 22.278 5.02463 21.1727C1.66971 18.971 0 15.7815 0 12.4378C0 6.26895 5.66971 0 14.5491 0C23.9559 0 29 5.76861 29 11.8973C29 18.0664 23.9026 23.8311 14.5491 23.8311C12.9106 23.8311 11.2009 23.6124 9.67436 23.2111C8.22935 24.6932 6.27145 25.5334 4.22231 25.5334Z" fill="white"/>
+                             </svg>
+                             </a>
+                         </div>
                     </div>
                 </div>
             </div>
             <div class="menu-right menu-right-project full_opened_menu">
-                <div class="wrapper-callback-form">
-                    <a href="#callback" class="wrapper-callback-form-open">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
-                    </a>
-                </div>
+                
                 <div class="control-arrow-projects vis">
                     <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
@@ -331,14 +339,6 @@
                     <svg class="hidden" width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.139846 2.13203C-0.209014 1.38064 0.117302 0.488706 0.868693 0.139846C1.62008 -0.209014 2.51201 0.117302 2.86087 0.868693L8.43046 12.8647C8.55996 13.1437 8.59642 13.4419 8.55263 13.7246C8.57964 13.9906 8.53591 14.267 8.41145 14.5255L2.87998 26.0139C2.5206 26.7604 1.62417 27.0741 0.877757 26.7147C0.131343 26.3553 -0.182407 25.4589 0.176978 24.7125L5.49528 13.6668L0.139846 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
                     </svg>
-                </div>
-                <div class="callback-chat">
-                    <a href="#">
-                        <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4.22231 25.5334H2.1675L3.62046 24.0804C4.40388 23.297 4.8931 22.278 5.02463 21.1727C1.66971 18.971 0 15.7815 0 12.4378C0 6.26895 5.66971 0 14.5491 0C23.9559 0 29 5.76861 29 11.8973C29 18.0664 23.9026 23.8311 14.5491 23.8311C12.9106 23.8311 11.2009 23.6124 9.67436 23.2111C8.22935 24.6932 6.27145 25.5334 4.22231 25.5334Z" fill="white"/>
-                        </svg>
-                    </a>
-
                 </div>
                 <div class="container-menu-right container-menu-right-project">
                     <div class="menu-project-left-column">
@@ -392,7 +392,7 @@
                                 Призыв о помощи - важный аспект благотворительного проекта в России. Название проекта было предложено в виде простого призыва человека для помощи детями с ДЦП. Разработкой логотипа мы хотели подчеркнуть сложность сбора средств для деток, а так же то, что родители часто не обращаются в благотворительные фонды за помощью, а ведут самостоятельные сборы средств в социальных сетях. В связи с этим формат логотипа получился в виде диалогового окошка в котором заключено название проекта “Помогите детям”:
                             </p>
                             <img src="../img/projects/help_child/project-images_2.png" alt="">
-                            <p>На данный момент ведется Level-Up сайта и в скором времени вы сможете увидеть новый функционал сайта благотворительного фонда “Помогите детям”, где пожертвовать средства на реабилитацию деток можно будет в 2 шага </p>
+                            <p class="stage-p">На данный момент ведется Level-Up сайта и в скором времени вы сможете увидеть новый функционал сайта благотворительного фонда “Помогите детям”, где пожертвовать средства на реабилитацию деток можно будет в 2 шага </p>
                         </div>
                         <div class="project-form-callback_wrapper">
                             <div class="call-left-block" id="info-send">
@@ -443,7 +443,7 @@
                     </div>
                     <div class="menu-project-right-column">
                         <img class="project-sticker" src="../img/projects/help_child/sticker.png" alt="">
-                        <p class="desc-right-column-project">— благотворительный фонд для детей больныз с ДЦП. Онлайн-сервис и информационный сайт.∞</p>
+                        <p class="desc-right-column-project">— благотворительный фонд для детей больныз с ДЦП. Онлайн-сервис и информационный сайт.</p>
                         <div class="right-column-report">
                             <div class="right-column-report__left">
                                 <span>Адрес проекта</span>

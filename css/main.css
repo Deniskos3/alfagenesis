@@ -4584,8 +4584,8 @@ form .validate_flag {
     position: absolute;
     top: 0;
     width: 100%;
-    left: -webkit-calc(100% - 80px);
-    left: calc(100% - 80px);
+    left: -webkit-calc(100% - 0px);
+    left: calc(100% - 0px);
     background-color: #fff;
     height: 100vh;
     overflow-y: scroll;
@@ -4598,11 +4598,11 @@ form .validate_flag {
     z-index: 4;
 }
 
-.menu-right:hover {
+#screenmain .menu-right:hover {
     left: -webkit-calc(55%);
     left: calc(55%)
 }
-.menu-right-custom:hover {
+#screenmain .menu-right-custom:hover {
     left: -webkit-calc(100% - 80px);
     left: calc(100% - 80px);
 }
@@ -5145,7 +5145,7 @@ overflow: visible !important;
     z-index: 3
 }
 .header-left-column nav{
-    height: 100%;
+    height: 80%;
 }
 .header-left-column .logo {
     margin-top: 45px;
@@ -5161,7 +5161,7 @@ overflow: visible !important;
 }
 
 .header-left-column .logo a {
-    height: 58px;
+    height: 57px;
     width: 57px;
     padding: 8px 0 14px 0;
     display: block;
@@ -5189,9 +5189,9 @@ overflow: visible !important;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: space-between;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: space-between;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -5360,7 +5360,7 @@ overflow: visible !important;
 }
 
 .flex-wrapper-screen {
-    height: 100vh;
+    height: 93vh;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -6123,7 +6123,8 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology {
     background: #fafafa;
     border-radius: 31px;
-    padding: 40px 80px 55px 55px
+    padding: 40px 80px 55px 55px;
+    width: 98%;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology p {
@@ -6312,6 +6313,7 @@ overflow: visible !important;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper {
+    width: 98%;
     margin-top: 40px;
     border-radius: 31px;
     background: -webkit-gradient(linear, left top, left bottom, from(#fafbfd), to(#f7f8fa));
@@ -7143,9 +7145,9 @@ overflow: visible !important;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
+    /* -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
-    flex-flow: row wrap
+    flex-flow: row wrap */
 }
 
 .js-page-scroll-section {
@@ -7265,7 +7267,7 @@ overflow: visible;
         margin-left: 10%;
     }
     .menu-right-project .container-menu-right-project {
-        max-width: 1450px;
+        max-width: 1430px;
     }
     #container-cust{
         margin-left: 40px;
@@ -7336,8 +7338,26 @@ overflow: visible;
         min-width: 545px ;
         max-width: 690px ;
     }
+    .header-left-column nav {
+        height: 87%;
+    }
+}
+@media (min-width: 2400px) and (max-width: 2500px){
+    .container-scroll{
+        min-width: 600px;
+        max-width: 803px !important;
+    }
+}
+@media (min-width: 2500px) and (max-width: 2600px){
+    .container-scroll{
+        min-width: 600px;
+        max-width: 853px !important;
+    }
 }
 @media (min-width: 2400px) and (max-width: 2900px){
+    .header-left-column nav {
+        height: 93%;
+    }
     .header-left-column .menu li a svg {
     width: 73% !important;
     height: 42% !important;
@@ -7352,6 +7372,9 @@ overflow: visible;
 }
 }
 @media (min-width: 2900px){
+    .header-left-column nav {
+        height: 93%;
+    }
     .container-scroll{
     max-width: 1300px;
     }
@@ -7368,10 +7391,165 @@ overflow: visible;
     .container-scroll {
     min-width: 310px
     }
-
-
 }
+@media (min-width: 1400.98px) and (max-width: 1570.98px){
+.menu-right-project .container-menu-right-project {
+    max-width: 1180px !important;
+}
+.menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
+    height: 245px;
+    margin-top: 35px;
+    margin-left: -40px;
+}
+.menu-right-project .container-menu-right-project #call-left-block-span {
+    position: relative;
+}
+}
+@media (min-width: 586.98px) and (max-width:1370px){
+    .js-page-scroll-projects{
+        max-width: 1150px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column {
+        max-width: 700px;
+        min-width: 500px;
+    }
+    .menu-right-project .container-menu-right-project {
+        max-width: 1100px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column h2 {
+        font-size: 42px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-sort-link {
+        font-size: 14px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-task {
+        font-size: 19px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-task-description {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology p {
+        font-size: 19px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology .stack-technology .item-tech span {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology .stack-technology .item-tech p {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stage-header {
+        font-size: 21px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages span {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stage-descr {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stages-design span {
+        margin-bottom: 21px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stages-design p {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project  .stage-p{
+        font-size: 15px; 
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-left-block p {
+        font-size: 21px;
+    }
+    .menu-right-project .container-menu-right-project  #call-left-block-span {
+        font-size: 15px;
+        position: relative;
+    }
+    .menu-right-project .container-menu-right-project .callback-form-block input {
+        font-size: 1rem;
+    }
+    .menu-right-project .container-menu-right-project .callback-form-block {
+        padding: 7px 20px 7px 20px;
+        width: 300px;
+    }
+    .menu-right-project .container-menu-right-project .callback-form-block label {
+        font-size: 14px;
+    }
+    .menu-right-project .container-menu-right-project .footer .footer-block {
+        margin-right: 50px;
+        font-size: 0.55rem;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-left-block {
+        margin: 30px 0 25px 25px;
+        
 
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
+        height: 230px;
+        margin-top: 45px;
+        margin-left: -50px;
+    }
+    .desc-right-column-project{
+        font-size: 0.788rem;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report span {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report span{
+        font-size: 15px;  
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a {
+        display: block;
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report p {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat span {
+        font-size: 42px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat:last-child span {
+        font-size: 73px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column {
+        max-width: 405px;
+        min-width: 350px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left span {
+        font-size: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left p {
+        font-size: 15px;
+    }
+    .share-right{
+        margin-right: 35px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-right .share-social-vk {
+        background: #4680c2;
+    }
+    
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-right .share-social {
+        width: 40px;
+        height: 40px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback p {
+        font-size: 21px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats {
+        padding: 10px 0px 15px 25px;
+        width: 93%;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+        width: 325px;
+        font-size: 15px;
+        padding: 17px 25px 18px 25px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .project-sticker {
+        width: 200px;
+        height: 133px;
+    }
+       
+}
 @media (max-width:575.98px) {
     #app-projects .container-projects-content .card-projects-navigate .card-nav {
         margin-left: 50px;
@@ -7540,7 +7718,7 @@ overflow: visible;
         position: absolute;
         top: 0;
         width: 100vw;
-        z-index: 3;
+        z-index: 6;
         padding: 30px 30px 0 30px
     }
     .header .logo {
@@ -7560,13 +7738,17 @@ overflow: visible;
     .header nav {
         display: none
     }
+    .callback-chat {
+        z-index: 4;
+    }
     .header-left-column {
+        z-index: 5 !important;
         background: #7300cc;
         position: fixed;
         width: 100vw !important;
-        height: 100vh;
+        height: 93vh;
         left: -100vw;
-        padding: 130px 30px 45px 30px !important;
+        padding: 130px 30px 18px 30px !important;
         -webkit-box-align: start;
         -webkit-align-items: start;
         -ms-flex-align: start;
@@ -7648,7 +7830,7 @@ overflow: visible;
         display: block
     }
     .screen .background-screen .info-main {
-        margin: 0 30px 0 30px;
+        margin: 0 30px 0 30px !important;
         text-align: center;
         height: 100vh;
         display: -webkit-box;
@@ -7769,8 +7951,13 @@ overflow: visible;
         height: 100vh;
         border-radius: 0
     }
+    .wrapper-callback-form-mobile .wrapper-callback-form-open svg{
+        height: 17px !important;
+        width: 17px;
+        margin-top: 9px;
+    }
     .modal-template {
-        z-index: 4
+        z-index: 9
     }
     .modal-block-success {
         padding: 50px 40px 55px 40px;
