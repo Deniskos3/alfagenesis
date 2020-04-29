@@ -4041,7 +4041,8 @@ form .validate_flag {
 
 .callback-form-block label {
     color: #bebebe;
-    line-height: 19px
+    line-height: 19px;
+    font-size: 0.889rem;
 }
 
 .callback-form-block input {
@@ -4319,7 +4320,7 @@ form .validate_flag {
     display: none;
     font-family: ubuntu-medium, sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px
 }
 
@@ -4343,7 +4344,7 @@ form .validate_flag {
 .form-control-btn .btn-form-callback {
     cursor: pointer;
     margin-top: 0;
-    font-size: 15px;
+    font-size: 0.834rem;
     line-height: 21px;
     color: #000;
     font-family: ubuntu-bold, sans-serif
@@ -4387,7 +4388,7 @@ form .validate_flag {
     box-shadow: 0 10px 20px rgba(255, 226, 11, .3);
     border-radius: 30px;
     color: #000;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     cursor: pointer
 }
@@ -4693,7 +4694,7 @@ overflow: visible !important;
 .menu-right .container-menu-right,
 .menu-right .container-projects-content {
     max-width: 1201px;
-    margin: 90px 175px 0 110px
+    margin: 50px 175px 0 110px
 }
 
 .menu-right .container-menu-right h2,
@@ -5050,7 +5051,7 @@ overflow: visible !important;
 .header .logo a {
     display: block;
     font-family: ubuntu-medium, sans-serif;
-    font-size: 36px;
+    font-size: 2rem;
     color: #810ddb;
     line-height: 41px;
     padding: 5px 19px 11px 19px
@@ -5169,7 +5170,7 @@ overflow: visible !important;
     color: #810ddb;
     background: #fff;
     border-radius: 10px;
-    font-size: 36px;
+    font-size: 2rem;
     line-height: 36px;
     font-family: ubuntu-medium, sans-serif
 }
@@ -5216,7 +5217,7 @@ overflow: visible !important;
     margin-top: 17px;
     color: #efdbff;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.667rem;
     line-height: 14px;
     font-weight: 700
 }
@@ -5240,7 +5241,16 @@ overflow: visible !important;
     margin-left: 68px;
 }
 #screenmain .footer {
+    max-width: 800px;
     margin-left: 57px;
+    width: 52.5%;
+    justify-content: space-between;
+}
+#screenmain .footer .footer-block {
+     margin-right: 0px;
+}
+#screenmain .footer .footer-block:last-child {
+    margin-left: 0px;
 }
 .footer {
     margin-left: 63px;
@@ -5360,7 +5370,7 @@ overflow: visible !important;
 }
 
 .flex-wrapper-screen {
-    height: 93vh;
+    height: 100vh;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -5431,12 +5441,12 @@ overflow: visible !important;
 
 .screen-work .screen-page-work .info-main {
     position: relative;
-    top:50px
+    top:58px
 }
 
 .screen-work .screen-page-work .info-main h1 {
     margin-bottom: 35px;
-    font-size: 48px;
+    font-size: 2.667rem;
     line-height: 56px;
     font-weight: 400
 }
@@ -5457,7 +5467,7 @@ overflow: visible !important;
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work, .screen .screen-page .container-content-work .wrapper-cards-work .card-work {
     position: relative;
     width: 270px;
-    height: 355px;
+    height: 376px;
     background-color: #d8d8d8;
     border-radius: 31px;
     padding: 40px 30px 30px 30px;
@@ -5483,13 +5493,13 @@ overflow: visible !important;
 }
 
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work .card-work-stage, .screen .screen-page .container-content-work .wrapper-cards-work .card-work .card-work-stage {
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     margin-bottom: 8px
 }
 
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work .card-work-header, .screen .screen-page .container-content-work .wrapper-cards-work .card-work .card-work-header {
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px;
     font-weight: 700
 }
@@ -5509,11 +5519,12 @@ overflow: visible !important;
     position: relative;
     left: 0;
     top: 0;
-    width: auto
+    width: auto;
+    
 }
 
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work .card-work-description, .screen .screen-page .container-content-work .wrapper-cards-work .card-work .card-work-description {
-    font-size: 14px;
+    font-size: 0.778rem;
     line-height: 16px;
     margin-bottom: 25px
 }
@@ -5532,7 +5543,7 @@ overflow: visible !important;
     -ms-flex-align: center;
     align-items: center;
     color: #1a1a1a;
-    font-size: 14px;
+    font-size: 0.778rem;
     line-height: 16px;
     text-decoration: underline
 }
@@ -5545,15 +5556,28 @@ overflow: visible !important;
 
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work:hover, .screen .screen-page .container-content-work .wrapper-cards-work .card-work:hover {
     background-color: #8f00ff;
-    color: #fff
+    color: #fff;
+    -o-transition: all 0.53s ease-in-out;
+    -moz-transition: all 0.53s ease-in-out;
+    -webkit-transition: all 0.53s ease-in-out;
+    transition: all 0.53s ease-in-out;
 }
 
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work:hover svg path, .screen .screen-page .container-content-work .wrapper-cards-work .card-work:hover svg path {
-    fill: #fff
+    fill: #fff;
+    -o-transition: all 0.47s ease-in-out;
+    -moz-transition: all 0.47s ease-in-out;
+    -webkit-transition: all 0.47s ease-in-out;
+    transition: all 0.47s ease-in-out;
 }
 
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work:hover a, .screen .screen-page .container-content-work .wrapper-cards-work .card-work:hover a {
-    color: #fff
+    color: #fff;
+    -o-transition: all 0.43s ease-in-out;
+    -moz-transition: all 0.43s ease-in-out;
+    -webkit-transition: all 0.43s ease-in-out;
+    transition: all 0.43s ease-in-out;
+    
 }
 
 #app-projects .container-projects-content {
@@ -5562,7 +5586,7 @@ overflow: visible !important;
 }
 
 #app-projects .container-projects-content h2 {
-    font-size: 48px;
+    font-size: 2.667rem;
     line-height: 55px;
     font-family: ubuntu-regular, sans-serif;
     font-weight: 400;
@@ -5590,7 +5614,7 @@ overflow: visible !important;
 }
 
 #app-projects .container-projects-content .project-navigate ul li a {
-    font-size: 18px;
+    font-size: 1rem;
     font-family: ubuntu-regular, sans-serif;
     line-height: 21px;
     color: #000;
@@ -5664,7 +5688,7 @@ overflow: visible !important;
 #app-projects .container-projects-content .card-projects-navigate .card-nav h3 {
     font-family: ubuntu-bold, sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     margin-bottom: 14px
 }
@@ -5673,7 +5697,7 @@ overflow: visible !important;
     font-family: ubuntu-light, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.778rem;
     line-height: 16px
 }
 
@@ -5771,7 +5795,7 @@ overflow: visible !important;
 }
 
 .screen-contacts .info-main .container-content-contacts h1 {
-    font-size: 48px;
+    font-size: 2.667rem;
     line-height: 56px;
     font-weight: 400;
     color: #0e0e0e;
@@ -5781,7 +5805,7 @@ overflow: visible !important;
 .screen-contacts .info-main .container-content-contacts header {
     font-family: ubuntu-medium, sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px;
     margin-bottom: 15px
 }
@@ -5791,7 +5815,7 @@ overflow: visible !important;
 .screen-contacts .info-main .container-content-contacts span {
     font-family: ubuntu-regular, sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 0.889rem;
     line-height: 18px
 }
 
@@ -5814,7 +5838,7 @@ overflow: visible !important;
 
 .screen-contacts .info-main .container-content-contacts .content-contacts-left .content-contacts-address address {
     font-family: ubuntu-medium, sans-serif;
-    font-size: 16px;
+    font-size: 0.889rem;
     line-height: 18px
 }
 
@@ -5841,7 +5865,7 @@ overflow: visible !important;
 .screen-contacts .info-main .container-content-contacts .content-contacts-left .content-contacts-question p {
     font-family: ubuntu-medium, sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px
 }
 
@@ -5879,7 +5903,7 @@ overflow: visible !important;
 
 .screen-services .info-main h1 {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 2.667rem;
     line-height: 56px;
     margin-bottom: 53px
 }
@@ -5887,7 +5911,7 @@ overflow: visible !important;
 .screen-services .info-main .container-content-services header {
     color: #000;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     margin-bottom: 30px
 }
@@ -5940,32 +5964,32 @@ overflow: visible !important;
 }
 
 .screen-services .info-main .container-content-services .services-cards-wrapper .services-card .s-card-header {
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     margin-bottom: 8px
 }
 
 .screen-services .info-main .container-content-services .services-cards-wrapper .services-card .s-card-title {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.2223rem;
     line-height: 26px
 }
 
 .screen-services .info-main .container-content-services .services-cards-wrapper .services-card .s-card-description {
-    font-size: 14px;
+    font-size: 0.778rem;
     line-height: 16px;
     color: #707070
 }
 
 .screen-services .info-main .container-content-services .services-cards-wrapper .services-card .s-card-title_price {
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     margin-bottom: 3px
 }
 
 .screen-services .info-main .container-content-services .services-cards-wrapper .services-card .s-card-price {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px
 }
 
@@ -5987,7 +6011,7 @@ overflow: visible !important;
 
 .screen-services .info-main .container-content-services .content-services-main .services-card-large .s-card-title {
     margin-bottom: 17px;
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px;
     color: #000
 }
@@ -6055,7 +6079,7 @@ overflow: visible !important;
 
 .menu-right-project .container-menu-right-project {
     max-width: 1300px;
-    margin: 90px 50px 55px 110px;
+    margin: 90px 100px 55px 110px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -6080,13 +6104,13 @@ overflow: visible !important;
     margin-top: 12px;
     margin-bottom: 34px;
     color: #000;
-    font-size: 48px;
+    font-size: 2.667rem;
     line-height: 56px
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-sort-link {
     color: #8f00ff;
-    font-size: 16px;
+    font-size: 0.889rem;
     line-height: 19px;
     font-weight: 400;
     text-decoration: underline
@@ -6099,13 +6123,13 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-task {
     font-family: ubuntu-medium, sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px;
     margin-bottom: 24px
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-task-description {
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #1a1a1a;
     width: 98%;
@@ -6130,7 +6154,7 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology p {
     font-family: ubuntu-medium, sans-serif;
     margin-bottom: 45px;
-    font-size: 24px;
+    font-size: 1.334rem;
     color: #1a1a1a;
     line-height: 28px
 }
@@ -6155,14 +6179,14 @@ overflow: visible !important;
     display: block;
     font-family: ubuntu-medium, sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #1a1a1a;
     margin-bottom: 6px
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology .stack-technology .item-tech p {
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #ff0202;
     margin-bottom: 0;
@@ -6177,7 +6201,7 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stage-header {
     font-family: ubuntu-regular, sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px;
     color: #1a1a1a;
     margin-bottom: 23px
@@ -6186,7 +6210,7 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages span {
     display: block;
     font-family: ubuntu-bold, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #1a1a1a
 }
@@ -6194,7 +6218,7 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stage-descr {
     font-family: ubuntu-regular, sans-serif;
     margin: 24px 0;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #1a1a1a
 }
@@ -6221,16 +6245,19 @@ overflow: visible !important;
     display: block;
     margin-bottom: 24px;
     font-family: ubuntu-bold, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #1a1a1a
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stages-design p {
     font-family: ubuntu-regular, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #1a1a1a
+}
+.stage-p{
+    font-size: 1rem;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stages-design .stages-design-colors {
@@ -6342,14 +6369,14 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-left-block p {
     font-family: ubuntu-medium, sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px;
     color: #212121;
     margin-bottom: 25px
 }
 
 #call-left-block-span{
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     display: block;
     margin-bottom: 26px
@@ -6598,14 +6625,14 @@ overflow: visible !important;
     display: block;
     margin-bottom: 10px;
     font-family: roboto-bold, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #000
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a {
     display: block;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
@@ -6617,7 +6644,7 @@ overflow: visible !important;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report p {
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #000
 }
@@ -6657,14 +6684,14 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat span {
     display: block;
     margin-bottom: 4px;
-    font-size: 48px;
+    font-size: 2.667rem;
     line-height: 55px;
     color: #1a1a1a
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
     font-family: ubuntu-regular, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #1a1a1a
 }
@@ -6674,7 +6701,7 @@ overflow: visible !important;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat:last-child span {
-    font-size: 80px;
+    font-size: 4.445rem;
     margin-left: -3px;
 }
 
@@ -6699,7 +6726,7 @@ overflow: visible !important;
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left span {
     font-family: roboto-bold, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     color: #000;
     display: block;
@@ -6708,7 +6735,7 @@ overflow: visible !important;
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left p {
     color: #000;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px
 }
 
@@ -6787,7 +6814,7 @@ overflow: visible !important;
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback p {
     font-family: roboto-bold, sans-serif;
-    font-size: 24px;
+    font-size: 1.334rem;
     line-height: 28px;
     color: #000;
     margin-bottom: 22px
@@ -6805,7 +6832,7 @@ overflow: visible !important;
     justify-content: center;
     color: #000;
     font-family: ubuntu-bold, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 21px;
     padding: 20px 30px 21px 30px
 }
@@ -6854,7 +6881,8 @@ overflow: visible !important;
 }
 
 .menu-project-left-column .footer .footer-block p {
-    color: #d8d8d8
+    color: #d8d8d8;
+    font-size: 0.667rem;
 }
 
 .menu-project-left-column .footer .footer-social svg {
@@ -6864,7 +6892,9 @@ overflow: visible !important;
 .menu-project-left-column .footer .footer-social .social a:hover svg path {
     fill: #bfbfbf
 }
-
+.desc-right-column-project{
+    font-size: 0.889rem;
+}
 .modal-block-police {
     height: 100vh;
     width: 100%;
@@ -7215,7 +7245,7 @@ overflow: visible;
     margin-bottom: 0
 }
 .header-left-column .menu li a svg {
-    width: 36% !important;
+    width: 31.8% !important;
     height: 15% !important;
 }
 
@@ -7265,8 +7295,10 @@ overflow: visible;
     .screen-projects .container-custom {
         max-width: 100%;
         margin-left: 10%;
+        
     }
     .menu-right-project .container-menu-right-project {
+        margin: 85px 126px 0 110px;
         max-width: 1430px;
     }
     #container-cust{
@@ -7276,14 +7308,15 @@ overflow: visible;
         padding: 13% 15px 13% 15px;
         
     }
-    .header-left-column .menu li a svg {
-    width: 37% !important;
-    height: 16% !important;
-    }
+    
     .container-scroll{
 
         min-width: 419px;
         max-width: 479px;
+    }
+    .header-left-column .menu li a svg {
+        width: 34% !important;
+        height: 13% !important;
     }
 
 }
@@ -7294,6 +7327,9 @@ overflow: visible;
     .mCSB_scrollTools {
     opacity: 0 !important;
     }
+    #screenmain .footer {
+        max-width: 1200px;
+    }
     #screenmain .menu-right .container-menu-right{
         margin: 13.5vw 175px 0 110px;
     }
@@ -7302,7 +7338,13 @@ overflow: visible;
     }
 }
 @media (min-width: 1600px) and (max-width: 2400px){
-    
+    .menu-right .container-menu-right{
+        margin: 85px 175px 0 110px;
+    }
+    .header-left-column .menu li a svg {
+        width: 37% !important;
+        height: 16% !important;
+        }
     .container-scroll{
         min-width: 465px;
         max-width: 553px;
@@ -7320,13 +7362,21 @@ overflow: visible;
     
    
 }
+@media (min-width: 2400px) and (max-width: 4000px){
+.menu-right .container-menu-right{
+    margin: 11.9vw 175px 0 110px;
+}
+}
 @media (min-width: 1800px) and (max-width: 2400px){
+    .menu-right .container-menu-right{
+        margin: 110px 175px 0 110px;
+    }
      .header-left-column .menu li a {
         padding: 15% 15px 15% 15px;
     }
     .header-left-column .menu li a svg {
-        width: 46% !important;
-        height: 23% !important;
+        width: 41% !important;
+        height: 21% !important;
     }
     .container-scroll{
         min-width: 545px ;
@@ -7334,6 +7384,13 @@ overflow: visible;
     }  
 }
 @media (min-width: 2000px) and (max-width: 2400px){
+    .menu-right .container-menu-right{
+        margin: 160px 175px 0 110px;
+    }
+    .header-left-column .menu li a svg {
+        width: 44% !important;
+        height: 22% !important;
+    }
     .container-scroll{
         min-width: 545px ;
         max-width: 690px ;
@@ -7343,6 +7400,10 @@ overflow: visible;
     }
 }
 @media (min-width: 2400px) and (max-width: 2500px){
+    .menu-right .container-menu-right{
+        margin: 180px 175px 0 110px;
+    }
+    
     .container-scroll{
         min-width: 600px;
         max-width: 803px !important;
@@ -7359,8 +7420,8 @@ overflow: visible;
         height: 93%;
     }
     .header-left-column .menu li a svg {
-    width: 73% !important;
-    height: 42% !important;
+    width: 59% !important;
+    height: 34% !important;
 }
 .header-left-column .menu li a {
     padding: 22% 15px 21% 15px;
@@ -7394,7 +7455,7 @@ overflow: visible;
 }
 @media (min-width: 1400.98px) and (max-width: 1570.98px){
 .menu-right-project .container-menu-right-project {
-    max-width: 1180px !important;
+    max-width: 1250px !important;
 }
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
     height: 245px;
@@ -7404,8 +7465,72 @@ overflow: visible;
 .menu-right-project .container-menu-right-project #call-left-block-span {
     position: relative;
 }
+.menu-right-project .container-menu-right-project .menu-project-left-column {
+    max-width: 800px;
+    min-width: 680px;
 }
-@media (min-width: 586.98px) and (max-width:1370px){
+.menu-right-project .container-menu-right-project .menu-project-right-column {
+    max-width: 405px;
+    min-width: 350px;
+}
+}
+@media (min-width: 596.98px) and (max-width:1270px){
+   
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+        width: 300px;
+    }
+    .menu-right .container-menu-right{
+        margin: 05px 175px 0 110px;
+    }
+    #screenmain .menu-right {
+        width: 135%;
+    }
+    /* #screenmain .js-page-scroll-main{
+        -webkit-flex-flow: row wrap; 
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    } */
+    .js-page-scroll-main-projects {
+        -webkit-flex-flow: row wrap; 
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    #screenmain .footer {
+        width: 51.5%;
+    }
+    .menu-right-project .container-menu-right-project {
+        max-width: 970px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column {
+        max-width: 640px;
+    min-width: 430px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column {
+        max-width: 305px;
+        min-width: 190px;
+    }
+    html{
+        font-size: 14px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
+        height: 225px;
+        margin-top: 60px;
+        margin-left: -90px;
+    }
+
+    .menu-right-project .container-menu-right-project .callback-form-block {
+        padding: 7px 10px 7px 15px;
+        width: 270px;
+    }
+}
+@media (min-width: 1270px) and (max-width:1370px){
+    #screenmain .menu-right {
+        width: 110%;
+    }
+    .menu-right .container-menu-right{
+        margin: 30px 175px 0 110px;
+    }
+ 
     .js-page-scroll-projects{
         max-width: 1150px;
     }
@@ -7512,8 +7637,8 @@ overflow: visible;
         font-size: 15px;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column {
-        max-width: 405px;
-        min-width: 350px;
+        max-width: 375px;
+        min-width: 300px;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left span {
         font-size: 15px;
@@ -7544,13 +7669,12 @@ overflow: visible;
         font-size: 15px;
         padding: 17px 25px 18px 25px;
     }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .project-sticker {
-        width: 200px;
-        height: 133px;
-    }
        
 }
 @media (max-width:575.98px) {
+    .flex-wrapper-screen {
+        height: 93vh;
+    }
     #app-projects .container-projects-content .card-projects-navigate .card-nav {
         margin-left: 50px;
         margin-right: 0px;
