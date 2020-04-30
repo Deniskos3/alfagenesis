@@ -3986,8 +3986,9 @@ label {
 }
 
 .container-custom {
-    max-width: 1340px;
-    margin: 0 auto
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-left: 150px;
 }
 
 .container-custom-p {
@@ -5441,7 +5442,8 @@ overflow: visible !important;
 
 .screen-work .screen-page-work .info-main {
     position: relative;
-    top:58px
+    top:58px;
+    margin-left: 135px;
 }
 
 .screen-work .screen-page-work .info-main h1 {
@@ -5460,8 +5462,17 @@ overflow: visible !important;
 .screen-work .screen-page-work .info-main .container-content-work svg, .screen .screen-page .container-content-work svg {
     position: absolute;
     top: 20%;
-    left: 0;
-    width: 100%
+    left: 0px;
+    width: 120%;
+}
+.screen-work .header .menu li:last-child a{
+    margin-right: 0px;
+}
+.screen-work .header .menu {
+    min-width: 670px;
+}
+.downline{
+    text-decoration: underline;
 }
 
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work, .screen .screen-page .container-content-work .wrapper-cards-work .card-work {
@@ -5898,7 +5909,7 @@ overflow: visible !important;
 }
 
 .screen-services .info-main {
-    margin: 70px 0 100px 0
+    margin: 70px 23px 100px 0
 }
 
 .screen-services .info-main h1 {
@@ -7175,9 +7186,9 @@ overflow: visible !important;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    /* -webkit-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
-    flex-flow: row wrap */
+    flex-flow: row wrap
 }
 
 .js-page-scroll-section {
@@ -7290,13 +7301,13 @@ overflow: visible;
 .hidden {
     display: none
 }
-
+@media (min-width:1500px) {
+.screen-projects .container-custom {
+    max-width: 100%; 
+}
+}
 @media (min-width:1400px) {
-    .screen-projects .container-custom {
-        max-width: 100%;
-        margin-left: 10%;
-        
-    }
+  
     .menu-right-project .container-menu-right-project {
         margin: 85px 126px 0 110px;
         max-width: 1430px;
@@ -7330,17 +7341,17 @@ overflow: visible;
     #screenmain .footer {
         max-width: 1200px;
     }
-    #screenmain .menu-right .container-menu-right{
+    /* #screenmain .menu-right .container-menu-right{
         margin: 13.5vw 175px 0 110px;
-    }
+    } */
     html{
         font-size: 24px
     }
 }
 @media (min-width: 1600px) and (max-width: 2400px){
-    .menu-right .container-menu-right{
+    /* .menu-right .container-menu-right{
         margin: 85px 175px 0 110px;
-    }
+    } */
     .header-left-column .menu li a svg {
         width: 37% !important;
         height: 16% !important;
@@ -7362,15 +7373,10 @@ overflow: visible;
     
    
 }
-@media (min-width: 2400px) and (max-width: 4000px){
-.menu-right .container-menu-right{
-    margin: 11.9vw 175px 0 110px;
-}
-}
 @media (min-width: 1800px) and (max-width: 2400px){
-    .menu-right .container-menu-right{
+    /* .menu-right .container-menu-right{
         margin: 110px 175px 0 110px;
-    }
+    } */
      .header-left-column .menu li a {
         padding: 15% 15px 15% 15px;
     }
@@ -7384,9 +7390,9 @@ overflow: visible;
     }  
 }
 @media (min-width: 2000px) and (max-width: 2400px){
-    .menu-right .container-menu-right{
+    /* .menu-right .container-menu-right{
         margin: 160px 175px 0 110px;
-    }
+    } */
     .header-left-column .menu li a svg {
         width: 44% !important;
         height: 22% !important;
@@ -7400,9 +7406,9 @@ overflow: visible;
     }
 }
 @media (min-width: 2400px) and (max-width: 2500px){
-    .menu-right .container-menu-right{
+    /* .menu-right .container-menu-right{
         margin: 180px 175px 0 110px;
-    }
+    } */
     
     .container-scroll{
         min-width: 600px;
@@ -7474,7 +7480,10 @@ overflow: visible;
     min-width: 350px;
 }
 }
-@media (min-width: 596.98px) and (max-width:1270px){
+@media (min-width: 586.98px) and (max-width:1270px){
+    .screen-work .header .menu {
+        min-width: 580px;
+    }
    
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
         width: 300px;
@@ -7485,16 +7494,8 @@ overflow: visible;
     #screenmain .menu-right {
         width: 135%;
     }
-    /* #screenmain .js-page-scroll-main{
-        -webkit-flex-flow: row wrap; 
-        -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    } */
-    .js-page-scroll-main-projects {
-        -webkit-flex-flow: row wrap; 
-        -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    }
+  
+  
     #screenmain .footer {
         width: 51.5%;
     }
@@ -7524,12 +7525,21 @@ overflow: visible;
     }
 }
 @media (min-width: 1270px) and (max-width:1370px){
+    .screen-work .header .menu {
+        min-width: 610px;
+    }
+    .js-page-scroll-main-projects {
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
     #screenmain .menu-right {
         width: 110%;
     }
-    .menu-right .container-menu-right{
+
+    /* .menu-right .container-menu-right{
         margin: 30px 175px 0 110px;
-    }
+    } */
  
     .js-page-scroll-projects{
         max-width: 1150px;
@@ -7672,6 +7682,15 @@ overflow: visible;
        
 }
 @media (max-width:575.98px) {
+    .screen-work .header .menu {
+        min-width: 0px;
+    }
+    .container-custom {
+        margin-left: 0px;
+    }
+    .screen-work .screen-page-work .info-main {
+        margin-left: 0px;
+    }
     .flex-wrapper-screen {
         height: 93vh;
     }
@@ -8152,7 +8171,8 @@ overflow: visible;
     .screen-work .screen-page-work .info-main .container-content-work svg {
         top: -70px;
         height: -webkit-calc(100% + 140px);
-        height: calc(100% + 140px)
+        height: calc(100% + 140px);
+        width: 100%
     }
     .screen-work .screen-page-work .info-main .container-content-work .js-page-scroll-main {
         padding: 0
@@ -8276,7 +8296,8 @@ overflow: visible;
     }
     #app-services .info-main {
         margin-top: 100px;
-        margin-bottom: 40px
+        margin-bottom: 40px;
+        margin-right: 0px;
     }
     #app-services .info-main h1 {
         font-size: 24px;
@@ -8759,3 +8780,45 @@ overflow: visible;
     }
     
 }
+
+@media (min-height: 820px) and (max-height:850px){
+    #screenmain .menu-right .container-menu-right{
+        margin: 13vh 175px 0 110px;
+    }
+}
+@media (min-height: 850px) and (max-height:950px){
+    #screenmain .menu-right .container-menu-right{
+        margin: 14.1vh 175px 0 110px;
+    }
+}
+@media (min-height: 950px) and (max-height:1050px){
+    #screenmain .menu-right .container-menu-right{
+        margin: 14.9vh 175px 0 110px;
+    }
+} 
+@media (min-height: 1050px) and (max-height:1200px){
+    #screenmain .menu-right .container-menu-right{
+        margin: 17.3vh 175px 0 110px;
+    }
+}
+@media (min-height: 1200px) and (max-height:1400px){
+    #screenmain .menu-right .container-menu-right{
+        margin: 20vh 175px 0 110px;
+    }
+}
+@media (min-height: 1400px) and (max-height:1690px){
+    #screenmain .menu-right .container-menu-right{
+        margin: 28vh 175px 0 110px;
+    }
+}
+@media (min-height: 1690px){
+.menu-right .container-menu-right{
+    margin: 31.9vh 175px 0 110px;
+}
+}
+@media (min-height: 2690px){
+    .menu-right .container-menu-right{
+        margin: 37.9vh 175px 0 110px;
+    }
+}
+
