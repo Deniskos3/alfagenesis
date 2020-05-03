@@ -406,7 +406,8 @@ template {
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    -ms-overflow-style: scrollbar
+    -ms-overflow-style: scrollbar;
+    overflow-y: hidden;
 }
 
 *,
@@ -3998,6 +3999,17 @@ label {
 .hidden {
     display: none ;
 }
+form .validate_flag_green{
+    color:black;
+    position: absolute;
+    left: 19px;
+    top:0px;
+    display: none;
+}
+form .validate_flag_green svg{
+    height: 14px;
+    width: 16px;
+}
 form .validate_flag {
     cursor: default;
 }
@@ -4420,7 +4432,10 @@ form .validate_flag {
     width: 50px;
     height: 50px
 }
-
+.screen-page-services .btn-plus svg {
+    width: 25px;
+    height: 25px
+}
 .btn-plus svg {
     width: 30px;
     height: 30px
@@ -4436,14 +4451,19 @@ form .validate_flag {
 
 .btn-absolute {
     position: absolute;
-    bottom: 30px;
-    right: 30px
+    bottom: 28px;
+    right: 28px
 }
-
+#openprojects #mCSB_1_scrollbar_horizontal{
+    opacity: .0 !important;
+}
 .screen-page {
     position: relative
 }
-
+.vivbleproj{
+    overflow: visible;
+    height: 850px;
+}
 .full_opened_menu {
     left: 150px!important
 }
@@ -4653,8 +4673,8 @@ form .validate_flag {
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
     cursor: pointer;
-    width: 64px;
-    height: 64px;
+    width: 59px;
+    height: 59px;
     position: fixed;
     display: -webkit-box;
     display: -webkit-flex;
@@ -5085,7 +5105,7 @@ overflow: visible !important;
     display: block;
     color: #fff;
     text-transform: uppercase;
-    margin-right: 85px; 
+    margin-right: 80px; 
     border-bottom: 6px solid transparent;
     padding: 6px 0
 }
@@ -5203,7 +5223,7 @@ overflow: visible !important;
 }
 
 .header-left-column .menu li a {
-    padding: 20px 15px;
+    padding: 20px 3px;
     display: block;
     text-align: center;
     border-radius: 8px;
@@ -5288,7 +5308,7 @@ overflow: visible !important;
 }
 
 .footer .footer-block p {
-    color: #aa8ebf;
+    color: #D8D8D8;
     margin-bottom: 4px;
     cursor: default
 }
@@ -5323,6 +5343,7 @@ overflow: visible !important;
 }
 
 .footer .footer-social .social {
+    margin-top: -6.8px;
     margin-left: 25px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -5442,28 +5463,32 @@ overflow: visible !important;
 
 .screen-work .screen-page-work .info-main {
     position: relative;
-    top:58px;
+    top:2%;
     margin-left: 135px;
 }
 
 .screen-work .screen-page-work .info-main h1 {
     margin-bottom: 35px;
-    font-size: 2.667rem;
-    line-height: 56px;
+    font-size: 2.107rem;
+    line-height: 26px;
     font-weight: 400
 }
 .container-menu-right-custom {
     margin: 170px 175px 0 150px!important;
 }
 .screen-work .screen-page-work .info-main .container-content-work, .screen .screen-page .container-content-work{
-    position: relative
+    position: relative;
+    
+}
+.screen-work .screen-page-work .info-main .container-content-work{
+    
 }
 
 .screen-work .screen-page-work .info-main .container-content-work svg, .screen .screen-page .container-content-work svg {
     position: absolute;
     top: 20%;
-    left: 0px;
-    width: 120%;
+    left: -51%;
+    width: 150vw;
 }
 .screen-work .header .menu li:last-child a{
     margin-right: 0px;
@@ -5474,11 +5499,16 @@ overflow: visible !important;
 .downline{
     text-decoration: underline;
 }
-
+#firstshag{
+    height: 338px;
+}
+#secondshag{
+    height: 356px;
+}
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work, .screen .screen-page .container-content-work .wrapper-cards-work .card-work {
     position: relative;
     width: 270px;
-    height: 376px;
+    height: 372px;
     background-color: #d8d8d8;
     border-radius: 31px;
     padding: 40px 30px 30px 30px;
@@ -5502,7 +5532,9 @@ overflow: visible !important;
   -webkit-transition: all 0.43s ease-in-out;
   transition: all 0.43s ease-in-out;
 }
-
+.screen-work .footer {
+    margin-top: 0.8%;
+}
 .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work .card-work-stage, .screen .screen-page .container-content-work .wrapper-cards-work .card-work .card-work-stage {
     font-size: 1rem;
     line-height: 21px;
@@ -5593,7 +5625,7 @@ overflow: visible !important;
 
 #app-projects .container-projects-content {
     max-width: 1201px;
-    margin: 90px 20px 90px 160px
+    margin: 90px 20px 90px 156px
 }
 
 #app-projects .container-projects-content h2 {
@@ -5890,7 +5922,7 @@ overflow: visible !important;
     -ms-flex-align: center;
     align-items: center;
     color: #000;
-    font-family: ubuntu-regular, sans-serif;
+    font-family: ubuntu-bold, sans-serif;
     font-size: 18px;
     line-height: 21px;
     text-decoration: none
@@ -5905,9 +5937,12 @@ overflow: visible !important;
     position: relative;
     margin: auto;
     width: 721px;
-    height: 631px
+    height: 631px;
+    margin-right: 30px;
 }
-
+#screenmain .footer-name span{
+    color: #D8D8D8 !important;
+}
 .screen-services .info-main {
     margin: 70px 23px 100px 0
 }
@@ -5993,14 +6028,14 @@ overflow: visible !important;
 }
 
 .screen-services .info-main .container-content-services .services-cards-wrapper .services-card .s-card-title_price {
-    font-size: 1rem;
+    font-size: 0.85rem;
     line-height: 21px;
     margin-bottom: 3px
 }
 
 .screen-services .info-main .container-content-services .services-cards-wrapper .services-card .s-card-price {
     font-weight: 700;
-    font-size: 1.334rem;
+    font-size: 1.13rem;
     line-height: 28px
 }
 
@@ -6012,7 +6047,7 @@ overflow: visible !important;
 .screen-services .info-main .container-content-services .content-services-main .services-card-large {
     padding: 40px;
     width: 565px;
-    height: 392px;
+    height: 372px;
     background: #f9f9f9
 }
 
@@ -6034,7 +6069,7 @@ overflow: visible !important;
 .screen-services .info-main .container-content-services .content-services-main .services-card-default {
     padding: 40px 30px 30px 30px;
     width: 270px;
-    height: 392px;
+    height: 372px;
     background: #8f00ff
 }
 
@@ -6052,7 +6087,16 @@ overflow: visible !important;
 .screen-services .info-main .container-content-services .content-services-additionally .services-card-normal {
     padding: 30px 35px;
     width: 270px;
-    height: 275px
+    height: 272px
+}
+.screen-services .info-main .container-content-services .content-services-additionally .services-card-normal {
+    padding: 30px 35px;
+    width: 270px;
+    height: 242px;
+    min-width: 150px;
+}
+.screen-services .info-main .container-content-services .content-services-additionally .services-card-normal:first-child {
+    height: 240px
 }
 
 .screen-services .info-main .container-content-services .content-services-additionally .services-card-orange {
@@ -6087,10 +6131,14 @@ overflow: visible !important;
 .screen-services .info-main .container-content-services .content-services-additionally .services-card-light .s-card-title_price {
     color: #131313
 }
-
+.screen-projects .menu-right{
+    overflow: hidden;
+}
 .menu-right-project .container-menu-right-project {
-    max-width: 1300px;
-    margin: 90px 100px 55px 110px;
+    overflow-y: scroll;
+    height: 100vh;
+    max-width: 1421px;
+    margin: 0px 100px 55px 110px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -6109,13 +6157,15 @@ overflow: visible !important;
 .menu-right-project .container-menu-right-project .menu-project-left-column {
     max-width: 880px;
     min-width: 680px;
+    margin-top: 90px;
+    
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column h2 {
     margin-top: 12px;
     margin-bottom: 34px;
     color: #000;
-    font-size: 2.667rem;
+    font-size: 2.6rem;
     line-height: 56px
 }
 
@@ -6132,7 +6182,7 @@ overflow: visible !important;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-task {
-    font-family: ubuntu-medium, sans-serif;
+    font-family: ubuntu-regular, sans-serif;
     font-weight: 500;
     font-size: 1.334rem;
     line-height: 28px;
@@ -6144,6 +6194,7 @@ overflow: visible !important;
     line-height: 21px;
     color: #1a1a1a;
     width: 98%;
+    font-family: ubuntu-regular,sans-serif;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-left-column img {
@@ -6580,6 +6631,14 @@ overflow: visible !important;
     align-items: center
 }
 
+.menu-right-project .container-menu-right-project::-webkit-scrollbar-thumb:vertical   {
+background-color:#EAEAEA;
+
+}
+.menu-right-project .container-menu-right-project::-webkit-scrollbar-track-piece  {
+background-color: #F8F8F8;
+}
+
 .menu-right-project .container-menu-right-project .menu-project-left-column .right-column-share .share-right .share-social a svg {
     height: 20px;
     width: auto
@@ -6609,10 +6668,12 @@ overflow: visible !important;
     max-width: 435px;
     min-width:350px;
     position: sticky;
-    top:40px;
+    top:0px;
     right: 0px;
     height: 800px;
-    margin-top: 60px;
+    margin-top: 190px;
+    margin-left: 33px;
+    margin-right: 32px;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .project-sticker {
@@ -6643,19 +6704,24 @@ overflow: visible !important;
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a {
     display: block;
-    font-size: 1rem;
+    font-size: 1rem;;
     line-height: 21px;
     -webkit-text-decoration-line: underline;
     text-decoration-line: underline;
     color: #8f00ff
 }
-
+.svgone{
+    display: none;
+}
+.svgtwo{
+    display: inline;
+}
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a:hover {
     text-decoration: none
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report p {
-    font-size: 1rem;
+    font-size: 0.77rem;
     line-height: 21px;
     color: #000
 }
@@ -6692,6 +6758,7 @@ overflow: visible !important;
     flex-direction: column
 }
 
+
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat span {
     display: block;
     margin-bottom: 4px;
@@ -6712,7 +6779,7 @@ overflow: visible !important;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat:last-child span {
-    font-size: 4.445rem;
+    font-size: 3.955rem;
     margin-left: -3px;
 }
 
@@ -6776,14 +6843,14 @@ overflow: visible !important;
     -ms-flex-align: center;
     align-items: center;
     margin-right: 10px;
-    width: 45px;
-    height: 45px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-right .share-social a {
-    width: 45px;
-    height: 45px;
+    width: 33px;
+    height: 33px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -6832,7 +6899,7 @@ overflow: visible !important;
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
-    width: 355px;
+    width: 354px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -6904,7 +6971,7 @@ overflow: visible !important;
     fill: #bfbfbf
 }
 .desc-right-column-project{
-    font-size: 0.889rem;
+    font-size: 0.8rem;
 }
 .modal-block-police {
     height: 100vh;
@@ -7256,7 +7323,7 @@ overflow: visible;
     margin-bottom: 0
 }
 .header-left-column .menu li a svg {
-    width: 31.8% !important;
+    width: 24.8% !important;
     height: 15% !important;
 }
 
@@ -7272,7 +7339,9 @@ overflow: visible;
 .mr-40 {
     margin-right: 60px
 }
-
+.screen-work footer{
+    margin-top: 0px;
+}
 .fancybox-wrap {
     height: 80%
 }
@@ -7309,14 +7378,14 @@ overflow: visible;
 @media (min-width:1400px) {
   
     .menu-right-project .container-menu-right-project {
-        margin: 85px 126px 0 110px;
-        max-width: 1430px;
+        /* margin: 85px 126px 0 110px; */
+        max-width: 1436px;
     }
     #container-cust{
         margin-left: 40px;
     }
     .header-left-column .menu li a {
-        padding: 13% 15px 13% 15px;
+        padding: 13% 3px 13% 3px;
         
     }
     
@@ -7326,7 +7395,7 @@ overflow: visible;
         max-width: 479px;
     }
     .header-left-column .menu li a svg {
-        width: 34% !important;
+        width: 27% !important;
         height: 13% !important;
     }
 
@@ -7349,11 +7418,31 @@ overflow: visible;
     }
 }
 @media (min-width: 1600px) and (max-width: 2400px){
+    .screen-services .info-main .container-content-services .content-services-main .services-card-default {
+        height: 392px;
+    }
+.screen-services .info-main .container-content-services .content-services-main .services-card-large {
+    height: 392px;
+}
+    .screen-services .info-main .container-content-services .content-services-additionally .services-card-normal:first-child {
+        height: 270px;
+    }
+    .screen-services .info-main .container-content-services .content-services-additionally .services-card-normal {
+        padding: 30px 35px;
+        width: 270px;
+        height: 272px
+    }
+    .svgone{
+        display: inline;
+    }
+    .svgtwo{
+        display: none;
+    }
     /* .menu-right .container-menu-right{
         margin: 85px 175px 0 110px;
     } */
     .header-left-column .menu li a svg {
-        width: 37% !important;
+        width: 29% !important;
         height: 16% !important;
         }
     .container-scroll{
@@ -7364,7 +7453,7 @@ overflow: visible;
         margin-left: 55px;
     }
     .header-left-column .menu li a {
-        padding: 13% 15px 13% 15px;
+        padding: 13% 3px 13% 3px;
       
     }
    
@@ -7374,14 +7463,18 @@ overflow: visible;
    
 }
 @media (min-width: 1800px) and (max-width: 2400px){
+    .screen-work .screen-page-work .info-main .container-content-work svg, .screen .screen-page .container-content-work svg {
+        left: -70%;
+    }
+
     /* .menu-right .container-menu-right{
         margin: 110px 175px 0 110px;
     } */
      .header-left-column .menu li a {
-        padding: 15% 15px 15% 15px;
+        padding: 15% 3px 15% 3px;
     }
     .header-left-column .menu li a svg {
-        width: 41% !important;
+        width: 32% !important;
         height: 21% !important;
     }
     .container-scroll{
@@ -7394,7 +7487,7 @@ overflow: visible;
         margin: 160px 175px 0 110px;
     } */
     .header-left-column .menu li a svg {
-        width: 44% !important;
+        width: 35% !important;
         height: 22% !important;
     }
     .container-scroll{
@@ -7426,11 +7519,11 @@ overflow: visible;
         height: 93%;
     }
     .header-left-column .menu li a svg {
-    width: 59% !important;
+    width: 38% !important;
     height: 34% !important;
 }
 .header-left-column .menu li a {
-    padding: 22% 15px 21% 15px;
+    padding: 22% 3px 21% 3px;
   
 }
 .container-scroll{
@@ -7450,7 +7543,7 @@ overflow: visible;
        
     }
     .header-left-column .menu li a svg {
-        width: 77% !important;
+        width: 66% !important;
         height: 46% !important;
     }
 }
@@ -7459,14 +7552,23 @@ overflow: visible;
     min-width: 310px
     }
 }
-@media (min-width: 1400.98px) and (max-width: 1570.98px){
+@media (min-width: 1370.98px) and (max-width: 1570.98px){
+    
+    .screen-work .screen-page-work .info-main .container-content-work {
+        width: 1180px;
+    }
+    .screen-work .footer {
+        margin-top: -2.1%;
+        margin-bottom: 0px;
+    }
+   
 .menu-right-project .container-menu-right-project {
-    max-width: 1250px !important;
+    max-width: 1240px !important;
 }
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
     height: 245px;
     margin-top: 35px;
-    margin-left: -40px;
+    margin-left: -70px;
 }
 .menu-right-project .container-menu-right-project #call-left-block-span {
     position: relative;
@@ -7481,16 +7583,25 @@ overflow: visible;
 }
 }
 @media (min-width: 586.98px) and (max-width:1270px){
+    #screenmain .header .menu a {
+        margin-right: 70px;
+    }
+    .screen-work .screen-page-work .info-main .container-content-work {
+        width: 950px;
+    }
+    .screen-work .footer {
+        margin-top: -3.7%;
+    }
     .screen-work .header .menu {
         min-width: 580px;
     }
    
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+    /* .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
         width: 300px;
-    }
-    .menu-right .container-menu-right{
+    } */
+    /* .menu-right .container-menu-right{
         margin: 05px 175px 0 110px;
-    }
+    } */
     #screenmain .menu-right {
         width: 135%;
     }
@@ -7507,16 +7618,16 @@ overflow: visible;
     min-width: 430px;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column {
-        max-width: 305px;
-        min-width: 190px;
+        max-width: 335px;
+        min-width: 330px;
     }
     html{
-        font-size: 14px;
+        font-size: 16px;
     }
     .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
         height: 225px;
         margin-top: 60px;
-        margin-left: -90px;
+        margin-left: -150px;
     }
 
     .menu-right-project .container-menu-right-project .callback-form-block {
@@ -7525,14 +7636,14 @@ overflow: visible;
     }
 }
 @media (min-width: 1270px) and (max-width:1370px){
-    .screen-work .header .menu {
-        min-width: 610px;
+    
+    .screen-work .screen-page-work .info-main .container-content-work {
+        width: 1050px;
     }
-    .js-page-scroll-main-projects {
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-}
+    .screen-work .footer {
+        margin-top: -3.7%;
+    }
+ 
     #screenmain .menu-right {
         width: 110%;
     }
@@ -7541,147 +7652,90 @@ overflow: visible;
         margin: 30px 175px 0 110px;
     } */
  
-    .js-page-scroll-projects{
-        max-width: 1150px;
-    }
     .menu-right-project .container-menu-right-project .menu-project-left-column {
-        max-width: 700px;
+        /* max-width: 700px; */
         min-width: 500px;
     }
     .menu-right-project .container-menu-right-project {
-        max-width: 1100px;
+        max-width: 1120px;
     }
-    .menu-right-project .container-menu-right-project .menu-project-left-column h2 {
-        font-size: 42px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-sort-link {
-        font-size: 14px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-task {
-        font-size: 19px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-task-description {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology p {
-        font-size: 19px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology .stack-technology .item-tech span {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-technology .stack-technology .item-tech p {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stage-header {
-        font-size: 21px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages span {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stage-descr {
-        font-size: 15px;
-    }
+    
     .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stages-design span {
         margin-bottom: 21px;
     }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-stages .stages-design p {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project  .stage-p{
-        font-size: 15px; 
-    }
-    .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-left-block p {
-        font-size: 21px;
-    }
+    
     .menu-right-project .container-menu-right-project  #call-left-block-span {
-        font-size: 15px;
         position: relative;
     }
-    .menu-right-project .container-menu-right-project .callback-form-block input {
-        font-size: 1rem;
-    }
+   
     .menu-right-project .container-menu-right-project .callback-form-block {
         padding: 7px 20px 7px 20px;
         width: 300px;
     }
-    .menu-right-project .container-menu-right-project .callback-form-block label {
-        font-size: 14px;
-    }
+   
     .menu-right-project .container-menu-right-project .footer .footer-block {
         margin-right: 50px;
-        font-size: 0.55rem;
     }
     .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-left-block {
         margin: 30px 0 25px 25px;
         
 
     }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
+        margin: 20px 0 35px 0;
+    }
     .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
         height: 230px;
         margin-top: 45px;
-        margin-left: -50px;
-    }
-    .desc-right-column-project{
-        font-size: 0.788rem;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report span {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report span{
-        font-size: 15px;  
+        margin-left: -80px;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a {
         display: block;
-        font-size: 15px;
+        /* font-size: 15px; */
     }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report p {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat span {
-        font-size: 42px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat:last-child span {
-        font-size: 73px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column {
+  
+    /* .menu-right-project .container-menu-right-project .menu-project-right-column {
         max-width: 375px;
         min-width: 300px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left span {
-        font-size: 15px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left p {
-        font-size: 15px;
-    }
+    } */
+ 
     .share-right{
         margin-right: 35px;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-right .share-social-vk {
         background: #4680c2;
     }
-    
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-right .share-social {
-        width: 40px;
-        height: 40px;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback p {
+
+    /* .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback p {
         font-size: 21px;
-    }
+    } */
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats {
         padding: 10px 0px 15px 25px;
         width: 93%;
     }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
-        width: 325px;
-        font-size: 15px;
-        padding: 17px 25px 18px 25px;
-    }
+    
        
 }
 @media (max-width:575.98px) {
+    #firstshag {
+        height: 355px;
+    }
+    #secondshag {
+        height: 376px;
+    }
+    html {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -ms-overflow-style: scrollbar;
+        overflow-y: visible;
+    }
+    .validate_flag_green{
+        left: 15px !important;
+    }
+    form .validate_flag_green svg{
+        height: 9px !important;
+        width: 11px !important;
+    }
     .screen-work .header .menu {
         min-width: 0px;
     }
@@ -7695,7 +7749,7 @@ overflow: visible;
         height: 93vh;
     }
     #app-projects .container-projects-content .card-projects-navigate .card-nav {
-        margin-left: 50px;
+        margin-left: 5px;
         margin-right: 0px;
     }
     .container-projects-content .slick-list{
@@ -7707,7 +7761,7 @@ overflow: visible;
     .content-services-additionally .services-flex{
         margin: 0 0px 0 26px !important;
     }
-
+    
    
     #backblack{
         display: none;
@@ -7742,9 +7796,9 @@ overflow: visible;
     #firstcontainer{
         display: block !important;
     }
-    .js-page-scroll-section-projects {
+    /* .js-page-scroll-section-projects {
         width: 350px !important;
-    }
+    } */
     .js-page-scroll-projects{
         width: 350px !important;
     }
@@ -7794,7 +7848,8 @@ overflow: visible;
     }
     .menu-right .container-menu-right {
         margin: 0;
-        max-width: inherit
+        max-width: inherit;
+        height: auto;
     }
     .menu-right .container-menu-right h2 {
         padding: 40px 45px 15px 40px;
@@ -7849,6 +7904,7 @@ overflow: visible;
     .callback-chat{
         display: flex;
         right: 30px;
+        display: none;
     }
     
     .menu-right .control-arrow {
@@ -8166,7 +8222,8 @@ overflow: visible;
         text-align: center
     }
     .screen-work .screen-page-work .info-main .container-content-work {
-        position: relative
+        position: relative;
+        top: 0px;
     }
     .screen-work .screen-page-work .info-main .container-content-work svg {
         top: -70px;
@@ -8234,7 +8291,7 @@ overflow: visible;
         margin-left: 0
     }
     #app-contacts .info-main .container-content-contacts .content-contacts-right #map {
-        width: 325px;
+        width: 100.5%;
         height: 287px
     }
     #app-contacts .info-main .container-content-contacts .content-contacts-left .contacts-call-mobile {
@@ -8440,6 +8497,7 @@ overflow: visible;
         padding: 0 30px;
         width: 100%;
         min-width: 300px ;
+        margin-top: 0px;
     }
     #app-project .menu-right-project .container-menu-right-project .menu-project-left-column .project-sort-link {
         font-size: 12px;
@@ -8700,6 +8758,7 @@ overflow: visible;
         line-height: 16px
     }
     #app-projects .container-projects-content .card-projects-navigate {
+        padding-left: 45px;
         margin-top: 30px;
         margin-left: -10px;
         -webkit-flex-wrap: inherit;
@@ -8812,13 +8871,56 @@ overflow: visible;
     }
 }
 @media (min-height: 1690px){
-.menu-right .container-menu-right{
+    #screenmain .menu-right .container-menu-right{
     margin: 31.9vh 175px 0 110px;
 }
 }
 @media (min-height: 2690px){
-    .menu-right .container-menu-right{
+    #screenmain .menu-right .container-menu-right{
         margin: 37.9vh 175px 0 110px;
+    }
+}
+@media (min-width: 2000){
+    #firstshag {
+        height: 355px;
+    }
+    #secondshag {
+        height: 376px;
+    }
+    .screen-work .screen-page-work .info-main .container-content-work .wrapper-cards-work .card-work, .screen .screen-page .container-content-work .wrapper-cards-work .card-work {
+        height: 392px;
+    }
+    .screen-services .info-main .container-content-services .content-services-main .services-card-default {
+        height: 392px;
+    }
+.screen-services .info-main .container-content-services .content-services-main .services-card-large {
+    height: 392px;
+}
+    .screen-services .info-main .container-content-services .content-services-additionally .services-card-normal:first-child {
+        height: 270px;
+    }
+    .screen-services .info-main .container-content-services .content-services-additionally .services-card-normal {
+        padding: 30px 35px;
+        width: 270px;
+        height: 272px
+    }
+    .svgone{
+        display: inline;
+    }
+    .svgtwo{
+        display: none;
+    }
+    .screen-work .footer{
+        margin-top: 6%;
+    }
+    .screen-work .screen-page-work .info-main {
+        top: 58px;
+    }
+    .screen-work .screen-page-work .info-main h1 {
+        margin-bottom: 35px;
+        font-size: 2.667rem;
+        line-height: 56px;
+        font-weight: 400
     }
 }
 

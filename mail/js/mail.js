@@ -1,13 +1,11 @@
-
+document.getElementById('callback').reset();
 // Отправка данных на сервер
 $('#callback').trigger('reset');
 $("#form-send").on("click",function(){
-    console.log("3");
     "use strict"; 
-    let phone=$("#callback_phone").val();
-    console.log(phone);
-    if(phone=="") {
-    }else{
+    let phone=$(this).closest("form").find('#callback_phone').val().trim();
+    console.log("отправка"+phone);
+    if (phone.length==18){
    $("#callback").on("click",function(e){ 
     let mainstr=$(this).find('#strsite').val().trim();
     if (mainstr=='главная страница сайта'){
@@ -33,6 +31,7 @@ $("#form-send").on("click",function(){
         }
       }
     });
+    $('#callback').trigger('reset');
     $('#callback').off();
     e.preventDefault();
   });

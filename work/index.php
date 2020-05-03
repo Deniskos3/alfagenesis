@@ -47,13 +47,13 @@
                 <p>Оставьте заявку и мы перезвоним вам<br>в течение <span>10 минут</span></p>
                 <div class="callback-form-block">
                     <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
-                    <input id="callback_phone" type="tel" placeholder="+7" name="phone" required>
+                    <input id="callback_phone" type="tel" placeholder="+7" name="phone" >
                     <span class="hidden validate_flag">
                         <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
                     </span>
                 </div>
                 <div class="callback-form-block callback-form-block-text">
-                    <input id="callback_name" type="text" placeholder="Введите Ваше имя" name="name" required>
+                    <input id="callback_name" type="text" placeholder="Введите Ваше имя" name="name" >
 
                     <span class="hidden validate_flag">
 							<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
@@ -67,6 +67,9 @@
                 </div>
                 <div class="callback-form-block-file">
                     <label class="file-area">
+                            <span class="validate_flag_green">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
+                            </span>
 							<span class="file-wrap">
 								<svg width="27" height="29" viewBox="0 0 27 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M24.7433 17.8735L22.5985 15.7286L12.9472 6.07772C11.1684 4.31232 8.2972 4.31765 6.52514 6.08971C4.75307 7.86178 4.74774 10.733 6.51315 12.5117L16.1641 22.1655C16.5588 22.5605 17.1991 22.5605 17.594 22.1655C17.9887 21.7706 17.9887 21.1305 17.594 20.7356L7.9431 11.0818C6.95606 10.0947 6.95606 8.49473 7.9431 7.50768C8.93015 6.52063 10.5302 6.52063 11.5172 7.50768L21.171 17.1586L23.3158 19.3032C25.0928 21.0808 25.0921 23.9622 23.3147 25.739C21.5371 27.5157 18.6559 27.5153 16.8789 25.7376L15.092 23.95L5.08342 13.9415L4.36833 13.2266C1.86896 10.6491 1.90071 6.54283 4.43937 4.00395C6.97826 1.46529 11.0845 1.43354 13.662 3.93291L24.3855 14.6566C24.641 14.9119 25.0133 15.0115 25.3621 14.9181C25.7111 14.8246 25.9837 14.5522 26.0772 14.2032C26.1706 13.8542 26.0707 13.4821 25.8154 13.2266L15.092 2.50317C11.7337 -0.839823 6.30313 -0.833607 2.95258 2.51716C-0.398182 5.8677 -0.404398 11.2982 2.9386 14.6566L13.662 25.38L15.4516 27.1676C18.0325 29.6465 22.1225 29.6052 24.6525 27.0744C27.1828 24.5437 27.2229 20.4536 24.7433 17.8735Z" fill="black"/>
@@ -110,8 +113,8 @@
                             <div class="company-name">alfa genesis</div>
                             <nav>
                                 <ul class="menu">
-                                    <li><a href="/projects">Проекты</a></li>
-                                    <li><a href="/work">Как рaботаем</a></li>
+                                    <li><a href="/openprojects">Проекты</a></li>
+                                    <li><a href="/work">Как мы рaботаем</a></li>
                                     <li><a href="/services">Услуги</a></li>
                                     <li><a href="/contacts">Контакты</a></li>
                                 </ul>
@@ -133,7 +136,7 @@
                             </div>
                             <nav>
                                 <ul class="menu">
-                                    <li><a href="/projects">
+                                    <li><a href="/openprojects" class="openproj">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <g clip-path="url(#clip0)">
                                                     <path d="M5.54719 24.3498C5.33208 24.7788 5.41586 25.2975 5.75477 25.6367L6.02701 25.9089C6.81355 24.9769 7.73027 23.9653 8.8421 22.8538C8.92067 22.7752 9.00156 22.7372 9.08042 22.6648L7.32903 20.9131C6.31084 22.7546 5.71709 24.0129 5.54719 24.3498Z" fill="white"/>
@@ -168,7 +171,7 @@
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            <p>Как рaботаем</p>
+                                            <p>Как мы рaботаем</p>
                                         </a></li>
                                     <li><a href="/services">
                                             <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -238,7 +241,7 @@
                                     <div class="js-page-scroll-section">
                                         <a href="../img/files/brif.pdf" class="fancybox" data-fancybox-type="iframe">
                                             <div class="wrapper-cards-work">
-                                                <div class="card-work">
+                                                <div class="card-work" id="firstshag">
                                                     <div class="card-work-top">
                                                         <p class="card-work-stage">Шаг 1</p>
                                                         <p class="card-work-header">Открытое общение</p>
@@ -263,7 +266,7 @@
                                     <div class="js-page-scroll-section">
                                         <a href="../img/files/analyze.pdf" class="fancybox" data-fancybox-type="iframe">    
                                             <div class="wrapper-cards-work">
-                                                <div class="card-work">
+                                                <div class="card-work" id="secondshag">
                                                     <div class="card-work-top">
                                                         <p class="card-work-stage">Шаг 2</p>
                                                         <p class="card-work-header">Планирование</p>
@@ -397,7 +400,7 @@
                                         </a>
                                     </div>
                                     <div class="js-page-scroll-section">
-                                        <a href="/projects">
+                                        <a href="/openprojects">
                                             <div class="wrapper-cards-work">
                                                 <div class="card-work">
                                                     <div class="card-work-top">
