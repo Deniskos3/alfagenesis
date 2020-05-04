@@ -113,7 +113,7 @@
                         <div class="company-name">alfa genesis</div>
                         <nav>
                             <ul class="menu" >
-                                <li><a href="/openprojects" >Проекты</a></li>
+                                <li><a href="/projects" class="openstr">Проекты</a></li>
                                 <li><a href="/work">Как мы рaботаем</a></li>
                                 <li><a href="/services">Услуги</a></li>
                                 <li><a href="/contacts">Контакты</a></li>
@@ -136,7 +136,7 @@
                         </div>
                         <nav>
                             <ul class="menu">
-                                <li><a href="/openprojects" class="openproj">
+                                <li><a href="/projects" class="openstr">
                                         <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0)">
                                                 <path d="M5.54719 24.3498C5.33208 24.7788 5.41586 25.2975 5.75477 25.6367L6.02701 25.9089C6.81355 24.9769 7.73027 23.9653 8.8421 22.8538C8.92067 22.7752 9.00156 22.7372 9.08042 22.6648L7.32903 20.9131C6.31084 22.7546 5.71709 24.0129 5.54719 24.3498Z" fill="white"/>
@@ -311,7 +311,7 @@
                 <div class="container-scroll">
                 <div class="js-page-scroll js-page-scroll-tow">
                 <div class="js-page-scroll-main card-projects-navigate">
-                    <a href="/project_1" class="card-nav-link">
+                    <a href="/project_1" class="card-nav-link openstr" >
                         <div class="card-nav themes-purple">
                             <div class="card-project-nav-header">
                                 <h3>БФ "Помогите детям"</h3>
@@ -322,7 +322,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/project_2" class="card-nav-link">
+                    <a href="/project_2" class="card-nav-link openstr">
                         <div class="card-nav themes-yellow">
                             <div class="card-project-nav-header">
                                 <h3>COOL PAY</h3>
@@ -333,7 +333,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/project_3" class="card-nav-link">
+                    <a href="/project_3" class="card-nav-link openstr">
                         <div class="card-nav themes-pink">
                             <div class="card-project-nav-header">
                                 <h3 class="color-dark">Realtransit</h3>

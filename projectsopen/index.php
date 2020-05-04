@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
+<head> 
     <meta charset="utf-8">
     <title>AlfaGenesis</title>
     <meta name="description" content="">
@@ -9,15 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="icon" href="../img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
     <meta name="theme-color" content="#000">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../fonts/fontawesome/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="../libs/fancybox/source/jquery.fancybox.css" type="text/css"/>
 </head>
 
 <body>
 
-<div id="app-projects">
+<div id="app-main">
     <div class="hidden">
         <div id="modal-police" class="modal-police-wrapper">
             <div class="modal-block-police">
@@ -37,22 +39,23 @@
     </div>
     <div id="modal">
         <div class="hidden">
-            <form action="" id="callback" class="callback-form forms">
+            <form  method="POST" id="callback" class="callback-form forms" enctype="multipart/form-data">
                 <header>Обсудим проект?</header>
                 <!-- скрытые кнопки показывающие с какой стр был произведен клик -->
-                <input id="strsite" name="strsite" type="hidden" value=" проекты студии">
+                <input id="strsite" name="strsite" type="hidden" value="главная страница сайта,открытая через стр проекты">
                 <input id="butstrsite" name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
                 <!--  -->
                 <p>Оставьте заявку и мы перезвоним вам<br>в течение <span>10 минут</span></p>
                 <div class="callback-form-block">
                     <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
-                    <input id="callback_phone" type="tel" placeholder="+7" name="phone">
+                    <input id="callback_phone" type="tel" placeholder="+7" name="phone" >
                     <span class="hidden validate_flag">
                         <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
                     </span>
                 </div>
                 <div class="callback-form-block callback-form-block-text">
-                    <input id="callback_name" type="text" placeholder="Введите Ваше имя" name="name">
+                    <input id="callback_name" type="text" placeholder="Введите Ваше имя" name="name" >
+
                     <span class="hidden validate_flag">
 							<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
 						</span>
@@ -77,11 +80,11 @@
 								<span class="file-area-description-small">Вы можете загрузить до 5 Мб</span>
 							</span>
 							</span>
-                        <input type="file" accept="image/*,image/jpeg">
+                        <input name="myfile[]" type="file" accept="image/*,image/jpeg" id="inputfile">
                     </label>
                 </div>
                 <div class="form-control-btn">
-                    <input type="button" id="form-send" class="btn-form-callback" value="Сделать заказ">
+                    <input type="submit" id="form-send" class="btn-form-callback" value="Сделать заказ">
                 </div>
                 <p class="police-conf">Оформляя заявку, я соглашаюсь с <a href="" id="opened-police" onclick="return false;">политикой конфидициальности</a></p>
             </form>
@@ -99,17 +102,17 @@
             </div>
         </div>
     </div>
-    <div class="screen-projects" id="projects">
-        <div class="screen-page-projects">
-            <div class="container-custom">
+    <div class="screen" id="screenmain">
+        <div class="background-screen screen-page" id="openprojects">
+            <div class="container-custom" id="container-cust">
                 <div class="flex-wrapper-screen">
-                    <div class="header header-colorize">
+                    <div class="header">
                         <div class="logo">
                             <a href="/">a</a>
                         </div>
                         <div class="company-name">alfa genesis</div>
                         <nav>
-                            <ul class="menu">
+                            <ul class="menu" >
                                 <li><a href="/projects" class="openstr">Проекты</a></li>
                                 <li><a href="/work">Как мы рaботаем</a></li>
                                 <li><a href="/services">Услуги</a></li>
@@ -221,73 +224,23 @@
                         </div>
                     </div>
                     <div class="info-main">
-                        <div class="container-projects-content">
-                            <h2>Проекты студии</h2>
-                            <div class="project-navigate">
-                                <ul>
-                                    <li><a class="active-project-type" href="">Все</a></li>
-                                    <li><a href="">Лендинги</a></li>
-                                    <li><a href="">Сервисы</a></li>
-                                    <li><a href="">Магазин</a></li>
-                                </ul>
-                            </div>
-                            <div class="card-projects-navigate">
-                                <div class="js-page-scroll-projects">
-                                    <div class="js-page-scroll-main-projects">
-                                        <div class="js-page-scroll-section-projects">
-                                            <a href="/project_1" class="card-nav-link openstr">
-                                                <div class="card-nav themes-purple">
-                                                    <div class="card-project-nav-header">
-                                                        <h3>БФ "Помогите детям"</h3>
-                                                        <p>Разработка сервис благотворительного фонда для помощи детям онлайн, с персональным кабинетом</p>
-                                                    </div>
-                                                    <div class="card-project-nav-image">
-                                                        <img src="../img/icons/projects/help_child.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="js-page-scroll-section-projects">
-                                            <a href="/project_2" class="card-nav-link openstr">
-                                                <div class="card-nav themes-yellow">
-                                                    <div class="card-project-nav-header">
-                                                        <h3>COOL PAY</h3>
-                                                        <p>Лучший эквайринг для </br>бизнеса</p>
-                                                    </div>
-                                                    <div class="card-project-nav-image">
-                                                        <img src="../img/icons/projects/logo1.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="js-page-scroll-section-projects">
-                                            <a href="/project_3" class="card-nav-link openstr">
-                                                <div class="card-nav themes-pink">
-                                                    <div class="card-project-nav-header">
-                                                        <h3 class="color-dark">Realtransit</h3>
-                                                        <p class="color-dark">Доставка грузов из Китая <br/>в Россию</p>
-                                                    </div>
-                                                    <div class="card-project-nav-image">
-                                                        <img src="../img/icons/projects/123.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="js-page-scroll-section-projects">
-                                            <a href="#callback" class="card-nav-link wrapper-callback-form-open">
-                                                <div class="card-nav themes-transparent card-nav-open__modal">
-                                                    <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M87.4286 39.4286H58.2857C57.339 39.4286 56.5714 38.661 56.5714 37.7143V8.57143C56.5714 3.83789 52.7335 0 48 0C43.2665 0 39.4286 3.83789 39.4286 8.57143V37.7143C39.4286 38.661 38.661 39.4286 37.7143 39.4286H8.57143C3.83789 39.4286 0 43.2665 0 48C0 52.7335 3.83789 56.5714 8.57143 56.5714H37.7143C38.661 56.5714 39.4286 57.339 39.4286 58.2857V87.4286C39.4286 92.1621 43.2665 96 48 96C52.7335 96 56.5714 92.1621 56.5714 87.4286V58.2857C56.5714 57.339 57.339 56.5714 58.2857 56.5714H87.4286C92.1621 56.5714 96 52.7335 96 48C96 43.2665 92.1621 39.4286 87.4286 39.4286Z" fill="#E2E2E2"/>
-                                                    </svg>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="info-main-wrap" id="info">
+                            <h1>Закажите сайт сейчас<br>и начните зарабатывать</h1>
+                            <p>Расскажите нам о вашем бизнесе<br>Остальное мы сделаем за вас</p>
+                        </div>
+                        <div class="callback-form-block">
+                            <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
+                            <input id="callback_phone1" type="tel" placeholder="+7" name="phone" value="+7">
+                            <span class="hidden validate_flag">
+									<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
+								</span>
+                        </div>
+                        <div class="info-main-wrap" id="info-send">
+                            <h1>Спасибо за обращение!</h1>
+                            <p>Мы перезвоним вам в течение <span >10 минут!</span></p>
                         </div>
                     </div>
-                    <div class="footer footer-colorize">
+                    <div class="footer">
                         <div class="footer-block footer-name">
                             <p>ООО “Альфа Генезис”</p>
                             <span>ИНН 2130175319 ОГРН 1162130061840</span>
@@ -315,126 +268,131 @@
                             </div>
                         </div>
                     </div>
+                    <div class="mobile-callback-main_screen">
+                        <div class="form-control-btn form-control-btn-fit">
+                            <a class="btn-form-callback wrapper-callback-form-open" href="#callback">Расказать о своем проекте</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="wrapper-callback-form">
-                <a href="#callback" class="wrapper-callback-form-open">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
-                </a>
-        </div>
-        <div class="callback-chat">
-                <a href="#">
-                    <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.22231 25.5334H2.1675L3.62046 24.0804C4.40388 23.297 4.8931 22.278 5.02463 21.1727C1.66971 18.971 0 15.7815 0 12.4378C0 6.26895 5.66971 0 14.5491 0C23.9559 0 29 5.76861 29 11.8973C29 18.0664 23.9026 23.8311 14.5491 23.8311C12.9106 23.8311 11.2009 23.6124 9.67436 23.2111C8.22935 24.6932 6.27145 25.5334 4.22231 25.5334Z" fill="white"/>
-                    </svg>
-                </a>
-
-        </div>
-        <!-- <div class="menu-right menu-right-project">
-            <div class="wrapper-callback-form">
-                <a href="#callback" class="wrapper-callback-form-open">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
-                </a>
-            </div>
-            <div class="control-arrow-projects">
-                <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
-                </svg>
-                <svg class="hidden" width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.139846 2.13203C-0.209014 1.38064 0.117302 0.488706 0.868693 0.139846C1.62008 -0.209014 2.51201 0.117302 2.86087 0.868693L8.43046 12.8647C8.55996 13.1437 8.59642 13.4419 8.55263 13.7246C8.57964 13.9906 8.53591 14.267 8.41145 14.5255L2.87998 26.0139C2.5206 26.7604 1.62417 27.0741 0.877757 26.7147C0.131343 26.3553 -0.182407 25.4589 0.176978 24.7125L5.49528 13.6668L0.139846 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
-                </svg>
-            </div>
-            <div class="callback-chat">
-                <a href="#">
-                    <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.22231 25.5334H2.1675L3.62046 24.0804C4.40388 23.297 4.8931 22.278 5.02463 21.1727C1.66971 18.971 0 15.7815 0 12.4378C0 6.26895 5.66971 0 14.5491 0C23.9559 0 29 5.76861 29 11.8973C29 18.0664 23.9026 23.8311 14.5491 23.8311C12.9106 23.8311 11.2009 23.6124 9.67436 23.2111C8.22935 24.6932 6.27145 25.5334 4.22231 25.5334Z" fill="white"/>
-                    </svg>
-                </a>
-
-            </div>
-            <div class="container-menu-right container-menu-right-project-another">
-                <div class="container-scroll">
-                    <div class="js-page-scroll js-page-scroll-tow">
-                    <div class="js-page-scroll-main card-projects-navigate">
-                        <a href="/project_1" class="card-nav-link">
-                            <div class="card-nav themes-purple">
-                                <div class="card-project-nav-header">
-                                    <h3>БФ "Помогите детям"</h3>
-                                    <p>Разработка сервис благотворительного фонда для помощи детям онлайн, с персональным кабинетом</p>
-                                </div>
-                                <div class="card-project-nav-image">
-                                    <img src="../img/icons/projects/help_child.png" alt="">
-                                </div>
-                            </div>
-                        </a>
-                        <a href="/project_2" class="card-nav-link">
-                            <div class="card-nav themes-yellow">
-                                <div class="card-project-nav-header">
-                                    <h3>COOL PAY</h3>
-                                    <p>Лучший эквайринг для </br>бизнеса</p>
-                                </div>
-                                <div class="card-project-nav-image">
-                                    <img src="../img/icons/projects/logo1.png" alt="">
-                                </div>
-                            </div>
-                        </a>
-                        <a href="/project_3" class="card-nav-link">
-                            <div class="card-nav themes-pink">
-                                <div class="card-project-nav-header">
-                                    <h3 class="color-dark">Realtransit</h3>
-                                    <p class="color-dark">Доставка грузов из Китая <br/>в Россию</p>
-                                </div>
-                                <div class="card-project-nav-image">
-                                    <img src="../img/icons/projects/123.png" alt="">
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#callback" class="card-nav-link wrapper-callback-form-open">
-                            <div class="card-nav themes-transparent card-nav-open__modal">
-                                <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M87.4286 39.4286H58.2857C57.339 39.4286 56.5714 38.661 56.5714 37.7143V8.57143C56.5714 3.83789 52.7335 0 48 0C43.2665 0 39.4286 3.83789 39.4286 8.57143V37.7143C39.4286 38.661 38.661 39.4286 37.7143 39.4286H8.57143C3.83789 39.4286 0 43.2665 0 48C0 52.7335 3.83789 56.5714 8.57143 56.5714H37.7143C38.661 56.5714 39.4286 57.339 39.4286 58.2857V87.4286C39.4286 92.1621 43.2665 96 48 96C52.7335 96 56.5714 92.1621 56.5714 87.4286V58.2857C56.5714 57.339 57.339 56.5714 58.2857 56.5714H87.4286C92.1621 56.5714 96 52.7335 96 48C96 43.2665 92.1621 39.4286 87.4286 39.4286Z" fill="#E2E2E2"/>
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
-                    </div>
-                    </div>
-            </div>
-        </div> -->
-        <div class="footer-mobile">
-            <div class="footer-block footer-name">
-                <p>ООО “Альфа Генезис”</p>
-                <p>ИНН 2130175319</p>
-                <p>ОГРН 1162130061840</p>
-            </div>
-            <div class="footer-block footer-phone">
-                <p>Поддержка по РФ</p>
-                <a href="#">8 800 600 00 21</a>
-            </div>
-            <div class="footer-block footer-email">
-                <p>Почта:</p>
-                <a href="#">info@alfagenesis.ru</a>
-            </div>
-            <div class="footer-block footer-social">
-                <div class="social">
-                    <a href="https://vk.com/alfa_genesis" target="_blank">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-vk fa-w-18 fa-7x"><path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path></svg>
-                    </a>
-                    <a href="https://www.facebook.com/alfa.genezis" target="_blank">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-facebook-f fa-w-10 fa-7x"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path></svg>
-                    </a>
-                    <a href="https://www.instagram.com/alfa_genesis/ " target="_blank">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-instagram fa-w-14 fa-2x"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" class=""></path></svg>
+            <div class="menu-right full_opened_menu" style="left: -webkit-calc(60%) ;
+    left: calc(60%) ;" >
+                <div class="wrapper-callback-form">
+                    <a href="#callback" class="wrapper-callback-form-open">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
                     </a>
                 </div>
+                <div class="control-arrow full_screen_menu">
+                    <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
+                    </svg>
+                    <svg class="hidden" width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.139846 2.13203C-0.209014 1.38064 0.117302 0.488706 0.868693 0.139846C1.62008 -0.209014 2.51201 0.117302 2.86087 0.868693L8.43046 12.8647C8.55996 13.1437 8.59642 13.4419 8.55263 13.7246C8.57964 13.9906 8.53591 14.267 8.41145 14.5255L2.87998 26.0139C2.5206 26.7604 1.62417 27.0741 0.877757 26.7147C0.131343 26.3553 -0.182407 25.4589 0.176978 24.7125L5.49528 13.6668L0.139846 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
+                    </svg>
+                </div>
+                <div class="callback-chat">
+                    <a href="#">
+                        <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.22231 25.5334H2.1675L3.62046 24.0804C4.40388 23.297 4.8931 22.278 5.02463 21.1727C1.66971 18.971 0 15.7815 0 12.4378C0 6.26895 5.66971 0 14.5491 0C23.9559 0 29 5.76861 29 11.8973C29 18.0664 23.9026 23.8311 14.5491 23.8311C12.9106 23.8311 11.2009 23.6124 9.67436 23.2111C8.22935 24.6932 6.27145 25.5334 4.22231 25.5334Z" fill="white"/>
+                        </svg>
+                    </a>
+
+                </div>
+            <div class="container-menu-right" >
+                <h2>Проекты студии</h2>
+                <div class="project-navigate">
+                    <ul>
+                        <li><a class="active-project-type" href="">Все</a></li>
+                        <li><a href="">Лендинги</a></li>
+                        <li><a href="">Сервисы</a></li>
+                        <li><a href="">Магазин</a></li>
+                    </ul>
+                </div>
+                <div class="container-scroll" style="min-width: 1210px; max-width: 1410px;">
+                <div class="js-page-scroll js-page-scroll-tow">
+                <div class="js-page-scroll-main card-projects-navigate">
+                    <a href="/project_1" class="card-nav-link openstr">
+                        <div class="card-nav themes-purple">
+                            <div class="card-project-nav-header">
+                                <h3>БФ "Помогите детям"</h3>
+                                <p>Разработка сервис благотворительного фонда для помощи детям онлайн, с персональным кабинетом</p>
+                            </div>
+                            <div class="card-project-nav-image">
+                                <img src="../img/icons/projects/help_child.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/project_2" class="card-nav-link openstr">
+                        <div class="card-nav themes-yellow">
+                            <div class="card-project-nav-header">
+                                <h3>COOL PAY</h3>
+                                <p>Лучший эквайринг для </br>бизнеса</p>
+                            </div>
+                            <div class="card-project-nav-image">
+                                <img src="../img/icons/projects/logo1.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/project_3" class="card-nav-link openstr">
+                        <div class="card-nav themes-pink">
+                            <div class="card-project-nav-header">
+                                <h3 class="color-dark">Realtransit</h3>
+                                <p class="color-dark">Доставка грузов из Китая <br/>в Россию</p>
+                            </div>
+                            <div class="card-project-nav-image">
+                                <img src="../img/icons/projects/123.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#callback" class="card-nav-link wrapper-callback-form-open">
+                        <div class="card-nav themes-transparent card-nav-open__modal">
+                            <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M87.4286 39.4286H58.2857C57.339 39.4286 56.5714 38.661 56.5714 37.7143V8.57143C56.5714 3.83789 52.7335 0 48 0C43.2665 0 39.4286 3.83789 39.4286 8.57143V37.7143C39.4286 38.661 38.661 39.4286 37.7143 39.4286H8.57143C3.83789 39.4286 0 43.2665 0 48C0 52.7335 3.83789 56.5714 8.57143 56.5714H37.7143C38.661 56.5714 39.4286 57.339 39.4286 58.2857V87.4286C39.4286 92.1621 43.2665 96 48 96C52.7335 96 56.5714 92.1621 56.5714 87.4286V58.2857C56.5714 57.339 57.339 56.5714 58.2857 56.5714H87.4286C92.1621 56.5714 96 52.7335 96 48C96 43.2665 92.1621 39.4286 87.4286 39.4286Z" fill="#E2E2E2"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                </div>
+                </div>
+
             </div>
+                <div class="footer-mobile">
+                    <div class="footer-block footer-name">
+                        <p>ООО “Альфа Генезис”</p>
+                        <p>ИНН 2130175319</p>
+                        <p>ОГРН 1162130061840</p>
+                    </div>
+                    <div class="footer-block footer-phone">
+                        <p>Поддержка по РФ</p>
+                        <a href="#">8 800 600 00 21</a>
+                    </div>
+                    <div class="footer-block footer-email">
+                        <p>Почта:</p>
+                        <a href="#">info@alfagenesis.ru</a>
+                    </div>
+                    <div class="footer-block footer-social">
+                        <div class="social">
+                            <a href="https://vk.com/alfa_genesis" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-vk fa-w-18 fa-7x"><path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path></svg>
+                            </a>
+                            <a href="https://www.facebook.com/alfa.genezis" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-facebook-f fa-w-10 fa-7x"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path></svg>
+                            </a>
+                            <a href="https://www.instagram.com/alfa_genesis/ " target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-instagram fa-w-14 fa-2x"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" class=""></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 <script src="//code.jivosite.com/widget/FejpRzp385" async></script>
-<script src="../mail/js/mail.js"></script>
 <script src="../js/scripts.min.js"></script>
+<script src="../mail/js/mail.js"></script>
 </body>
 </html>
