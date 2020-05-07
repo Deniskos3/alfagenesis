@@ -248,11 +248,11 @@
                         </div>
                         <div class="footer-block footer-phone">
                             <p>Поддержка по РФ</p>
-                            <p>8 800 600 00 21</p>
+                            <p><a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a></p>
                         </div>
                         <div class="footer-block footer-email">
                             <p>Почта:</p>
-                            <p>info@alfagenesis.ru</p>
+                            <p><a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a></p>
                         </div>
                         <div class="footer-block footer-social">
                             <p>Мы на связи<br>в соц.сетях:</p>
@@ -277,8 +277,7 @@
                 </div>
             </div>
             <div class="menu-right full_opened_menu" style="left: -webkit-calc(60%) ;left: calc(60%) ;" >
-                
-                <div class="control-arrow full_screen_menu">
+                <div class="control-arrow full_screen_menu" style="transform:rotate(180deg);">
                     <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
                     </svg>
@@ -286,7 +285,6 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.139846 2.13203C-0.209014 1.38064 0.117302 0.488706 0.868693 0.139846C1.62008 -0.209014 2.51201 0.117302 2.86087 0.868693L8.43046 12.8647C8.55996 13.1437 8.59642 13.4419 8.55263 13.7246C8.57964 13.9906 8.53591 14.267 8.41145 14.5255L2.87998 26.0139C2.5206 26.7604 1.62417 27.0741 0.877757 26.7147C0.131343 26.3553 -0.182407 25.4589 0.176978 24.7125L5.49528 13.6668L0.139846 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
                     </svg>
                 </div>
-               
                 <div class="container-menu-right" >
                     <h2>Проекты студии</h2>
                     <div class="project-navigate">
@@ -353,11 +351,11 @@
                     </div>
                     <div class="footer-block footer-phone">
                         <p>Поддержка по РФ</p>
-                        <a href="#">8 800 600 00 21</a>
+                        <a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a>
                     </div>
                     <div class="footer-block footer-email">
                         <p>Почта:</p>
-                        <a href="#">info@alfagenesis.ru</a>
+                        <a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a>
                     </div>
                     <div class="footer-block footer-social">
                         <div class="social">
@@ -398,6 +396,7 @@
                     </a>
 
                 </div>
+                <div class="scroll">
                 <div class="container-menu-right-project">
                     <div class="menu-project-left-column">
                         <a href="" class="project-sort-link">Сервисы</a>
@@ -477,11 +476,11 @@
                             </div>
                             <div class="footer-block footer-phone">
                                 <p>Поддержка по РФ</p>
-                                <p>8 800 600 00 21</p>
+                                <p><a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a></p>
                             </div>
                             <div class="footer-block footer-email">
                                 <p>Почта:</p>
-                                <p>info@alfagenesis.ru</p>
+                                <p><a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a></p>
                             </div>
                             <div class="footer-block footer-social">
                                 <p>Мы на связи<br>в соц.сетях:</p>
@@ -555,6 +554,7 @@
                         </div>
                     </div>
 
+                </div>
                 </div>
             </div>
 

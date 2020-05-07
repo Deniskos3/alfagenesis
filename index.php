@@ -247,11 +247,11 @@
                         </div>
                         <div class="footer-block footer-phone">
                             <p>Поддержка по РФ</p>
-                            <p>8 800 600 00 21</p>
+                            <p><a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a></p>
                         </div>
                         <div class="footer-block footer-email">
                             <p>Почта:</p>
-                            <p>info@alfagenesis.ru</p>
+                            <p><a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a></p>
                         </div>
                         <div class="footer-block footer-social">
                             <p>Мы на связи<br>в соц.сетях:</p>
@@ -275,8 +275,7 @@
                     </div>
                 </div>
             </div>
-            <div class="menu-right" style="left: -webkit-calc(60%) ;
-    left: calc(60%) ;" >
+            <div class="menu-right" style="left: -webkit-calc(60%) ;left: calc(60%) ;" >
                 <div class="wrapper-callback-form">
                     <a href="#callback" class="wrapper-callback-form-open">
                         <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
@@ -364,11 +363,11 @@
                     </div>
                     <div class="footer-block footer-phone">
                         <p>Поддержка по РФ</p>
-                        <a href="#">8 800 600 00 21</a>
+                        <a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a>
                     </div>
                     <div class="footer-block footer-email">
                         <p>Почта:</p>
-                        <a href="#">info@alfagenesis.ru</a>
+                        <a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a>
                     </div>
                     <div class="footer-block footer-social">
                         <div class="social">

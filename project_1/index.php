@@ -297,11 +297,11 @@
                             </div>
                             <div class="footer-block footer-phone">
                                 <p>Поддержка по РФ</p>
-                                <p>8 800 600 00 21</p>
+                                <p><a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a></p>
                             </div>
                             <div class="footer-block footer-email">
                                 <p>Почта:</p>
-                                <p>info@alfagenesis.ru</p>
+                                <p><a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a></p>
                             </div>
                             <div class="footer-block footer-social">
                                 <p>Мы на связи<br>в соц.сетях:</p>
@@ -373,7 +373,9 @@
                             <p class="stage-descr">
                                 Призыв о помощи - важный аспект благотворительного проекта в России. Название проекта было предложено в виде простого призыва человека для помощи детями с ДЦП. Разработкой логотипа мы хотели подчеркнуть сложность сбора средств для деток, а так же то, что родители часто не обращаются в благотворительные фонды за помощью, а ведут самостоятельные сборы средств в социальных сетях. В связи с этим формат логотипа получился в виде диалогового окошка в котором заключено название проекта “Помогите детям”:
                             </p>
+                            <div class="scollmobile">
                             <img class="stages-images-collect" src="../img/projects/help_child/images-collect.png" alt="">
+                            </div>
                             <div class="stages-design">
                                 <span>Цветовая палитра:</span>
                                 <p>Цветовой палитрой проекта хотели призвать к помощи благотворителей и вселить надежду в семьи, которые обращаются за помощью в фонд. В основе проекта белый цвет, который позволяет с легкостью ориентироваться на сайте, акценты помогли нам расставить контрастные цвета:</p>
@@ -422,11 +424,11 @@
                             </div>
                             <div class="footer-block footer-phone">
                                 <p>Поддержка по РФ</p>
-                                <p>8 800 600 00 21</p>
+                                <p><a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a></p>
                             </div>
                             <div class="footer-block footer-email">
                                 <p>Почта:</p>
-                                <p>info@alfagenesis.ru</p>
+                                <p><a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a></p>
                             </div>
                             <div class="footer-block footer-social">
                                 <p>Мы на связи<br>в соц.сетях:</p>
@@ -510,11 +512,11 @@
                 </div>
                 <div class="footer-block footer-phone">
                     <p>Поддержка по РФ</p>
-                    <a href="#">8 800 600 00 21</a>
+                    <a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a>
                 </div>
                 <div class="footer-block footer-email">
                     <p>Почта:</p>
-                    <a href="#">info@alfagenesis.ru</a>
+                    <a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a>
                 </div>
                 <div class="footer-block footer-social">
                     <div class="social">

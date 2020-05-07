@@ -560,11 +560,11 @@
                         </div>
                         <div class="footer-block footer-phone">
                             <p>Поддержка по РФ</p>
-                            <p>8 800 600 00 21</p>
+                            <p><a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a></p>
                         </div>
                         <div class="footer-block footer-email">
                             <p>Почта:</p>
-                            <p>info@alfagenesis.ru</p>
+                            <p><a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a></p>
                         </div>
                         <div class="footer-block footer-social">
                             <p>Мы на связи<br>в соц.сетях:</p>
@@ -676,11 +676,11 @@
             </div>
             <div class="footer-block footer-phone">
                 <p>Поддержка по РФ</p>
-                <a href="#">8 800 600 00 21</a>
+                <a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a>
             </div>
             <div class="footer-block footer-email">
                 <p>Почта:</p>
-                <a href="#">info@alfagenesis.ru</a>
+                <a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a>
             </div>
             <div class="footer-block footer-social">
                 <div class="social">
