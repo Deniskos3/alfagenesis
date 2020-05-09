@@ -3592,6 +3592,8 @@ button::-moz-focus-inner {
 }
 .vis{
     transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
 }
 .mfp-close:focus,
 .mfp-close:hover {
@@ -5433,17 +5435,21 @@ overflow: visible !important;
 }
 
 .screen {
-    background-color: #8f00ff;
+    background-color: rgb(143, 0, 255,0.5);
     width: 100%;
-    height: 100vh
+    height: 100vh;
 }
+    video{
+       position: fixed;
+       z-index: -1;
+    }
 
 .screen .background-screen {
-    height: 100%;
+    /* height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../img/screen.png);
-    background-position: center
+    background-position: center; */
 }
 
 .screen .background-screen .info-main .info-main-wrap {
@@ -6770,14 +6776,15 @@ background-color: #F8F8F8;
 
 .menu-right-project .container-menu-right-project .menu-project-right-column {
     max-width: 435px;
-    min-width:389px;
+    min-width:309px;
     position: sticky;
     top:0px;
     right: 0px;
     height: 800px;
     margin-top: 12px;
     margin-left: 33px;
-    margin-right: 12px;
+    margin-right: 105px;
+    
 }
 
 .menu-right-project .container-menu-right-project .menu-project-right-column .project-sticker {
@@ -7361,7 +7368,32 @@ background-color: #F8F8F8;
     justify-content: space-between;
     padding: 75px 0
 }
-
+.downarrow{
+    position: absolute;
+    text-align: center;
+    right: 36.8%;
+    bottom:-3px;
+    width: 73px;
+}
+.downarrow p{
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    display: none;
+    font-family: ubuntu-regular, sans-serif;
+    color: rgb(255,255,255,0.7);
+    font-size: 14px;
+   
+}
+.downarrow svg{
+    margin-top: 3px;
+    transform: rotate(270deg);    
+}
+.downarrow path{
+    -webkit-transition: .13s ease-in-out;
+    -o-transition: .13s ease-in-out;
+    transition: .13s ease-in-out;  
+}
 .js-page-scroll-main-projects {
     display: -webkit-box;
     display: -webkit-flex;
@@ -7535,6 +7567,13 @@ overflow: visible;
     }
 }
 @media (min-width: 1600px) and (max-width: 2400px){
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
+        margin: 25px 0 55px 0
+    }
+    #screenmain .menu-project-right-column {
+        position: fixed;
+       
+    }
     .screen-services .info-main .container-content-services .content-services-main .services-card-default {
         height: 392px;
     }
@@ -7697,20 +7736,102 @@ overflow: visible;
     min-width: 310px
     }
 }
+@media (min-width: 1430.98px) and (max-width: 1445.98px){
+    .screen-work .container-custom{
+        margin-left: 50px;
+    }
+    .project-form-callback_wrapper #call-left-block-span {
+    
+        margin-bottom: 20px;
+    }
+    .project-form-callback_wrapper .callback-form-block {
+        padding: 5px 32px 5px 32px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper {
+        height: 245px;
+    }
+    .screen-services .container-custom {
+        margin-left: 50px;
+    }
+    .screen-contacts .container-custom {
+        margin-left: 50px;
+    }
+    .menu-right .container-menu-right .card-projects-navigate .card-nav{
+    width: 260px;
+    height: 360px
+    }
+    .header .menu a {
+        font-size: 0.78rem;
+    }
+    .header nav {
+        width: 39vw;
+    }
+}
 @media (min-width: 1370.98px) and (max-width: 1585.98px){
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
-        font-family: ubuntu-regular, sans-serif;
+    .screen-services .container-custom {
+        margin-left: 75px;
+    }
+    .screen-contacts .container-custom {
+        margin-left: 75px;
+    }
+    .menu-right .container-menu-right .card-projects-navigate .card-nav{
+    width: 260px;
+    height: 360px
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+        width: 244px !important;
+        font-size: 0.78rem !important;
+        height: 43px !important;
+        padding: 12px 20px 8px 20px !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats {
+        background: #fafafa;
+        border-radius: 31px;
+        padding: 15px 35px 15px 35px !important;
+    }
+    .desc-right-column-project {
         font-size: 0.8rem;
     }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report {
+        margin: 20px 0;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report span {
+        margin-bottom: 8px;
+        font-size: 0.9rem;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat span {
+        font-size: 2.067rem;
+        line-height: 45px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a {
+        font-size: 0.9rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report p {
+        font-size: 0.9rem;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
+        font-family: ubuntu-regular, sans-serif;
+        font-size: 0.8rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left span {
+        font-size: 0.9rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left p {
+        font-size: 0.90rem !important;
+    }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
-        margin: 30px 0 45px 0px;
+        margin: 20px 0 13px 0px !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback p {
+        font-size: 0.9rem !important;
+        margin-bottom: 8px;
     }
     #screenmain .menu-project-right-column {
 
         left: 1095px;
     }
     .scroll{
-        height: 650px;
+        height: 630px;
     }
     .menu-right .container-menu-right h2,.screen-work .screen-page-work .info-main h1,.screen-services .info-main h1 , .screen-contacts .info-main .container-content-contacts h1 {
         font-size: 2.43rem;
@@ -7728,9 +7849,10 @@ overflow: visible;
     max-width: 1240px !important;
 }
 .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
-    height: 245px;
-    margin-top: 30px;
-    margin-left: -70px;
+    height: 205px;
+   right: 0px;
+   bottom: 0px;
+   width: 330px;
 }
 .menu-right-project .container-menu-right-project #call-left-block-span {
     position: relative;
@@ -7740,41 +7862,97 @@ overflow: visible;
     min-width: 700px;
 }
 .menu-right-project .container-menu-right-project .menu-project-right-column {
-    max-width: 430px;
-    min-width: 330px;
+    max-width: 435px;
+    min-width: 270px;
 }
 .menu-right-project .container-menu-right-project .menu-project-left-column {
-    max-width: 758px;
-    min-width: 700px;
+    max-width: 708px;
+    min-width: 600px;
 }
 #screenmain .menu-project-right-column {
-    left: 1012px;
+    left: 972px;
+   
 }
 }
-@media (min-width: 586.98px) and (max-width:1270px){
-    #call-left-block-span {
-        font-size: 1rem !important;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
-        font-size: 0.90rem;
+@media (min-width: 586.98px) and (max-width:1271px){
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+        width: 244px !important;
+        font-size: 0.78rem !important;
+        height: 43px !important;
+        padding: 12px 20px 8px 20px !important;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats {
         background: #fafafa;
         border-radius: 31px;
-        padding: 15px 35px 15px 35px;
+        padding: 8px 35px 9px 35px !important;
     }
-    .scroll{
+    .desc-right-column-project {
+        font-size: 0.7rem;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report {
+        margin: 15px 0;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report span {
+        margin-bottom: 8px !important;
+        font-size: 0.8rem;
+        line-height: 18px !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat span {
+        font-size: 1.967rem;
+        line-height: 35px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a {
+        font-size: 0.8rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report p {
+        font-size: 0.8rem;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
+        font-family: ubuntu-regular, sans-serif;
+        font-size: 0.7rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left span {
+        font-size: 0.8rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left p {
+        font-size: 0.8rem !important;
+        
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
+        margin: 20px 0 13px 0px !important;
+        padding-bottom: 10px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback p {
+        font-size: 0.8rem !important;
+        margin-bottom: 8px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+        width: 264px;
+        font-size: 0.83rem;
+        height: 40px;
+        padding: 10px 20px 11px 20px;
+    }
+    
+    #call-left-block-span {
+        font-size: 1rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
+        font-size: 0.90rem !important;
+    }
+   
+    /* .scroll{
         margin: 11px 215px 76px 111px !important;
-    }
-    #screenmain .menu-project-right-column {
-        top: 00px !important;
-    }
+    } */
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
         font-size: 0.90rem;
     }
     
     #screenmain .menu-project-right-column {
-        left: 840px;
+     
+        left: 820px;
+        min-width: 240px;
+        max-width: 435px;
+
     }
     .menu-right .container-menu-right h2,.screen-work .screen-page-work .info-main h1,.screen-services .info-main h1 , .screen-contacts .info-main .container-content-contacts h1 {
         font-size: 2.13rem;
@@ -7825,8 +8003,8 @@ overflow: visible;
         max-width: 580px;
     min-width: 430px;
     }
-    .menu-right-project .container-menu-right-project .menu-project-right-column {
-        max-width: 385px;
+     .menu-right-project .container-menu-right-project .menu-project-right-column {
+        /* max-width: 385px; */
         min-width: 340px;
     }
     html{
@@ -7843,7 +8021,86 @@ overflow: visible;
         width: 270px;
     }
 }
+@media (min-width: 1370px) and (max-width:1440px){
+   
+    .menu-right-project .container-menu-right-project .menu-project-right-column {
+        max-width: 410px;
+        min-width: 285px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-left-column {
+        max-width: 630px;
+        min-width: 500px;
+    }
+    #screenmain .menu-project-right-column {
+        left: 890px;
+    }
+    
+}
 @media (min-width: 1270px) and (max-width:1370px){
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+        width: 244px !important;
+        font-size: 0.78rem !important;
+        height: 43px !important;
+        padding: 12px 20px 8px 20px !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats {
+        background: #fafafa;
+        border-radius: 31px;
+        padding: 8px 35px 9px 35px !important;
+    }
+    .desc-right-column-project {
+        font-size: 0.7rem;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report {
+        margin: 15px 0;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report span {
+        margin-bottom: 8px !important;
+        font-size: 0.8rem;
+        line-height: 18px !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat span {
+        font-size: 1.967rem;
+        line-height: 35px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a {
+        font-size: 0.8rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report p {
+        font-size: 0.8rem;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
+        font-family: ubuntu-regular, sans-serif;
+        font-size: 0.7rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left span {
+        font-size: 0.8rem !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share .share-left p {
+        font-size: 0.8rem !important;
+        
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
+        margin: 20px 0 13px 0px !important;
+        padding-bottom: 10px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback p {
+        font-size: 0.8rem !important;
+        margin-bottom: 8px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column {
+        margin-right: 65px !important;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+        width: 264px;
+        font-size: 0.83rem;
+        height: 40px;
+        padding: 10px 20px 11px 20px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
+
+        font-size: 0.8rem !important;
+    }
     #call-left-block-span {
         font-size: 1rem !important;
     }
@@ -7852,25 +8109,14 @@ overflow: visible;
         width: 315px;
     }
 .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {      
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
 }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat span {
-        font-size: 2.367rem;
-    }
-    .scroll{
-        margin: 11px 215px 76px 111px !important;
-    }
-    #screenmain .menu-project-right-column {
-        top: 00px !important;
-    }
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
-        margin: 30px 0 25px 0px;
-    }
-    .desc-right-column-project {
-        font-size: 0.9rem;
-    }
     
+
     .scroll{
+        min-width: 930px;
+        max-width: 1040px;
+        margin: 111px 340px 76px 111px;
         height: 590px;
     }
     .menu-right .container-menu-right h2,.screen-work .screen-page-work .info-main h1,.screen-services .info-main h1 , .screen-contacts .info-main .container-content-contacts h1 {
@@ -7899,8 +8145,8 @@ overflow: visible;
         width: 110%;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column {
-        max-width: 425px;
-        min-width: 405px;
+        max-width: 353px;
+        min-width: 285px;
     }
     /* .menu-right .container-menu-right{
         margin: 30px 175px 0 110px;
@@ -7931,9 +8177,7 @@ overflow: visible;
         margin-right: 50px;
     }
 
-    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
-        margin: 20px 0 35px 0;
-    }
+    
     .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
         height: 240px;
     margin-top: 35px;
@@ -7972,6 +8216,15 @@ overflow: visible;
     }
 }
 @media (max-width:575.98px) {
+    .downarrow{
+        display: none !important;
+    }
+    video {
+    position: fixed;
+    height: 100vh;
+    width: auto;
+    left: -110vw;
+    }
    .scollmobile{
        width: 100vw;
        height: 190px;
@@ -9145,8 +9398,14 @@ overflow: visible;
     
 }
 @media (min-width: 1500px) and (max-width:1730px){
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback p {
+        margin-bottom: 15px;
+    }
+    .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats {
+        padding: 20px 35px 25px 35px;
+    }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
-        margin: 30px 0 30px 0;
+        margin: 23px 0 23px 0;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat p {
         font-size: 0.87rem;
@@ -9163,18 +9422,16 @@ overflow: visible;
     .menu-right-project .screen-work .form-control-btn-fit a{
         height: 55px;
     }
-    .scroll{
+    /* .scroll{
         margin: 111px 0px 76px 111px;
         width: 1375px;
-    }
+    } */
 }
-@media (min-width: 580px) and (max-width:1575px){
-    .scroll {
+@media (min-width: 580px) and (max-width:1600px){
+    /* .scroll {
         margin: 98px 0px 76px 111px;
-    }
-    #screenmain .menu-project-right-column {
-        top: 80px;
-    }
+    } */
+    
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats {
         background: #fafafa;
         border-radius: 31px;
@@ -9186,10 +9443,10 @@ overflow: visible;
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-share {
         margin: 25px 0 10px 0;
     }
-    .scroll{
+    /* .scroll{
         margin: 91px 0px 76px 111px;
         width: 1380px;
-    }
+    } */
     .callback-form-block label {
 
         font-size: 0.689rem

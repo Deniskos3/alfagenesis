@@ -103,6 +103,7 @@
         </div>
     </div>
     <div class="screen" id="screenmain">
+    <video src="../video/preview.mp4" muted width="auto" height="100%"  autoplay playsinline loop></video>
         <div class="background-screen screen-page" id="openprojects">
             <div class="container-custom" id="container-cust">
                 <div class="flex-wrapper-screen">
@@ -296,7 +297,7 @@
                             <li><a href="">Магазин</a></li>
                         </ul>
                     </div>
-                    <div class="container-scroll" style="min-width: 1210px; max-width: 1410px;">
+                    <div class="container-scroll" style="min-width: 1110px; max-width: 1410px;">
                     <div class="js-page-scroll js-page-scroll-tow">
                     <div class="js-page-scroll-main card-projects-navigate">
                         <a href="/project_1" class="card-nav-link openstr">
@@ -307,6 +308,12 @@
                                 </div>
                                 <div class="card-project-nav-image">
                                     <img src="../img/icons/projects/help_child.png" alt="">
+                                </div>
+                                <div class="downarrow">
+                                    <p>Подробнее</p>
+                                    <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                    </svg>
                                 </div>
                             </div>
                         </a>
@@ -319,6 +326,12 @@
                                 <div class="card-project-nav-image">
                                     <img src="../img/icons/projects/logo1.png" alt="">
                                 </div>
+                                <div class="downarrow">
+                                    <p>Подробнее</p>
+                                    <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                    </svg>
+                                </div>
                             </div>
                         </a>
                         <a href="/project_3" class="card-nav-link openstr">
@@ -329,6 +342,12 @@
                                 </div>
                                 <div class="card-project-nav-image">
                                     <img src="../img/icons/projects/123.png" alt="">
+                                </div>
+                                <div class="downarrow">
+                                    <p>Подробнее</p>
+                                    <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                    </svg>
                                 </div>
                             </div>
                         </a>
