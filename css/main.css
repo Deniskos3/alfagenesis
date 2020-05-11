@@ -4159,8 +4159,8 @@ form .validate_flag {
     top: inherit;
     right: inherit;
     opacity: 1;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     display: none
 }
 
@@ -4472,9 +4472,7 @@ form .validate_flag {
     bottom: 28px;
     right: 28px
 }
-#openprojects #mCSB_1_scrollbar_horizontal{
-    opacity: .0 !important;
-}
+
 .screen-page {
     position: relative
 }
@@ -4620,11 +4618,16 @@ form .validate_flag {
 .control-arrow-projects:hover svg path {
     fill: #929292
 }
-
+.mCSB_container{
+    position: relative !important;
+}
+.menu-right-project{
+    width: 100% !important;
+}
 .menu-right {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 10000%;
     left: -webkit-calc(100% - 0px);
     left: calc(100% - 0px);
     background-color: #fff;
@@ -4798,10 +4801,11 @@ overflow: visible !important;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    /* -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap; */
     overflow-x: visible;
+    justify-content: start;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: start;
+	-ms-flex-pack: justify;
 }
 .container-scroll{
     position: relative;
@@ -4912,7 +4916,7 @@ overflow: visible !important;
 
 .menu-right .container-menu-right .card-projects-navigate .themes-purple p,
 .menu-right .container-projects-content .card-projects-navigate .themes-purple p {
-    color: #c882ff
+    color: #fff
 }
 
 .menu-right .container-menu-right .card-projects-navigate .themes-pink,
@@ -5441,7 +5445,7 @@ overflow: visible !important;
 }
     video{
        position: fixed;
-       z-index: -1;
+       z-index: -6;
     }
 
 .screen .background-screen {
@@ -6183,7 +6187,7 @@ overflow: visible !important;
 .screen-projects .menu-right{
     overflow: hidden;
 }
-#mCSB_2{
+.scroll  .mCSB_vertical{
     overflow: visible !important;
 }
 
@@ -6488,8 +6492,10 @@ overflow: visible !important;
     height: 275px;
     position: relative;
 }
-#screenmain .scroll #mCSB_2_scrollbar_vertical{
+#screenmain .scroll .mCSB_scrollTools_vertical{
     margin-top: 20px;
+    margin-bottom: 157px;
+    height: 60vh;
 
 }
 #screenmain .scroll .mCSB_dragger {
@@ -6506,7 +6512,8 @@ overflow: visible !important;
     background-color: #EAEAEA;
 }
 #screenmain .scroll .mCSB_draggerContainer{
-    height: 583px !important;
+    height: 587px;
+    margin: auto 0;
     background-color: #efefef;
     width: 7px;
 }
@@ -7366,7 +7373,7 @@ background-color: #F8F8F8;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 75px 0
+    padding: 75px 0;
 }
 .downarrow{
     position: absolute;
@@ -7459,7 +7466,7 @@ overflow: visible;
 .mCSB_draggerRail{
     height: 7px !important;
 }
-#mCSB_1_scrollbar_horizontal{
+.menu-right .mCSB_scrollTools_horizontal{
     margin-left:18px;
     width: 94%;
 }
@@ -7524,6 +7531,9 @@ overflow: visible;
 }
 }
 @media (min-width:1400px) {
+    #screenmain .scroll .mCSB_scrollTools_vertical{
+        height: 69vh !important;
+    }    
   
     /* .menu-right-project .container-menu-right-project {
         margin: 85px 126px 0 110px;
@@ -7539,8 +7549,8 @@ overflow: visible;
     
     .container-scroll{
 
-        min-width: 419px;
-        max-width: 479px;
+        min-width: 419px !important;
+        max-width: 479px !important;
     }
     .header-left-column .menu li a svg {
         width: 27% !important;
@@ -7602,8 +7612,8 @@ overflow: visible;
         height: 16% !important;
         }
     .container-scroll{
-        min-width: 465px;
-        max-width: 553px;
+        min-width: 465px !important;
+        max-width: 553px !important;
     }
     #container-cust{
         margin-left: 55px;
@@ -7637,11 +7647,14 @@ overflow: visible;
         height: 21% !important;
     }
     .container-scroll{
-        min-width: 545px ;
-        max-width: 600px ;
+        min-width: 545px !important;
+        max-width: 600px !important;
     }  
 }
 @media (min-width: 2000px) and (max-width: 2400px){
+    #screenmain .scroll .mCSB_scrollTools_vertical{
+        height: 76vh !important;
+    }
     .container-menu-right-project .mCSB_scrollTools {
         right: -42.1vw !important;
     }
@@ -7653,8 +7666,8 @@ overflow: visible;
         height: 22% !important;
     }
     .container-scroll{
-        min-width: 545px ;
-        max-width: 690px ;
+        min-width: 545px !important;
+        max-width: 690px !important;
     }
     .header-left-column nav {
         height: 87%;
@@ -7669,7 +7682,7 @@ overflow: visible;
     } */
     
     .container-scroll{
-        min-width: 600px;
+        min-width: 600px !important;
         max-width: 803px !important;
     }
 }
@@ -7678,11 +7691,14 @@ overflow: visible;
         right: -53vw !important;
     }
     .container-scroll{
-        min-width: 600px;
+        min-width: 600px !important;
         max-width: 853px !important;
     }
 }
 @media (min-width: 2400px) and (max-width: 2900px){
+    #screenmain .scroll .mCSB_scrollTools_vertical{
+        height: 88vh !important;
+    }
     .container-menu-right-project .mCSB_scrollTools {
         right: -54.4vw !important;
     }
@@ -7703,11 +7719,14 @@ overflow: visible;
   
 }
 .container-scroll{
-    min-width: 600px;
-    max-width: 953px;
+    min-width: 600px !important;
+    max-width: 953px !important;
 }
 }
 @media (min-width: 2900px){
+    #screenmain .scroll .mCSB_scrollTools_vertical{
+        height: 85vh !important;
+    }
     .scroll{
         height: 835px;
         margin: 111px 260px 76px 111px;
@@ -7720,7 +7739,7 @@ overflow: visible;
         height: 93%;
     }
     .container-scroll{
-    max-width: 1300px;
+    max-width: 1300px !important;
     }
     .header-left-column .menu li a {
         padding: 28% 15px 25% 15px;
@@ -7733,7 +7752,7 @@ overflow: visible;
 }
 @media (max-width:323.98px) {
     .container-scroll {
-    min-width: 310px
+    min-width: 310px !important;
     }
 }
 @media (min-width: 1430.98px) and (max-width: 1445.98px){
@@ -7768,15 +7787,12 @@ overflow: visible;
     }
 }
 @media (min-width: 1370.98px) and (max-width: 1585.98px){
-    .screen-services .container-custom {
-        margin-left: 75px;
+    #screenmain .scroll .mCSB_scrollTools_vertical {
+        height: 64vh !important;
     }
-    .screen-contacts .container-custom {
-        margin-left: 75px;
-    }
-    .menu-right .container-menu-right .card-projects-navigate .card-nav{
-    width: 260px;
-    height: 360px
+    
+    .scroll{
+        height: 720px;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
         width: 244px !important;
@@ -7988,10 +8004,6 @@ overflow: visible;
     /* .menu-right .container-menu-right{
         margin: 05px 175px 0 110px;
     } */
-    #screenmain .menu-right {
-        width: 135%;
-    }
-  
   
     #screenmain .footer {
         width: 51.5%;
@@ -8037,6 +8049,10 @@ overflow: visible;
     
 }
 @media (min-width: 1270px) and (max-width:1370px){
+    .callback-form {
+        padding: 18px 83px 25px 83px;
+    }
+    
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
         width: 244px !important;
         font-size: 0.78rem !important;
@@ -8114,10 +8130,9 @@ overflow: visible;
     
 
     .scroll{
-        min-width: 930px;
-        max-width: 1040px;
-        margin: 111px 340px 76px 111px;
-        height: 590px;
+        min-width: 940px;
+        max-width: 1050px;
+        height: 560px;
     }
     .menu-right .container-menu-right h2,.screen-work .screen-page-work .info-main h1,.screen-services .info-main h1 , .screen-contacts .info-main .container-content-contacts h1 {
         font-size: 2.23rem;
@@ -8142,7 +8157,7 @@ overflow: visible;
     }
  
     #screenmain .menu-right {
-        width: 110%;
+        width: 110000%;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column {
         max-width: 353px;
@@ -8179,9 +8194,9 @@ overflow: visible;
 
     
     .menu-right-project .container-menu-right-project .menu-project-left-column .project-form-callback_wrapper .call-right-block {
-        height: 240px;
-    margin-top: 35px;
-    right: 0px;
+        height: 215px;
+        bottom: 0px;
+        right: 0px;
     }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-report a {
         display: block;
@@ -8216,6 +8231,9 @@ overflow: visible;
     }
 }
 @media (max-width:575.98px) {
+    .mobile-menu-social .wrapper-callback-form-mobile{
+        margin-top: -5px;
+    }
     .downarrow{
         display: none !important;
     }
@@ -8358,6 +8376,7 @@ overflow: visible;
         flex-direction: column
     }
     .menu-right {
+        width: 100%;
         position: relative;
         left: inherit;
         top: inherit;
@@ -8443,12 +8462,12 @@ overflow: visible;
         position: absolute;
         top: 0;
         width: 100vw;
-        z-index: 6;
+        z-index: 11;
         padding: 30px 30px 0 30px
     }
     .header .logo {
         position: relative;
-        z-index: 3
+        z-index: 3;
     }
     .header .logo a {
         padding: 0 0 4px 0;
@@ -8467,13 +8486,13 @@ overflow: visible;
         z-index: 4;
     }
     .header-left-column {
-        z-index: 5 !important;
+        z-index: 10 !important;
         background: #7300cc;
         position: fixed;
         width: 100vw !important;
-        height: 93vh;
+        height: 100vh;
         left: -100vw;
-        padding: 130px 30px 18px 30px !important;
+        padding: 130px 30px 7.3vh 30px !important;
         -webkit-box-align: start;
         -webkit-align-items: start;
         -ms-flex-align: start;
@@ -8529,7 +8548,7 @@ overflow: visible;
         margin: 0 auto
     }
     .header-left-column .mobile-menu-social .social {
-        margin-top: 31px;
+        margin-top: 27px;
         margin-bottom: 18px;
         display: -webkit-box;
         display: -webkit-flex;
@@ -8555,6 +8574,8 @@ overflow: visible;
         display: block
     }
     .screen .background-screen .info-main {
+        position: relative;
+        z-index: -0;
         margin: 0 30px 0 30px !important;
         text-align: center;
         height: 100vh;
@@ -8585,14 +8606,18 @@ overflow: visible;
     }
     .mobile-callback-main_screen {
         display: block;
-        margin: 0 auto 90px auto
+        margin: 0 auto 90px auto;
+        position: relative;
+        z-index: 0;
     }
     .mobile-callback-main_screen .form-control-btn-fit {
         margin-top: 0
     }
     .mobile-callback-main_screen .form-control-btn-fit a {
         font-size: 14px;
-        line-height: 16px
+        line-height: 16px;
+        z-index: 1;
+        position: relative;
     }
     .callback-form {
         position: fixed;
@@ -8677,9 +8702,9 @@ overflow: visible;
         border-radius: 0
     }
     .wrapper-callback-form-mobile .wrapper-callback-form-open svg{
-        height: 17px !important;
-        width: 17px;
-        margin-top: 9px;
+        height: 19px !important;
+        width: 19px;
+        margin-top: 12px;
     }
     .modal-template {
         z-index: 9
@@ -9195,7 +9220,7 @@ overflow: visible;
         width: auto; */
         display: none;
     }
-    .scollmobile #mCSB_1_scrollbar_horizontal {
+    .scollmobile .mCSB_scrollTools_horizontal {
         opacity: 0 !important;
 
     }

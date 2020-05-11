@@ -298,7 +298,7 @@
                             <li><a href="">Магазин</a></li>
                         </ul>
                     </div>
-                    <div class="container-scroll" style="min-width: 1110px; max-width: 1410px;">
+                    <div class="container-scroll" style="min-width: 1220px !important !important; max-width: 1410px !important;">
                     <div class="js-page-scroll js-page-scroll-tow">
                     <div class="js-page-scroll-main card-projects-navigate">
                         <a href="/project_1" class="card-nav-link openstr">
@@ -352,6 +352,98 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="/project_4" class="card-nav-link openstr">
+                            <div class="card-nav themes-pink">
+                                <div class="card-project-nav-header">
+                                    <h3 class="color-dark">TheFix</h3>
+                                    <p class="color-dark">Доставка грузов из Китая <br/>в Россию</p>
+                                </div>
+                                <div class="downarrow">
+                                    <p>Подробнее</p>
+                                    <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/project_5" class="card-nav-link openstr">
+                            <div class="card-nav themes-pink">
+                            <div class="card-project-nav-header">
+                                <h3 class="color-dark">ICanChoose</h3>
+                            </div>
+                            <div class="downarrow">
+                                <p>Подробнее</p>
+                                <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                 </svg>
+                            </div>
+                            </div>
+                        </a>
+                        <a href="/project_6" class="card-nav-link openstr">
+                        <div class="card-nav themes-pink">
+                            <div class="card-project-nav-header">
+                                <h3 class="color-dark">Сайт коуча</br> Алика Бигаева</h3>
+                            </div>
+                            <div class="downarrow">
+                                <p>Подробнее</p>
+                                <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                 </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/project_7" class="card-nav-link openstr">
+                        <div class="card-nav themes-pink">
+                            <div class="card-project-nav-header">
+                                <h3 class="color-dark">Refine Eco</h3>
+                            </div>
+                            <div class="downarrow">
+                                <p>Подробнее</p>
+                                <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                 </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/project_8" class="card-nav-link openstr">
+                        <div class="card-nav themes-pink">
+                            <div class="card-project-nav-header">
+                                <h3 class="color-dark">Мембранная Кровля</h3>
+                            </div>
+                            <div class="downarrow">
+                                <p>Подробнее</p>
+                                <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                 </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/project_9" class="card-nav-link openstr">
+                        <div class="card-nav themes-pink">
+                            <div class="card-project-nav-header">
+                                <h3 class="color-dark">AWABY</h3>
+                            </div>
+                            <div class="downarrow">
+                                <p>Подробнее</p>
+                                <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                 </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/project_10" class="card-nav-link openstr">
+                        <div class="card-nav themes-pink">
+                            <div class="card-project-nav-header">
+                                <h3 class="color-dark">Absolute champion</h3>
+                            </div>
+                            <div class="downarrow">
+                                <p>Подробнее</p>
+                                <svg width="9" height="28" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#000000" fill-opacity="0.15"/>
+                                 </svg>
+                            </div>
+                        </div>
+                    </a>
                         <a href="#callback" class="card-nav-link wrapper-callback-form-open">
                             <div class="card-nav themes-transparent card-nav-open__modal">
                                 <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -587,6 +679,7 @@
 <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
 <script src="//code.jivosite.com/widget/FejpRzp385" async></script>
 <script src="../js/scripts.min.js"></script>
+<script src="https://yastatic.net/share2/share.js" async="async" ></script>
 <script src="../mail/js/mail.js"></script>
 </body>
 </html>
