@@ -277,7 +277,7 @@
                     </div>
                 </div>
             </div>
-            <div class="menu-right full_opened_menu" style="left: -webkit-calc(60%) ;left: calc(60%) ;" >
+            <div class="menu-right full_opened_menu" style="left: -webkit-calc(60%) ; left: calc(60%) ;" >
                 <div class="control-arrow full_screen_menu" style="transform:rotate(180deg);">
                     <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
@@ -286,6 +286,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.139846 2.13203C-0.209014 1.38064 0.117302 0.488706 0.868693 0.139846C1.62008 -0.209014 2.51201 0.117302 2.86087 0.868693L8.43046 12.8647C8.55996 13.1437 8.59642 13.4419 8.55263 13.7246C8.57964 13.9906 8.53591 14.267 8.41145 14.5255L2.87998 26.0139C2.5206 26.7604 1.62417 27.0741 0.877757 26.7147C0.131343 26.3553 -0.182407 25.4589 0.176978 24.7125L5.49528 13.6668L0.139846 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
                     </svg>
                 </div>
+               
                 <div class="container-menu-right" >
                     <h2>Проекты студии</h2>
                     <div class="project-navigate">
@@ -296,7 +297,7 @@
                             <li><a href="">Магазин</a></li>
                         </ul>
                     </div>
-                    <div class="container-scroll" style="min-width: 680px!important; max-width: 1650px !important;">
+                    <div class="container-scroll" style="min-width: 680px!important; max-width: 1650px!important;">
                     <div class="js-page-scroll js-page-scroll-tow">
                     <div class="js-page-scroll-main card-projects-navigate">
                     <?php include'../cards/cardsopen.php'?>
@@ -333,10 +334,8 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div class="menu-right menu-right-project full_opened_menu">
-            
                 <div class="control-arrow-projects-open vis">
                     <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
@@ -358,168 +357,147 @@
                     </a>
 
                 </div>
-                <div class="scroll">
-                <div class="container-menu-right-project">
-                    <div class="menu-project-left-column">
-                        <a href="" class="project-sort-link">Сервисы</a>
-                        <h2>Благотворительный фонд<br>"Помогите детям"</h2>
-                        <p class="project-task">Задача</p>
-                        <p class="project-task-description">Разработать сервис с личным кабинетом с возможность перевода средств для помощи детям с диагнозов ДЦП. Показать прозрачность сервиса за счет отчетов и личного кабинета. Разработать  систему рекомендаций.</p>
-                        <img class="project-task-images" src="../img/projects/help_child/project-images_1.png" alt="">
-                        <div class="project-technology">
-                            <p>Технологии</p>
-                            <div class="stack-technology">
-                                <div class="item-tech">
-                                    <span>Дизайн</span>
-                                    <p>Figma, Adobe Photoshop, <br>Adobe Illustrator</p>
-                                </div>
-                                <div class="item-tech">
-                                    <span>Верстка</span>
-                                    <p>CSS</p>
-                                </div>
-                                <div class="item-tech">
-                                    <span>Программная часть</span>
-                                    <p>Symphony + PHP 5</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-stages stage-first">
-                            <p class="stage-header">1. Разработка фирменного стиля</p>
-                            <span>Символика бренда (логотип):</span>
-                            <p class="stage-descr">
-                                Призыв о помощи - важный аспект благотворительного проекта в России. Название проекта было предложено в виде простого призыва человека для помощи детями с ДЦП. Разработкой логотипа мы хотели подчеркнуть сложность сбора средств для деток, а так же то, что родители часто не обращаются в благотворительные фонды за помощью, а ведут самостоятельные сборы средств в социальных сетях. В связи с этим формат логотипа получился в виде диалогового окошка в котором заключено название проекта “Помогите детям”:
-                            </p>
-                            <img class="stages-images-collect" src="../img/projects/help_child/images-collect.png" alt="">
-                            <div class="stages-design">
-                                <span>Цветовая палитра:</span>
-                                <p>Цветовой палитрой проекта хотели призвать к помощи благотворителей и вселить надежду в семьи, которые обращаются за помощью в фонд. В основе проекта белый цвет, который позволяет с легкостью ориентироваться на сайте, акценты помогли нам расставить контрастные цвета:</p>
-                                <div class="stages-design-colors">
-                                    <div class="stages-design-colors-left stages-design-colors-flex">
-                                        <div class="stages-design-circle circle-red"></div>
-                                        <p>Основной цвет <br>#FF8320</p>
-                                    </div>
-                                    <div class="stages-design-colors-right stages-design-colors-flex">
-                                        <div class="stages-design-circle circle-purple"></div>
-                                        <p>Основной цвет <br>#4B27A1</p>
+                    <div class="scroll">
+                        <div class="container-menu-right-project">
+                            <div class="menu-project-left-column">
+                                <a href="" class="project-sort-link">Сервисы</a>
+                                <h2>Djim Popo</h2>
+                                <p class="project-task">Задача</p>
+                                <p class="project-task-description">Разработка презентационного, но и функционального сайта транспортной компани с Личным кабинетом и Панелью администратора.</p>
+                                <img class="project-task-images" src="../img/projects/djimpopo/backfon.png" alt="">
+                                <div class="project-technology">
+                                    <p>Технологии</p>
+                                    <div class="stack-technology">
+                                        <div class="item-tech">
+                                            <span>Дизайн</span>
+                                            <p>Adobe Photoshop, <br>Adobe Illustrator</p>
+                                        </div>
+                                        <div class="item-tech">
+                                            <span>Верстка</span>
+                                            <p>CSS</p>
+                                        </div>
+                                        <div class="item-tech">
+                                            <span>Программная часть</span>
+                                            <p>PHP 5</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="project-stages stage-last">
-                            <p class="stage-header">1. Разработка сайта</p>
-                            <p class="stage-descr">
-                                Призыв о помощи - важный аспект благотворительного проекта в России. Название проекта было предложено в виде простого призыва человека для помощи детями с ДЦП. Разработкой логотипа мы хотели подчеркнуть сложность сбора средств для деток, а так же то, что родители часто не обращаются в благотворительные фонды за помощью, а ведут самостоятельные сборы средств в социальных сетях. В связи с этим формат логотипа получился в виде диалогового окошка в котором заключено название проекта “Помогите детям”:
-                            </p>
-                            <img src="../img/projects/help_child/project-images_2.png" alt="">
-                            <p class="stage-p">На данный момент ведется Level-Up сайта и в скором времени вы сможете увидеть новый функционал сайта благотворительного фонда “Помогите детям”, где пожертвовать средства на реабилитацию деток можно будет в 2 шага </p>
-                        </div>
-                        <div class="project-form-callback_wrapper">
-                            <div class="call-left-block" id="info-send1">
-                            <p>Спасибо за обращение!</p>
-                            <span>Мы перезвоним вам в течение 10 минут!</span>
-                            </div>
-                            <div class="call-left-block" id="info1">
-                                <p>Время начать работу</p>
-                                <span id="call-left-block-span">Свяжитесь с нами, <br>мы предложим лучший вариант для вас!</span>
-                                <div class="callback-form-block">
-                                    <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
-                                    <input id="callback_phone2" type="tel" placeholder="+7" name="phone" value="+7">
-                                    									<span class="hidden validate_flag">
-                                    										<svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline&#45;&#45;fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
-                                    									</span>
+                                <div class="project-stages stage-first">
+                                    <p class="stage-header">1. Разработка сайта</p>
+                                    <p class="stage-descr">
+                                        Адаптивная верстка html-страниц сайта на основе утвержденного дизайна, с использованием JS, CSS. На сайте реализовано большое количество анимаций при скроле страниц. Пользователь переходит со страницы на страницу не ожидания загрузки контента.
+                                    </p>
+                                    <img class="stages-images-collect stages-images-collect-last" src="../img/projects/realtransit/image_2.png" alt="">
+                                </div>
+                                <div class="project-stages stage-last">
+                                    <p class="stage-p">На сайт вносились новшества в течение 240 рабочих часов после 1 сдачи проекта. За это время добавили: настроили поисковую оптимизацию, добавили страницы продуктов и разработали более широкий функционал для Панели администратора.</p>
+                                </div>
+                                <div class="project-form-callback_wrapper">
+                                    <div class="call-left-block" id="info-send1">
+                                    <p>Спасибо за обращение!</p>
+                                    <span>Мы перезвоним вам в течение 10 минут!</span>
+                                    </div>
+                                    <div class="call-left-block" id="info1">
+                                        <p>Время начать работу</p>
+                                        <span id="call-left-block-span">Свяжитесь с нами, <br>мы предложим лучший вариант для вас!</span>
+                                        <div class="callback-form-block">
+                                            <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
+                                            <input id="callback_phone2" type="tel" placeholder="+7" name="phone" value="+7">
+                                            <span class="hidden validate_flag">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline&#45;&#45;fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <img class="call-right-block" src="../img/projects/help_child/callback-form.png" alt="">
+                                </div>
+                                <div class="footer">
+                                    <div class="footer-block footer-name">
+                                        <p>ООО “Альфа Генезис”</p>
+                                        <span>ИНН 2130175319 ОГРН 1162130061840</span>
+                                    </div>
+                                    <div class="footer-block footer-phone">
+                                        <p>Поддержка по РФ</p>
+                                        <p><a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a></p>
+                                    </div>
+                                    <div class="footer-block footer-email">
+                                        <p>Почта:</p>
+                                        <p><a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a></p>
+                                    </div>
+                                    <div class="footer-block footer-social">
+                                        <p>Мы на связи<br>в соц.сетях:</p>
+                                        <div class="social">
+                                            <a href="https://vk.com/alfa_genesis" target="_blank">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-vk fa-w-18 fa-7x"><path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path></svg>
+                                            </a>
+                                            <a href="https://www.facebook.com/alfa.genezis" target="_blank">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-facebook-f fa-w-10 fa-7x"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path></svg>
+                                            </a>
+                                            <a href="https://www.instagram.com/alfa_genesis/ " target="_blank">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-instagram fa-w-14 fa-2x"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" class=""></path></svg>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <img class="call-right-block" src="../img/projects/help_child/callback-form.png" alt="картинка">
-                        </div>
-                        <div class="footer">
-                            <div class="footer-block footer-name">
-                                <p>ООО “Альфа Генезис”</p>
-                                <span>ИНН 2130175319 ОГРН 1162130061840</span>
-                            </div>
-                            <div class="footer-block footer-phone">
-                                <p>Поддержка по РФ</p>
-                                <p><a href="tel:+7 (800) 600 00 21">8 800 600 00 21</a></p>
-                            </div>
-                            <div class="footer-block footer-email">
-                                <p>Почта:</p>
-                                <p><a href="mailto:info@alfagenesis.ru">info@alfagenesis.ru</a></p>
-                            </div>
-                            <div class="footer-block footer-social">
-                                <p>Мы на связи<br>в соц.сетях:</p>
-                                <div class="social">
-                                    <a href="https://vk.com/alfa_genesis" target="_blank">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-vk fa-w-18 fa-7x"><path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path></svg>
-                                    </a>
-                                    <a href="https://www.facebook.com/alfa.genezis" target="_blank">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-facebook-f fa-w-10 fa-7x"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path></svg>
-                                    </a>
-                                    <a href="https://www.instagram.com/alfa_genesis/ " target="_blank">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-instagram fa-w-14 fa-2x"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" class=""></path></svg>
-                                    </a>
+                            <div class="menu-project-right-column">
+                                <img class="project-sticker" src="../img/projects/realtransit/logo_real.png" alt=""  width="81px" height="102px">
+                                <p>- доставка грузов из Китая в самые короткие сроки любым удобным способом</p>
+                                <div class="right-column-report">
+                                    <div class="right-column-report__left">
+                                        <span>Адрес проекта</span>
+                                        <a href="">realtransit.ru</a>
+                                    </div>
+                                    <div class="right-column-report__right">
+                                        <span>Разработка</span>
+                                        <p>2018 год</p>
+                                    </div>
+                                </div>
+                                <div class="right-column-stats">
+                                    <div class="stat">
+                                        <span>6</span>
+                                        <p>человек <br>в команде</p>
+                                    </div>
+                                    <div class="stat">
+                                        <span>80</span>
+                                        <p>часов <br>на разработку</p>
+                                    </div>
+                                    <div class="stat">
+                                        <span>∞</span>
+                                        <p>любовь <br>к заказчику</p>
+                                    </div>
+                                </div>
+                                <div class="right-column-share">
+                                    <div class="share-left">
+                                        <span>Понравился проект?</span>
+                                        <p>Поделитесь в соц. сетях</p>
+                                    </div>
+                                    <div class="share-right">
+                                        <div class="share-social share-social-vk ya-share2 " data-services="vkontakte">
+                                            <a href="">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-vk fa-w-18 fa-7x"><path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path></svg>
+                                            </a>
+                                        </div>
+                                        <div class="share-social share-social-facebook ya-share2" data-services="facebook">
+                                            <a href="">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-facebook-f fa-w-10 fa-7x"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path></svg>
+                                            </a>
+                                        </div>
+                                        <div class="share-social share-social-instagram">
+                                            <a href="">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-instagram fa-w-14 fa-2x"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" class=""></path></svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-column-callback">
+                                    <p>Готовы к сотрудничеству?</p>
+                                    <a href="#callback" class="btn-yellow">Заказать похожий проект</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="menu-project-right-column">
-                        <img class="project-sticker" src="../img/projects/help_child/sticker.png" alt="" height="117px" width="185px">
-                        <p class="desc-right-column-project">— благотворительный фонд для детей больныз с ДЦП. Онлайн-сервис и информационный сайт.</p>
-                        <div class="right-column-report">
-                            <div class="right-column-report__left">
-                                <span>Адрес проекта</span>
-                                <a href="/project_1" class="openstr">помогитедетям.рф</a>
-                            </div>
-                            <div class="right-column-report__right">
-                                <span>Разработка</span>
-                                <p>2018 год</p>
-                            </div>
-                        </div>
-                        <div class="right-column-stats">
-                            <div class="stat">
-                                <span>8</span>
-                                <p>человек <br>в команде</p>
-                            </div>
-                            <div class="stat">
-                                <span>240</span>
-                                <p>часов <br>на разработку</p>
-                            </div>
-                            <div class="stat">
-                                <span>∞</span>
-                                <p>любовь <br>к заказчику</p>
-                            </div>
-                        </div>
-                        <div class="right-column-share">
-                            <div class="share-left">
-                                <span>Понравился проект?</span>
-                                <p>Поделитесь в соц. сетях</p>
-                            </div>
-                            <div class="share-right">
-                                <div class="share-social share-social-vk ya-share2 " data-services="vkontakte" >
-                                    <a href="">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-vk fa-w-18 fa-7x"><path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z" class=""></path></svg>
-                                    </a>
-                                </div>
-                                <div class="share-social share-social-facebook ya-share2" data-services="facebook">
-                                    <a href="">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-facebook-f fa-w-10 fa-7x"><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" class=""></path></svg>
-                                    </a>
-                                </div>
-                                <div class="share-social share-social-instagram">
-                                    <a href="">
-                                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-instagram fa-w-14 fa-2x"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" class=""></path></svg>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="right-column-callback">
-                            <p>Готовы к сотрудничеству?</p>
-                            <a href="#callback" class="btn-yellow">Заказать похожий проект</a>
-                        </div>
-                    </div>
 
-                </div>
-                </div>
+                        </div>
+                    </div>
             </div>
-
         </div>
     </div>
 </div>

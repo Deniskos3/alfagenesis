@@ -17,7 +17,7 @@
 
 <body>
 
-<div id="app-projects">
+<div id="app-project">
     <div class="hidden">
         <div id="modal-police" class="modal-police-wrapper">
             <div class="modal-block-police">
@@ -40,8 +40,7 @@
             <form  method="POST" id="callback" class="callback-form forms" enctype="multipart/form-data">
                 <header>Обсудим проект?</header>
                 <!-- скрытые кнопки показывающие с какой стр был произведен клик -->
-                <input id="strsite" name="strsite" type="hidden" value=" проекта&#8221;Компания- эквайер
-                 COOLPAY&#8221;">
+                <input id="strsite" name="strsite" type="hidden" value=" проекта&#8221;Транспортная компания-Реалтранзит&#8221;">
                 <input id="butstrsite" name="butstrsite" type="hidden" value="модального окна &#8221;сделать заказ&#8221; ">
                 <!--  -->
                 <p>Оставьте заявку и мы перезвоним вам<br>в течение <span>10 минут</span></p>
@@ -101,7 +100,7 @@
             </div>
         </div>
     </div>
-    <div id="app-project">
+    <div id="app-projects">
         <div class="screen-projects">
             <div class="screen-page-projects">
                 <div class="container-custom">
@@ -274,13 +273,13 @@
                         </div>
                         <div class="wrapper-callback-form">
                             <a href="#callback" class="wrapper-callback-form-open">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="svg-inline--fa fa-plus fa-w-12 fa-2x"><path fill="currentColor" d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z" class=""></path></svg>
                             </a>
                         </div>
                         <div class="callback-chat">
                             <a href="#">
                             <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                             <path d="M4.22231 25.5334H2.1675L3.62046 24.0804C4.40388 23.297 4.8931 22.278 5.02463 21.1727C1.66971 18.971 0 15.7815 0 12.4378C0 6.26895 5.66971 0 14.5491 0C23.9559 0 29 5.76861 29 11.8973C29 18.0664 23.9026 23.8311 14.5491 23.8311C12.9106 23.8311 11.2009 23.6124 9.67436 23.2111C8.22935 24.6932 6.27145 25.5334 4.22231 25.5334Z" fill="white"/>
+                            <path d="M4.22231 25.5334H2.1675L3.62046 24.0804C4.40388 23.297 4.8931 22.278 5.02463 21.1727C1.66971 18.971 0 15.7815 0 12.4378C0 6.26895 5.66971 0 14.5491 0C23.9559 0 29 5.76861 29 11.8973C29 18.0664 23.9026 23.8311 14.5491 23.8311C12.9106 23.8311 11.2009 23.6124 9.67436 23.2111C8.22935 24.6932 6.27145 25.5334 4.22231 25.5334Z" fill="white"/>
                             </svg>
                             </a>
                         </div>
@@ -288,7 +287,6 @@
                 </div>
             </div>
             <div class="menu-right menu-right-project full_opened_menu">
-                
                 <div class="control-arrow-projects vis">
                     <svg width="9" height="27" viewBox="0 0 9 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.24004 2.13203C8.5889 1.38064 8.26258 0.488706 7.51119 0.139846C6.7598 -0.209014 5.86787 0.117302 5.51901 0.868692L0.13988 12.4545C0.00853864 12.7374 -0.0271021 13.0402 0.0196108 13.3265C-0.0111109 13.5977 0.0317796 13.8805 0.158932 14.1446L5.49995 25.2375C5.85933 25.9839 6.75576 26.2977 7.50217 25.9383C8.24859 25.5789 8.56234 24.6825 8.20295 23.9361L3.06815 13.2715L8.24004 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
@@ -297,13 +295,14 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.139846 2.13203C-0.209014 1.38064 0.117302 0.488706 0.868693 0.139846C1.62008 -0.209014 2.51201 0.117302 2.86087 0.868693L8.43046 12.8647C8.55996 13.1437 8.59642 13.4419 8.55263 13.7246C8.57964 13.9906 8.53591 14.267 8.41145 14.5255L2.87998 26.0139C2.5206 26.7604 1.62417 27.0741 0.877757 26.7147C0.131343 26.3553 -0.182407 25.4589 0.176978 24.7125L5.49528 13.6668L0.139846 2.13203Z" fill="#C5C5C5" fill-opacity="0.74"/>
                     </svg>
                 </div>
+                
                 <div class="container-menu-right container-menu-right-project">
                     <div class="menu-project-left-column">
                         <a href="" class="project-sort-link">Сервисы</a>
-                        <h2>Компания- эквайер <br>COOLPAY</h2>
+                        <h2>Трансляции</br>Perfecto</h2>
                         <p class="project-task">Задача</p>
-                        <p class="project-task-description">Разработка информационного сайта с возможностью рассчета процентной ставки для любого бизнеса.</p>
-                        <img class="project-task-images" src="../img/projects/collpay/image.png" alt="">
+                        <p class="project-task-description">Разработка презентационного, но и функционального сайта транспортной компани с Личным кабинетом и Панелью администратора.</p>
+                        <img class="project-task-images" src="../img/projects/perfecto/backfon.png" alt="">
                         <div class="project-technology">
                             <p>Технологии</p>
                             <div class="stack-technology">
@@ -322,41 +321,17 @@
                             </div>
                         </div>
                         <div class="project-stages stage-first">
-                            <p class="stage-header">1. Редизайн сайта</p>
-                            <span>Символика бренда</span>
-                            <p class="stage-descr">
-                                Основная суть проекта заключается в  предоставлении легких и быстрых платежей. Именно поэтому название проекта составлено из двух простых слов - “cool” означает “круто”, а “pay” - “платежи”. Слово "Cool" сделано в "порезанном" стиле, что делает логотип по-своему уникальным.
-                            </p>
-                            <div class="stages-images-collect-flex">
-                                <img class="stages-images-collect-collpay" src="../img/projects/collpay/group_1.png" alt="">
-                                <img class="stages-images-collect-collpay" src="../img/projects/collpay/group_2.png" alt="">
-                            </div>
-
-                            <div class="stages-design">
-                                <span>Цветовая палитра:</span>
-                                <p>Основной символикой являлся контраст.  В основе проекта  лежит красный цвет, который является максимально выделяющимся. Оптимальным контрастным цветом был выбран синий. Данный цвет является более серьезным. Это говорит о том, что компания является не только стильной, но и надежной.</p>
-                                <div class="stages-design-colors">
-                                    <div class="stages-design-colors-left stages-design-colors-flex">
-                                        <div class="stages-design-circle circle-redff1732"></div>
-                                        <p>Акцентный цвет <br>#ff1732</p>
-                                    </div>
-                                    <div class="stages-design-colors-right stages-design-colors-flex">
-                                        <div class="stages-design-circle circle-blue2F7FFA"></div>
-                                        <p>Акцентный цвет <br>#2f7ffa</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-stages stage-last">
                             <p class="stage-header">1. Разработка сайта</p>
                             <p class="stage-descr">
-                                На сайте используются фоны, которые показывают реальную жизнь. Это сделано для того, чтобы пользователи видели интрнет-компанию, связанную с миром благодаря выполнению платежей. Именно сам процесс оплаты показан на фоновых изображениях.
+                                Адаптивная верстка html-страниц сайта на основе утвержденного дизайна, с использованием JS, CSS. На сайте реализовано большое количество анимаций при скроле страниц. Пользователь переходит со страницы на страницу не ожидания загрузки контента.
                             </p>
-                            <img src="../img/projects/collpay/image_2.png" alt="">
-                            <p class="stage-p">Особенностью сайта являются иконки.  Они выглядят очень реалистично в виде самих аппаратов компании. Это подчеркивает индивидуальность проекта.</p>
+                            <img class="stages-images-collect stages-images-collect-last" src="../img/projects/realtransit/image_2.png" alt="">
+                        </div>
+                        <div class="project-stages stage-last">
+                            <p class="stage-p">На сайт вносились новшества в течение 240 рабочих часов после 1 сдачи проекта. За это время добавили: настроили поисковую оптимизацию, добавили страницы продуктов и разработали более широкий функционал для Панели администратора.</p>
                         </div>
                         <div class="project-form-callback_wrapper">
-                        <div class="call-left-block" id="info-send">
+                            <div class="call-left-block" id="info-send">
                             <p>Спасибо за обращение!</p>
                             <span>Мы перезвоним вам в течение 10 минут!</span>
                             </div>
@@ -366,9 +341,9 @@
                                 <div class="callback-form-block">
                                     <label class="callback_phone_label" for="callback_phone">Введите ваш номер и мы перезвоним</label>
                                     <input id="callback_phone1" type="tel" placeholder="+7" name="phone" value="+7">
-                                	<span class="hidden validate_flag">
+                                    <span class="hidden validate_flag">
                                     <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="check" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline&#45;&#45;fa fa-check fa-w-14 fa-2x"><path fill="currentColor" d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z" class=""></path></svg>
-        							</span>
+                                    </span>
                                 </div>
                             </div>
                             <img class="call-right-block" src="../img/projects/help_child/callback-form.png" alt="">
@@ -403,25 +378,25 @@
                         </div>
                     </div>
                     <div class="menu-project-right-column">
-                        <img class="project-sticker" src="../img/projects/collpay/group_2.png" alt="" height="25px" width="155px">
-                        <p class="desc-right-column-project">- компания «КулПей» является официальным партнером крупнейших процессингов и банков России.</p>
+                        <img class="project-sticker" src="../img/projects/realtransit/logo_real.png" alt=""  width="81px" height="102px">
+                        <p>- доставка грузов из Китая в самые короткие сроки любым удобным способом</p>
                         <div class="right-column-report">
                             <div class="right-column-report__left">
                                 <span>Адрес проекта</span>
-                                <a href="">coll-pay.com</a>
+                                <a href="">realtransit.ru</a>
                             </div>
                             <div class="right-column-report__right">
                                 <span>Разработка</span>
-                                <p>2016 год</p>
+                                <p>2018 год</p>
                             </div>
                         </div>
                         <div class="right-column-stats">
                             <div class="stat">
-                                <span>12</span>
+                                <span>6</span>
                                 <p>человек <br>в команде</p>
                             </div>
                             <div class="stat">
-                                <span>200</span>
+                                <span>80</span>
                                 <p>часов <br>на разработку</p>
                             </div>
                             <div class="stat">
@@ -490,7 +465,6 @@
             </div>
         </div>
     </div>
-
 </div>
 
 
