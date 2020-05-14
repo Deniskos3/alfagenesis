@@ -4627,7 +4627,7 @@ form .validate_flag {
 }
 .container-menu-right .mCSB_scrollTools_vertical{
     position: fixed;
-    right: 53px;
+    right: 67px;
     
 }
 .container-menu-right .mCSB_scrollTools_vertical .mCSB_draggerContainer{
@@ -4752,7 +4752,7 @@ overflow: visible !important;
 .menu-right .container-menu-right,
 .menu-right .container-projects-content {
     height: 600px;
-    width: 1220px;
+    width: 81.3vw;
     margin: 50px 175px 0 110px
 }
 
@@ -5458,9 +5458,15 @@ overflow: visible !important;
     -ms-flex-pack: justify;
     justify-content: space-between
 }
-
-.screen {
+.filltercolor{
     background-color: rgb(143, 0, 255,0.5);
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.screen {
+    
     width: 100%;
     height: 100vh;
     position: relative;
@@ -6540,7 +6546,7 @@ overflow: visible !important;
     width: 7px;
 }
 .scroll{
-    height: 90vh;
+    height: 89vh;
     margin: 111px 215px 76px 111px;
     position: relative;
 }
@@ -7655,11 +7661,10 @@ overflow: visible;
    
 }
 @media (min-width: 1750px) and (max-width: 2400px){
-.menu-right .container-menu-right{
-    width: 1620px;
-}
+
 }
 @media (min-width: 1800px) and (max-width: 2400px){
+   
     
     .container-menu-right-project .mCSB_scrollTools {
         right: -35vw !important;
@@ -7727,7 +7732,7 @@ overflow: visible;
 }
 @media (min-width: 2400px) and (max-width: 2900px){
     .scroll{
-        height: 93vh;
+        height: 92vh;
 
     }
 
@@ -7756,7 +7761,7 @@ overflow: visible;
 }
 .container-scroll{
     min-width: 600px !important;
-    max-width: 953px !important;
+    max-width: 863px !important;
 }
 }
 @media (min-width: 2900px){
@@ -7777,7 +7782,8 @@ overflow: visible;
         height: 93%;
     }
     .container-scroll{
-    max-width: 1300px !important;
+        min-width: 600px !important;
+        max-width: 1053px !important;
     }
     .header-left-column .menu li a {
         padding: 28% 15px 25% 15px;
@@ -7794,6 +7800,9 @@ overflow: visible;
     }
 }
 @media (min-width: 1430.98px) and (max-width: 1445.98px){
+    .screen-work .footer {
+        margin-bottom: 10px !important;
+    }
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-stats .stat {
         margin-right: 13%;
     }
@@ -7838,6 +7847,10 @@ overflow: visible;
     }
 }
 @media (min-width: 1370.98px) and (max-width: 1585.98px){
+    .menu-right .container-menu-right{
+        height: 600px;
+        width: 78vw;
+    }
 
     
 
@@ -7936,10 +7949,10 @@ overflow: visible;
 }
 }
 @media (min-width: 586.98px) and (max-width:1271px){
-    .container-menu-right .mCSB_scrollTools_vertical{
+    /* .container-menu-right .mCSB_scrollTools_vertical{
         position: fixed;
         right: 1px;
-    }
+    } */
     .menu-right-project .container-menu-right-project .menu-project-right-column .right-column-callback .btn-yellow {
         width: 244px !important;
         font-size: 0.78rem !important;
@@ -8103,10 +8116,10 @@ overflow: visible;
     
 }
 @media (min-width: 1270px) and (max-width:1370px){
-    .container-menu-right .mCSB_scrollTools_vertical{
+    /* .container-menu-right .mCSB_scrollTools_vertical{
         position: fixed;
         right: 1px;
-    }
+    } */
     .callback-form {
         padding: 18px 83px 25px 83px;
     }

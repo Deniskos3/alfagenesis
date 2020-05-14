@@ -104,6 +104,7 @@
     </div>
     <div class="screen" id="screenmain">
     <video src="../video/preview.mp4" muted width="auto" height="100%"  autoplay playsinline loop></video>
+    <div class="filltercolor"></div>
         <div class="background-screen screen-page" id="openprojects">
             <div class="container-custom" id="container-cust">
                 <div class="flex-wrapper-screen">
